@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Tavolo Casa</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header principal -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <button class="hamburger-menu" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="index.html"><img src="logoTavolo.png" alt="Tavolo Casa"></a>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="¿Qué producto estás buscando?">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú lateral deslizante -->
+    <div class="side-menu" id="side-menu">
+        <div class="side-menu-overlay" onclick="closeSideMenu()"></div>
+        <div class="side-menu-content">
+            <div class="side-menu-header">
+                <img src="logoTavolo.png" alt="Tavolo Casa" class="side-menu-logo">
+                <button class="close-menu-btn" onclick="closeSideMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <nav class="side-menu-nav">
+                <ul class="side-menu-list">
+                    <li><a href="sobre-nosotros.html"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>
+                    <li class="has-submenu">
+                        <a href="#" onclick="toggleSideSubmenu(event)"><i class="fas fa-th-large"></i> Productos <i class="fas fa-chevron-right submenu-arrow"></i></a>
+                        <ul class="side-submenu">
+                            <li><a href="index.html#almohadas"><i class="fas fa-bed"></i> Almohadas</a></li>
+                            <li><a href="index.html#cojines"><i class="fas fa-couch"></i> Cojines</a></li>
+                            <li><a href="index.html#edredones"><i class="fas fa-blanket"></i> Edredones</a></li>
+                            <li><a href="index.html#relleno"><i class="fas fa-fill"></i> Relleno Almohada/cojín</a></li>
+                            <li><a href="index.html#mascotas"><i class="fas fa-paw"></i> Artículos mascotas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="side-menu-footer">
+                <div class="side-contact">
+                    <div class="side-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>655 586 462</span>
+                    </div>
+                    <div class="side-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@tavolocasa.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h1>Sobre Nosotros</h1>
+                
+                <div class="philosophy-section">
+                    <h2>Nuestra filosofía</h2>
+                    <div class="philosophy-content">
+                        <p>En Tavolo Casa, llevamos años dedicándonos con pasión y experiencia a la fabricación de fibra textil de alta calidad. Nuestra fábrica, ubicada en España, se especializa en la creación de almohadas, cojines, camas para mascotas y una amplia gama de productos similares diseñados para ofrecer comodidad y estilo a nuestros clientes.</p>
+                        
+                        <p>Nos enorgullece ser un socio confiable para empresas en toda Europa, proporcionando envíos rápidos y seguros a cualquier país del continente. Además, entendemos la importancia de la personalización, por lo que ofrecemos servicios adaptados a las necesidades de marcas que buscan diferenciarse en el mercado.</p>
+                        
+                        <p>En Tavolo Casa, combinamos innovación, calidad y un compromiso firme con nuestros clientes. Si buscas productos textiles diseñados con excelencia y ajustados a tus necesidades, estamos aquí para hacerlo realidad. ¡Contáctanos y juntos crearemos algo único!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-form-container">
+                <h3>¡Contacta con nosotros!</h3>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="tel" placeholder="Teléfono" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Población" required>
+                    </div>
+                    <textarea placeholder="Escribe tu mensaje..." required></textarea>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="logoTavolo.png" alt="Tavolo Casa">
+                    </div>
+                    <p class="footer-description">
+                        Tavolo somos la tienda del confort, el objetivo es proveer a nuestros clientes y mascotas de los mejores
+                    </p>
+                </div>
+                
+                <div class="footer-center">
+                    <h3>Categorías</h3>
+                    <ul class="footer-categories">
+                        <li><a href="index.html#cojines">Cojines</a></li>
+                        <li><a href="index.html#almohadas">Almohadas</a></li>
+                        <li><a href="index.html#edredones">Edredones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-right">
+                    <h3>Tavolo Casa</h3>
+                    <div class="footer-contact">
+                        <div class="footer-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Calle Torrente 4, 28942, Fuenlabrada, Madrid.</span>
+                        </div>
+                        <div class="footer-phone">
+                            <i class="fas fa-phone"></i>
+                            <span>655 586 462</span>
+                        </div>
+                        <div class="footer-email">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@tavolocasa.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
