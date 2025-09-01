@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - Tavolo Casa</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos específicos para la página de producto */
+        .product-detail-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+        }
+
+        .product-detail-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            margin-bottom: 60px;
+        }
+
+        .product-images {
+            position: relative;
+        }
+
+        .main-image {
+            width: 100%;
+            height: 400px;
+            background: #f5f5f5;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 16px;
+            border: 2px dashed #ddd;
+        }
+
+        .image-thumbnails {
+            display: flex;
+            gap: 10px;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 12px;
+            transition: border-color 0.3s ease;
+        }
+
+        .thumbnail.active {
+            border-color: #2c5aa0;
+        }
+
+        .product-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .breadcrumb {
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .breadcrumb a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+
+        .product-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stars {
+            color: #ffa500;
+        }
+
+        .rating-text {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .product-price-section {
+            margin-bottom: 30px;
+        }
+
+        .current-price {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-right: 15px;
+        }
+
+        .original-price {
+            font-size: 1.5rem;
+            color: #999;
+            text-decoration: line-through;
+            margin-right: 15px;
+        }
+
+        .discount-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .product-description {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .btn-primary {
+            background: #2c5aa0;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            flex: 1;
+        }
+
+        .btn-primary:hover {
+            background: #1e3d72;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #2c5aa0;
+            padding: 15px 30px;
+            border: 2px solid #2c5aa0;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: #2c5aa0;
+            color: white;
+        }
+
+        .product-details-tabs {
+            border-top: 1px solid #eee;
+            padding-top: 40px;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 0;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #666;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .tab-button.active {
+            color: #2c5aa0;
+            border-bottom-color: #2c5aa0;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .features-list li:before {
+            content: "✓";
+            color: #27ae60;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .specifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .spec-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .spec-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .spec-value {
+            color: #555;
+        }
+
+        .back-button {
+            background: #6c757d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 30px;
+            transition: background 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #5a6268;
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #666;
+        }
+
+        .error {
+            text-align: center;
+            padding: 100px 20px;
+            color: #e74c3c;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .product-detail-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .product-title {
+                font-size: 1.8rem;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .tab-buttons {
+                flex-wrap: wrap;
+            }
+            
+            .tab-button {
+                flex: 1;
+                min-width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header principal (mismo que index) -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <button class="hamburger-menu" onclick="toggleMobileMenu()">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <div class="logo">
+                    <a href="index.html"><img src="logoTavolo.png" alt="Tavolo Casa"></a>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="¿Qué producto estás buscando?">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú lateral (mismo que index) -->
+    <div class="side-menu" id="side-menu">
+        <div class="side-menu-overlay" onclick="closeSideMenu()"></div>
+        <div class="side-menu-content">
+            <div class="side-menu-header">
+                <img src="logoTavolo.png" alt="Tavolo Casa" class="side-menu-logo">
+                <button class="close-menu-btn" onclick="closeSideMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <nav class="side-menu-nav">
+                <ul class="side-menu-list">
+                    <li><a href="sobre-nosotros.html"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>
+                    <li class="has-submenu">
+                        <a href="#" onclick="toggleSideSubmenu(event)"><i class="fas fa-th-large"></i> Productos <i class="fas fa-chevron-right submenu-arrow"></i></a>
+                        <ul class="side-submenu">
+                            <li><a href="index.html#almohadas"><i class="fas fa-bed"></i> Almohadas</a></li>
+                            <li><a href="index.html#cojines"><i class="fas fa-couch"></i> Cojines</a></li>
+                            <li><a href="index.html#edredones"><i class="fas fa-blanket"></i> Edredones</a></li>
+                            <li><a href="index.html#relleno"><i class="fas fa-fill"></i> Relleno Almohada/cojín</a></li>
+                            <li><a href="index.html#mascotas"><i class="fas fa-paw"></i> Artículos mascotas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="side-menu-footer">
+                <div class="side-contact">
+                    <div class="side-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>655 586 462</span>
+                    </div>
+                    <div class="side-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@tavolocasa.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal del producto -->
+    <main class="product-detail-container">
+        <!-- Loading state -->
+        <div id="loading" class="loading">
+            <i class="fas fa-spinner fa-spin" style="font-size: 2rem; margin-bottom: 20px;"></i>
+            <p>Cargando producto...</p>
+        </div>
+
+        <!-- Error state -->
+        <div id="error" class="error" style="display: none;">
+            <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 20px;"></i>
+            <p>No se pudo cargar el producto.</p>
+            <a href="index.html" class="btn-primary" style="display: inline-block; margin-top: 20px;">Volver al catálogo</a>
+        </div>
+
+        <!-- Product content -->
+        <div id="product-content" style="display: none;">
+            <!-- Botón volver -->
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+                Volver al catálogo
+            </a>
+
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Inicio</a> > 
+                <span id="category-breadcrumb">Productos</span> > 
+                <span id="product-breadcrumb">Producto</span>
+            </div>
+
+            <!-- Contenido principal del producto -->
+            <div class="product-detail-content">
+                <!-- Imágenes del producto -->
+                <div class="product-images">
+                    <div class="main-image" id="main-image">
+                        Imagen principal del producto
+                    </div>
+                    <div class="image-thumbnails" id="image-thumbnails">
+                        <!-- Thumbnails se generarán con JS -->
+                    </div>
+                </div>
+
+                <!-- Información del producto -->
+                <div class="product-info">
+                    <h1 class="product-title" id="product-title">Cargando...</h1>
+                    
+                    <div class="product-rating" id="product-rating">
+                        <!-- Rating se generará con JS -->
+                    </div>
+
+                    <div class="product-price-section">
+                        <span class="current-price" id="current-price">--</span>
+                        <span class="original-price" id="original-price">--</span>
+                        <span class="discount-badge" id="discount-badge">--</span>
+                    </div>
+
+                    <div class="product-description" id="product-description">
+                        Cargando descripción...
+                    </div>
+
+                    <div class="action-buttons">
+                        <button class="btn-primary" onclick="contactForProduct()">
+                            <i class="fas fa-phone"></i>
+                            Contactar para pedido
+                        </button>
+                        <button class="btn-secondary" onclick="shareProduct()">
+                            <i class="fas fa-share"></i>
+                            Compartir
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs con información detallada -->
+            <div class="product-details-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-button active" onclick="showTab('features')">Características</button>
+                    <button class="tab-button" onclick="showTab('specifications')">Especificaciones</button>
+                    <button class="tab-button" onclick="showTab('benefits')">Beneficios</button>
+                    <button class="tab-button" onclick="showTab('care')">Cuidados</button>
+                </div>
+
+                <div class="tab-content active" id="features-tab">
+                    <h3>Características principales</h3>
+                    <ul class="features-list" id="features-list">
+                        <!-- Se generará con JS -->
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="specifications-tab">
+                    <h3>Especificaciones técnicas</h3>
+                    <div class="specifications-grid" id="specifications-grid">
+                        <!-- Se generará con JS -->
+                    </div>
+                </div>
+
+                <div class="tab-content" id="benefits-tab">
+                    <h3>Beneficios</h3>
+                    <ul class="features-list" id="benefits-list">
+                        <!-- Se generará con JS -->
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="care-tab">
+                    <h3>Instrucciones de cuidado</h3>
+                    <ul class="features-list" id="care-list">
+                        <!-- Se generará con JS -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (mismo que index) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <img src="logoTavolo.png" alt="Tavolo Casa">
+                    </div>
+                    <p class="footer-description">
+                        Tavolo somos la tienda del confort, el objetivo es proveer a nuestros clientes y mascotas de los mejores
+                    </p>
+                </div>
+                
+                <div class="footer-center">
+                    <h3>Categorías</h3>
+                    <ul class="footer-categories">
+                        <li><a href="index.html#cojines">Cojines</a></li>
+                        <li><a href="index.html#almohadas">Almohadas</a></li>
+                        <li><a href="index.html#edredones">Edredones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-right">
+                    <h3>Tavolo Casa</h3>
+                    <div class="footer-contact">
+                        <div class="footer-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Calle Torrente 4, 28942, Fuenlabrada, Madrid.</span>
+                        </div>
+                        <div class="footer-phone">
+                            <i class="fas fa-phone"></i>
+                            <span>655 586 462</span>
+                        </div>
+                        <div class="footer-email">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@tavolocasa.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script-producto.js"></script>
+</body>
+</html>

@@ -148,10 +148,30 @@ function updatePaginationButtons(activePage) {
     });
 }
 
-// Función para mostrar detalles del producto (modal simulado)
+// Función para mostrar detalles del producto (navegar a página individual)
 function showProductDetails(index) {
     const product = currentProducts[index];
-    alert(`${product.name}\n\n${product.description}\n\nPrecio: ${product.price}\nDescuento: ${product.discount}\n\n¡Contacta con nosotros para más información!`);
+    
+    // Crear ID del producto basado en el nombre
+    const productId = createProductId(product.name);
+    
+    // Navegar a la página de producto individual
+    window.location.href = `producto.html?id=${productId}`;
+}
+
+// Función para crear un ID válido desde el nombre del producto
+function createProductId(productName) {
+    return productName
+        .toLowerCase()
+        .replace(/[áàâãä]/g, 'a')
+        .replace(/[éèêë]/g, 'e')
+        .replace(/[íìîï]/g, 'i')
+        .replace(/[óòôõö]/g, 'o')
+        .replace(/[úùûü]/g, 'u')
+        .replace(/ñ/g, 'n')
+        .replace(/[^a-z0-9\s]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/^-+|-+$/g, '');
 }
 
 // Función para seleccionar categoría del menú horizontal

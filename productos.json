@@ -1,0 +1,231 @@
+{
+  "almohadas": [
+    {
+      "id": "almohada-memory-foam-premium",
+      "name": "Almohada Memory Foam Premium",
+      "category": "almohadas",
+      "price": "29.95€",
+      "originalPrice": "39.95€",
+      "discount": "25% OFF",
+      "rating": 4.8,
+      "reviews": 127,
+      "images": [
+        "images/productos/almohadas/memory-foam-premium/principal.jpg",
+        "images/productos/almohadas/memory-foam-premium/detalle1.jpg",
+        "images/productos/almohadas/memory-foam-premium/detalle2.jpg"
+      ],
+      "description": "Espuma viscoelástica de alta densidad. 70x40cm",
+      "detailed_description": "Nuestra almohada Memory Foam Premium está diseñada con espuma viscoelástica de alta densidad que se adapta perfectamente a la forma de tu cabeza y cuello, proporcionando un soporte óptimo durante toda la noche. La tecnología de memoria térmica permite que la almohada regrese a su forma original después de cada uso, garantizando durabilidad y confort constante.",
+      "specifications": {
+        "dimensions": "70x40x12cm",
+        "material": "Espuma viscoelástica de alta densidad",
+        "cover": "Funda de algodón 100% transpirable",
+        "firmness": "Media-Alta",
+        "weight": "1.2kg",
+        "warranty": "2 años",
+        "certifications": ["OEKO-TEX", "CertiPUR"]
+      },
+      "features": [
+        "Espuma viscoelástica de alta densidad (50kg/m³)",
+        "Transpirable y termorreguladora",
+        "Funda lavable incluida con cremallera",
+        "Hipoalergénica y antibacteriana",
+        "Diseño ergonómico para alineación cervical",
+        "Resistente a ácaros y hongos"
+      ],
+      "benefits": [
+        "Reduce dolores de cuello y cervicales",
+        "Mejora la calidad del sueño",
+        "Mantiene la temperatura ideal",
+        "Duradera y resistente al desgaste"
+      ],
+      "care_instructions": [
+        "Funda lavable a máquina (30°C)",
+        "Núcleo no lavable - solo limpieza en seco",
+        "Airear regularmente",
+        "No exponer a luz solar directa"
+      ]
+    },
+    {
+      "id": "almohada-cervical-ergonomica",
+      "name": "Almohada Cervical Ergonómica",
+      "category": "almohadas",
+      "price": "34.95€",
+      "originalPrice": "43.95€",
+      "discount": "20% OFF",
+      "rating": 4.6,
+      "reviews": 89,
+      "images": [
+        "images/productos/almohadas/cervical-ergonomica/principal.jpg",
+        "images/productos/almohadas/cervical-ergonomica/detalle1.jpg"
+      ],
+      "description": "Diseño ortopédico para cuello y cervicales. 60x40cm",
+      "detailed_description": "Diseñada específicamente para personas con problemas cervicales, esta almohada ortopédica cuenta con una forma contorneada que mantiene la alineación natural de la columna vertebral. Su núcleo de espuma de alta resistencia proporciona el soporte necesario para reducir tensiones y dolores cervicales.",
+      "specifications": {
+        "dimensions": "60x40x10/12cm",
+        "material": "Espuma HR + Memory Foam",
+        "cover": "Tejido Coolmax transpirable",
+        "firmness": "Firme",
+        "weight": "1.1kg",
+        "warranty": "3 años",
+        "certifications": ["Certificado Ortopédico"]
+      },
+      "features": [
+        "Diseño contorneado ortopédico",
+        "Doble altura para diferentes posiciones",
+        "Núcleo de espuma HR de 35kg/m³",
+        "Capa superior de Memory Foam",
+        "Funda Coolmax thermoreguladora"
+      ],
+      "benefits": [
+        "Alivia dolores cervicales",
+        "Mejora la postura al dormir",
+        "Reduce ronquidos",
+        "Recomendada por fisioterapeutas"
+      ],
+      "care_instructions": [
+        "Funda lavable a 40°C",
+        "Núcleo ventilable al aire",
+        "Rotar cada 2 semanas",
+        "Usar protector adicional si es necesario"
+      ]
+    },
+    {
+      "id": "almohada-plumas-ganso",
+      "name": "Almohada Plumas de Ganso",
+      "category": "almohadas",
+      "price": "24.95€",
+      "originalPrice": "29.95€",
+      "discount": "15% OFF",
+      "rating": 4.4,
+      "reviews": 156,
+      "images": [
+        "images/productos/almohadas/plumas-ganso/principal.jpg",
+        "images/productos/almohadas/plumas-ganso/detalle1.jpg"
+      ],
+      "description": "Relleno 100% plumas naturales. 70x40cm",
+      "detailed_description": "Almohada tradicional rellena con plumas de ganso seleccionadas, ofreciendo la suavidad y adaptabilidad que solo los materiales naturales pueden proporcionar. Cada pluma es cuidadosamente tratada y esterilizada para garantizar higiene y durabilidad.",
+      "specifications": {
+        "dimensions": "70x40x15cm",
+        "material": "100% plumas de ganso naturales",
+        "cover": "Algodón percal 200 hilos",
+        "firmness": "Suave-Media",
+        "weight": "0.8kg",
+        "warranty": "1 año",
+        "certifications": ["RDS Certified"]
+      },
+      "features": [
+        "Plumas de ganso 100% naturales",
+        "Tratamiento antiácaros",
+        "Funda de algodón percal premium",
+        "Regulación natural de temperatura",
+        "Moldeable y adaptable"
+      ],
+      "benefits": [
+        "Transpirable y fresca",
+        "Se adapta a tu forma de dormir",
+        "Material natural y sostenible",
+        "Sensación tradicional y cómoda"
+      ],
+      "care_instructions": [
+        "Lavado profesional recomendado",
+        "Airear frecuentemente",
+        "Sacudir regularmente",
+        "Proteger de humedad"
+      ]
+    }
+  ],
+  "cojines": [
+    {
+      "id": "cojin-decorativo-velvet",
+      "name": "Cojín Decorativo Velvet",
+      "category": "cojines",
+      "price": "14.95€",
+      "originalPrice": "18.95€",
+      "discount": "20% OFF",
+      "rating": 4.7,
+      "reviews": 203,
+      "images": [
+        "images/productos/cojines/decorativo-velvet/principal.jpg",
+        "images/productos/cojines/decorativo-velvet/colores.jpg"
+      ],
+      "description": "Terciopelo suave y elegante. 45x45cm",
+      "detailed_description": "Cojín decorativo de terciopelo premium que aporta elegancia y sofisticación a cualquier espacio. Su textura suave y rica en matices crea un ambiente acogedor y lujoso. Disponible en múltiples colores para combinar con cualquier decoración.",
+      "specifications": {
+        "dimensions": "45x45x12cm",
+        "material": "Terciopelo 100% poliéster",
+        "filling": "Fibra hueca siliconada",
+        "colors": ["Azul marino", "Gris perla", "Verde esmeralda", "Burdeos", "Dorado"],
+        "weight": "0.4kg",
+        "warranty": "1 año"
+      },
+      "features": [
+        "Terciopelo premium ultra suave",
+        "Cremallera invisible",
+        "Relleno hipoalergénico",
+        "Resistente a decoloración",
+        "Fácil mantenimiento"
+      ],
+      "benefits": [
+        "Aporta elegancia al hogar",
+        "Tacto sedoso y lujoso",
+        "Múltiples opciones de color",
+        "Fácil de combinar"
+      ],
+      "care_instructions": [
+        "Lavado en seco recomendado",
+        "Si es necesario, lavar a mano con agua fría",
+        "No usar lejía",
+        "Secar al aire libre"
+      ]
+    }
+  ],
+  "edredones": [
+    {
+      "id": "edredon-nordico-4-estaciones",
+      "name": "Edredón Nórdico 4 Estaciones",
+      "category": "edredones",
+      "price": "89.95€",
+      "originalPrice": "129.95€",
+      "discount": "30% OFF",
+      "rating": 4.9,
+      "reviews": 342,
+      "images": [
+        "images/productos/edredones/nordico-4-estaciones/principal.jpg",
+        "images/productos/edredones/nordico-4-estaciones/detalle1.jpg",
+        "images/productos/edredones/nordico-4-estaciones/detalle2.jpg"
+      ],
+      "description": "Adaptable a cualquier época. 240x220cm",
+      "detailed_description": "El edredón nórdico 4 estaciones es la solución perfecta para todo el año. Consta de dos piezas que se pueden usar por separado o unir mediante corchetes para crear diferentes niveles de calor según la temporada. Fabricado con materiales de primera calidad que garantizan confort y durabilidad.",
+      "specifications": {
+        "dimensions": "240x220cm",
+        "material": "Microfibra premium",
+        "filling": "Fibra hueca siliconada 300g/m²",
+        "tog_rating": "4.5 (individual) / 13.5 (unidos)",
+        "weight": "2.1kg",
+        "warranty": "5 años",
+        "certifications": ["OEKO-TEX Standard 100"]
+      },
+      "features": [
+        "Sistema 2 en 1 con corchetes",
+        "Distribución uniforme del relleno",
+        "Costuras reforzadas",
+        "Esquinas con lazos de sujeción",
+        "Transpirable y termorregulador",
+        "Lavable a máquina"
+      ],
+      "benefits": [
+        "Perfecto para todas las estaciones",
+        "Ahorro de espacio de almacenamiento",
+        "Versatilidad térmica",
+        "Excelente relación calidad-precio"
+      ],
+      "care_instructions": [
+        "Lavable a máquina 40°C",
+        "Usar detergente suave",
+        "Secado en secadora a baja temperatura",
+        "Airear regularmente"
+      ]
+    }
+  ]
+}
