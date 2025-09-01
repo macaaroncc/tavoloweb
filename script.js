@@ -210,7 +210,10 @@ function selectCategory(category, element) {
     document.querySelector('.pagination').style.display = 'flex';
     
     // Limpiar barra de búsqueda
-    document.querySelector('.search-bar input').value = '';
+    const searchInput = document.querySelector('.search-section .search-bar input');
+    if (searchInput) {
+        searchInput.value = '';
+    }
 }
 
 // Función para mover el slider a la posición activa
@@ -267,8 +270,8 @@ function handleContactForm() {
 
 // Función para manejar la búsqueda
 function handleSearch() {
-    const searchInput = document.querySelector('.search-bar input');
-    const searchButton = document.querySelector('.search-bar button');
+    const searchInput = document.querySelector('.search-section .search-bar input');
+    const searchButton = document.querySelector('.search-section .search-bar button');
     
     function performSearch() {
         const searchTerm = searchInput.value.toLowerCase().trim();
