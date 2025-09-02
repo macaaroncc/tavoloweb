@@ -1456,7 +1456,10 @@ body {
     }
     
     .logo {
-        margin-left: 5px;
+        margin-left: 0;
+        justify-content: center;
+        flex: 1;
+        text-align: center;
     }
     
     .logo img {
@@ -1601,8 +1604,48 @@ body {
     
     .footer-content {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 25px;
         text-align: center;
+    }
+    
+    .footer {
+        padding: 30px 0;
+    }
+    
+    .footer-logo img {
+        height: 45px;
+    }
+    
+    .footer-logo h2 {
+        font-size: 28px;
+    }
+    
+    .footer-description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .footer-center h3,
+    .footer-right h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-categories li a {
+        font-size: 14px;
+    }
+    
+    .footer-address,
+    .footer-phone,
+    .footer-email {
+        font-size: 14px;
+        gap: 8px;
+    }
+    
+    .footer-address i,
+    .footer-phone i,
+    .footer-email i {
+        font-size: 16px;
     }
     
     .phone-nav {
@@ -2368,6 +2411,10 @@ body {
         padding: 8px 0;
     }
     
+    .logo {
+        justify-content: center;
+    }
+    
     .logo img {
         height: 30px;
     }
@@ -2493,6 +2540,75 @@ body {
     
     .contact-cta h3 {
         font-size: 16px;
+    }
+    
+    /* Footer ultra compacto en móvil pequeño */
+    .footer {
+        padding: 20px 0;
+    }
+    
+    .footer-content {
+        gap: 15px;
+    }
+    
+    .footer-logo {
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    
+    .footer-logo img {
+        height: 35px;
+    }
+    
+    .footer-logo h2 {
+        font-size: 22px;
+    }
+    
+    .footer-description {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 0;
+    }
+    
+    .footer-center h3,
+    .footer-right h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    
+    .footer-categories {
+        margin: 0;
+    }
+    
+    .footer-categories li {
+        margin-bottom: 8px;
+    }
+    
+    .footer-categories li a {
+        font-size: 12px;
+    }
+    
+    .footer-contact {
+        gap: 10px;
+    }
+    
+    .footer-address,
+    .footer-phone,
+    .footer-email {
+        font-size: 12px;
+        gap: 6px;
+    }
+    
+    .footer-address i,
+    .footer-phone i,
+    .footer-email i {
+        font-size: 14px;
+    }
+    
+    .footer-address span,
+    .footer-phone span,
+    .footer-email span {
+        line-height: 1.3;
     }
 }
 
