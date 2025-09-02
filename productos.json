@@ -767,7 +767,2211 @@
                       }
                   ],
     "cojines":  [
-
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-azul-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - AZUL OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color azul oscuro. Diseño elegante con detalle circular.",
+                          "detailed_description":  "Cojín decorativo de diseño moderno y elegante en tamaño estándar de 45x45cm. El color azul oscuro aporta sofisticación a cualquier espacio, mientras que el detalle circular añade un toque distintivo. Perfecto para salones, dormitorios y espacios de relajación.",
+                          "rating":  4.5,
+                          "reviews":  12,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-azul-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color azul oscuro elegante",
+                                           "Detalle circular distintivo",
+                                           "Diseño moderno",
+                                           "Versátil para cualquier espacio",
+                                           "Acabado premium"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Azul Oscuro",
+                                                 "style":  "Moderno",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Añade elegancia al espacio",
+                                           "Color versátil y sofisticado",
+                                           "Tamaño perfecto para sofás",
+                                           "Fácil combinación con decoración",
+                                           "Confort y estilo unidos"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente para colores",
+                                                    "Secar a la sombra",
+                                                    "Planchar a temperatura media",
+                                                    "Mantener forma original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-azul-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - AZUL OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color azul oscuro. Perfecto para espacios compactos.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en elegante azul oscuro. Ideal para espacios más pequeños o para combinar con cojines de mayor tamaño. El diseño moderno con detalle circular lo convierte en una pieza decorativa versátil.",
+                          "rating":  4.4,
+                          "reviews":  8,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-azul-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color azul oscuro",
+                                           "Diseño con detalle circular",
+                                           "Ideal para espacios pequeños",
+                                           "Combina con otros tamaños",
+                                           "Estilo contemporáneo"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Azul Oscuro",
+                                                 "style":  "Contemporáneo",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para espacios reducidos",
+                                           "Fácil combinación decorativa",
+                                           "Precio muy accesible",
+                                           "Versátil y funcional",
+                                           "Añade color sin saturar"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores",
+                                                    "Secar al aire libre",
+                                                    "No usar lejía",
+                                                    "Conservar forma al secar"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-azul-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - AZUL OSCURO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color azul oscuro. Tamaño grande para máximo impacto decorativo.",
+                          "detailed_description":  "Cojín decorativo de tamaño generoso 50x50cm en sofisticado azul oscuro. Perfecto como pieza central en sofás y camas, proporciona tanto confort como un fuerte impacto visual. El detalle circular añade elegancia al diseño.",
+                          "rating":  4.6,
+                          "reviews":  15,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-azul-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color azul oscuro sofisticado",
+                                           "Pieza central decorativa",
+                                           "Máximo impacto visual",
+                                           "Confort y estilo",
+                                           "Diseño con detalle circular"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Azul Oscuro",
+                                                 "style":  "Elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo máximo",
+                                           "Confort superior por tamaño",
+                                           "Ideal como cojín principal",
+                                           "Calidad premium",
+                                           "Versatilidad decorativa"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente de calidad",
+                                                    "Secar horizontalmente",
+                                                    "Planchar con cuidado",
+                                                    "Mantener volumen original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-azul-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - AZUL OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color azul oscuro. Formato rectangular perfecto para respaldos.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en elegante azul oscuro. Su formato alargado lo hace ideal para respaldos de sofás, camas o como complemento decorativo en sillones. El diseño moderno aporta sofisticación a cualquier ambiente.",
+                          "rating":  4.3,
+                          "reviews":  10,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-azul-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color azul oscuro elegante",
+                                           "Ideal para respaldos",
+                                           "Complemento decorativo",
+                                           "Diseño moderno",
+                                           "Versátil en colocación"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Azul Oscuro",
+                                                 "style":  "Moderno",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Formato perfecto para respaldos",
+                                           "Añade confort lumbar",
+                                           "Fácil colocación",
+                                           "Precio competitivo",
+                                           "Complementa otros cojines"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar al aire",
+                                                    "No retorcer",
+                                                    "Conservar forma rectangular"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-azul-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - AZUL OSCURO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color azul oscuro. Formato rectangular grande para máximo confort.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular grande 40x60cm en sofisticado azul oscuro. Su tamaño generoso lo convierte en la opción perfecta para respaldos amplios o como cojín principal en espacios grandes, combinando confort y elegancia.",
+                          "rating":  4.7,
+                          "reviews":  13,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-azul-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular grande 40x60cm",
+                                           "Color azul oscuro sofisticado",
+                                           "Máximo confort",
+                                           "Ideal para espacios amplios",
+                                           "Respaldos generosos",
+                                           "Diseño elegante"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Azul Oscuro",
+                                                 "style":  "Elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo confort por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Soporte lumbar superior",
+                                           "Calidad premium",
+                                           "Versatilidad decorativa"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente de calidad",
+                                                    "Secar horizontalmente",
+                                                    "Planchar a temperatura media",
+                                                    "Mantener forma rectangular"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-azul-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - AZUL CLARO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color azul claro. Diseño fresco y luminoso con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en refrescante azul claro, tamaño estándar de 45x45cm. Este tono luminoso aporta frescura y amplitud visual a cualquier espacio. El detalle circular del diseño añade un toque moderno y distintivo.",
+                          "rating":  4.5,
+                          "reviews":  11,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-azul-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color azul claro refrescante",
+                                           "Aporta luminosidad",
+                                           "Diseño con detalle circular",
+                                           "Estilo fresco y moderno",
+                                           "Amplitud visual"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Azul Claro",
+                                                 "style":  "Fresco",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta frescura al ambiente",
+                                           "Amplía visualmente el espacio",
+                                           "Color versátil y luminoso",
+                                           "Perfecto para decoración estival",
+                                           "Combina con colores claros"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores claros",
+                                                    "Secar a la sombra",
+                                                    "Evitar contacto con colores oscuros",
+                                                    "Mantener luminosidad del color"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-azul-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - AZUL CLARO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color azul claro. Tamaño compacto con color luminoso.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en luminoso azul claro. Perfecto para añadir toques de color fresco en espacios pequeños o para combinar con otros cojines. Su tono suave aporta tranquilidad y claridad al ambiente.",
+                          "rating":  4.3,
+                          "reviews":  9,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-azul-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color azul claro luminoso",
+                                           "Toque de frescura",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta tranquilidad",
+                                           "Combina fácilmente"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Azul Claro",
+                                                 "style":  "Suave",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques de color",
+                                           "Aporta claridad al espacio",
+                                           "Muy versátil en combinaciones",
+                                           "Precio muy accesible",
+                                           "Tamaño práctico"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para colores",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar suavidad del color"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-azul-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - AZUL CLARO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color azul claro. Tamaño grande con color refrescante y luminoso.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en refrescante azul claro. Su generoso tamaño combinado con el color luminoso lo convierte en una pieza central perfecta que aporta frescura y amplitud visual a cualquier espacio.",
+                          "rating":  4.6,
+                          "reviews":  14,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-azul-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color azul claro refrescante",
+                                           "Pieza central decorativa",
+                                           "Aporta amplitud visual",
+                                           "Máximo impacto luminoso",
+                                           "Frescura y elegancia"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Azul Claro",
+                                                 "style":  "Luminoso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo máximo",
+                                           "Amplía visualmente el espacio",
+                                           "Aporta frescura constante",
+                                           "Calidad premium",
+                                           "Versatilidad estacional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para claros",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener luminosidad original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-azul-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - AZUL CLARO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color azul claro. Formato rectangular luminoso para respaldos frescos.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en luminoso azul claro. Su formato alargado y color refrescante lo hacen ideal para respaldos que requieren un toque de frescura y luminosidad, perfecto para ambientes relajantes.",
+                          "rating":  4.4,
+                          "reviews":  7,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-azul-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color azul claro luminoso",
+                                           "Perfecto para respaldos",
+                                           "Aporta frescura",
+                                           "Ambientes relajantes",
+                                           "Diseño refrescante"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Azul Claro",
+                                                 "style":  "Relajante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos frescos y luminosos",
+                                           "Añade tranquilidad",
+                                           "Formato versátil",
+                                           "Color relajante",
+                                           "Fácil combinación"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener frescura del tono"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-azul-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - AZUL CLARO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color azul claro. Formato rectangular grande con máxima luminosidad.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en luminoso azul claro. Su gran tamaño y color refrescante lo convierten en la pieza perfecta para aportar máxima luminosidad y frescura a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.8,
+                          "reviews":  12,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-azul-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color azul claro luminoso",
+                                           "Máxima luminosidad",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Frescura superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Azul Claro",
+                                                 "style":  "Luminoso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima luminosidad por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Frescura constante",
+                                           "Calidad premium",
+                                           "Impacto visual óptimo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para claros",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar luminosidad máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-blanco",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - BLANCO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color blanco elegante. Diseño versátil con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en elegante color blanco puro, tamaño estándar de 45x45cm. Su neutralidad y sofisticación lo convierten en la pieza perfecta para cualquier estilo decorativo. El detalle circular añade un toque moderno y distintivo.",
+                          "rating":  4.6,
+                          "reviews":  16,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-blanco/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color blanco elegante",
+                                           "Diseño versátil",
+                                           "Detalle circular moderno",
+                                           "Combina con todo",
+                                           "Neutralidad sofisticada"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Blanco",
+                                                 "style":  "Elegante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Versatilidad total",
+                                           "Elegancia atemporal",
+                                           "Luminosidad al espacio",
+                                           "Fácil combinación",
+                                           "Estilo minimalista"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para blancos",
+                                                    "Secar a la sombra",
+                                                    "Evitar manchas",
+                                                    "Mantener blancura original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-blanco",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - BLANCO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color blanco. Tamaño compacto con elegancia pura.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en blanco puro. Su tamaño manejable y color neutro lo hacen perfecto para espacios pequeños o como complemento a cojines de mayor tamaño, aportando luminosidad y limpieza visual.",
+                          "rating":  4.4,
+                          "reviews":  12,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-blanco/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color blanco puro",
+                                           "Elegancia minimalista",
+                                           "Luminosidad natural",
+                                           "Versatilidad decorativa",
+                                           "Detalle circular distintivo"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Blanco",
+                                                 "style":  "Minimalista",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta luminosidad",
+                                           "Combina con cualquier color",
+                                           "Estilo atemporal",
+                                           "Precio muy accesible",
+                                           "Limpieza visual"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente específico para blancos",
+                                                    "Secar evitando sol directo",
+                                                    "No mezclar con colores",
+                                                    "Mantener blancura"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-blanco",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - BLANCO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color blanco. Tamaño grande con pureza y elegancia.",
+                          "detailed_description":  "Cojín decorativo de tamaño generoso 50x50cm en blanco inmaculado. Su gran tamaño y pureza cromática lo convierten en una pieza central perfecta que aporta luminosidad, amplitud visual y sofisticación a cualquier ambiente.",
+                          "rating":  4.7,
+                          "reviews":  18,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-blanco/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color blanco inmaculado",
+                                           "Pieza central perfecta",
+                                           "Máxima luminosidad",
+                                           "Pureza cromática",
+                                           "Sofisticación natural"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Blanco",
+                                                 "style":  "Sofisticado",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Amplía visualmente el espacio",
+                                           "Máxima versatilidad decorativa",
+                                           "Elegancia garantizada",
+                                           "Calidad premium",
+                                           "Impacto visual positivo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar blanqueador suave si necesario",
+                                                    "Secar horizontalmente",
+                                                    "Planchar con protección",
+                                                    "Conservar blancura perfecta"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-blanco",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - BLANCO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color blanco. Formato rectangular elegante para respaldos luminosos.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en blanco puro. Su formato alargado y color neutral lo hacen ideal para respaldos elegantes que requieren luminosidad y sofisticación, perfecto para ambientes minimalistas y modernos.",
+                          "rating":  4.5,
+                          "reviews":  14,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-blanco/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color blanco puro",
+                                           "Ideal para respaldos",
+                                           "Elegancia minimalista",
+                                           "Luminosidad máxima",
+                                           "Diseño moderno"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Blanco",
+                                                 "style":  "Moderno",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos elegantes",
+                                           "Luminosidad natural",
+                                           "Versatilidad total",
+                                           "Estilo minimalista",
+                                           "Precio competitivo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para blancos",
+                                                    "Secar al aire",
+                                                    "No usar lejía fuerte",
+                                                    "Conservar forma rectangular"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-blanco",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - BLANCO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color blanco. Formato rectangular grande con máxima elegancia.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en blanco elegante. Su gran tamaño y color puro lo convierten en la pieza perfecta para aportar máxima luminosidad y sofisticación a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.8,
+                          "reviews":  20,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-blanco/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color blanco elegante",
+                                           "Máxima elegancia",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Sofisticación superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Blanco",
+                                                 "style":  "Elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima elegancia por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Luminosidad constante",
+                                           "Calidad premium",
+                                           "Versatilidad absoluta"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para blancos",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar elegancia máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-gris-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - GRIS CLARO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color gris claro. Diseño contemporáneo con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en sofisticado gris claro, tamaño estándar de 45x45cm. Este tono neutro y moderno aporta serenidad y elegancia contemporánea a cualquier espacio. El detalle circular del diseño añade un toque distintivo y actual.",
+                          "rating":  4.5,
+                          "reviews":  17,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-gris-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color gris claro sofisticado",
+                                           "Diseño contemporáneo",
+                                           "Detalle circular moderno",
+                                           "Serenidad visual",
+                                           "Elegancia actual"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Gris Claro",
+                                                 "style":  "Contemporáneo",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta serenidad al ambiente",
+                                           "Color neutro versátil",
+                                           "Estilo contemporáneo",
+                                           "Combina con colores cálidos y fríos",
+                                           "Elegancia moderna"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores delicados",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener tono gris original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-gris-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - GRIS CLARO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color gris claro. Tamaño compacto con modernidad sutil.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en gris claro elegante. Perfecto para añadir toques de modernidad sutil en espacios pequeños o para combinar con otros cojines. Su tono sereno aporta tranquilidad y sofisticación contemporánea.",
+                          "rating":  4.3,
+                          "reviews":  13,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-gris-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color gris claro elegante",
+                                           "Modernidad sutil",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta tranquilidad",
+                                           "Sofisticación contemporánea"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Gris Claro",
+                                                 "style":  "Moderno",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques modernos",
+                                           "Aporta serenidad al espacio",
+                                           "Muy versátil en combinaciones",
+                                           "Precio muy accesible",
+                                           "Tamaño práctico"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para grises",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar tono gris"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-gris-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - GRIS CLARO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color gris claro. Tamaño grande con elegancia contemporánea.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en sofisticado gris claro. Su generoso tamaño combinado con el color contemporáneo lo convierte en una pieza central perfecta que aporta serenidad y elegancia moderna a cualquier espacio.",
+                          "rating":  4.6,
+                          "reviews":  19,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-gris-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color gris claro sofisticado",
+                                           "Pieza central perfecta",
+                                           "Elegancia contemporánea",
+                                           "Aporta serenidad",
+                                           "Modernidad y clase"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Gris Claro",
+                                                 "style":  "Contemporáneo",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo equilibrado",
+                                           "Serenidad visual constante",
+                                           "Aporta modernidad sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad estacional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para grises",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener tono original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-gris-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - GRIS CLARO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color gris claro. Formato rectangular moderno para respaldos serenos.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en gris claro contemporáneo. Su formato alargado y color sereno lo hacen ideal para respaldos que requieren un toque de modernidad y tranquilidad, perfecto para ambientes actuales y sofisticados.",
+                          "rating":  4.4,
+                          "reviews":  11,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-gris-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color gris claro contemporáneo",
+                                           "Perfecto para respaldos",
+                                           "Aporta modernidad",
+                                           "Ambientes sofisticados",
+                                           "Serenidad visual"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Gris Claro",
+                                                 "style":  "Sofisticado",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos modernos y serenos",
+                                           "Añade tranquilidad",
+                                           "Formato versátil",
+                                           "Color contemporáneo",
+                                           "Fácil combinación"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener tono gris claro"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-gris-claro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - GRIS CLARO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color gris claro. Formato rectangular grande con máxima sofisticación.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en gris claro sofisticado. Su gran tamaño y color contemporáneo lo convierten en la pieza perfecta para aportar máxima serenidad y elegancia moderna a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.7,
+                          "reviews":  16,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-gris-claro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color gris claro sofisticado",
+                                           "Máxima sofisticación",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Elegancia moderna superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Gris Claro",
+                                                 "style":  "Sofisticado",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima sofisticación por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Serenidad constante",
+                                           "Calidad premium",
+                                           "Impacto visual equilibrado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para grises",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar sofisticación máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-beige",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - BEIGE",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color beige cálido. Diseño acogedor con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en cálido color beige, tamaño estándar de 45x45cm. Su tono neutro y acogedor aporta calidez y elegancia natural a cualquier espacio. El detalle circular del diseño añade un toque moderno y distintivo.",
+                          "rating":  4.6,
+                          "reviews":  19,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-beige/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color beige cálido",
+                                           "Diseño acogedor",
+                                           "Detalle circular moderno",
+                                           "Elegancia natural",
+                                           "Tono neutro versátil"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Beige",
+                                                 "style":  "Acogedor",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta calidez al ambiente",
+                                           "Color neutro versátil",
+                                           "Elegancia natural",
+                                           "Combina con tonos cálidos y fríos",
+                                           "Estilo atemporal"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores neutros",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener tono beige original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-beige",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - BEIGE",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color beige. Tamaño compacto con calidez natural.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en beige natural. Perfecto para añadir toques de calidez en espacios pequeños o para combinar con otros cojines. Su tono cálido aporta confort y elegancia natural.",
+                          "rating":  4.4,
+                          "reviews":  15,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-beige/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color beige natural",
+                                           "Calidez acogedora",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta confort visual",
+                                           "Elegancia natural"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Beige",
+                                                 "style":  "Natural",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques cálidos",
+                                           "Aporta confort al espacio",
+                                           "Muy versátil en combinaciones",
+                                           "Precio muy accesible",
+                                           "Tono natural relajante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para beiges",
+                                                    "Secar al aire libre",
+                                                    "Proteger de manchas",
+                                                    "Conservar tono natural"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-beige",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - BEIGE",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color beige. Tamaño grande con elegancia natural cálida.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en beige cálido y natural. Su generoso tamaño combinado con el color acogedor lo convierte en una pieza central perfecta que aporta calidez y elegancia natural a cualquier espacio.",
+                          "rating":  4.7,
+                          "reviews":  21,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-beige/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color beige cálido",
+                                           "Pieza central perfecta",
+                                           "Elegancia natural",
+                                           "Aporta calidez",
+                                           "Confort visual superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Beige",
+                                                 "style":  "Natural elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo cálido",
+                                           "Calidez visual constante",
+                                           "Aporta naturalidad sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad en decoración"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para beiges",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener tono cálido"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-beige",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - BEIGE",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color beige. Formato rectangular cálido para respaldos acogedores.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en beige cálido y natural. Su formato alargado y color acogedor lo hacen ideal para respaldos que requieren un toque de calidez y naturalidad, perfecto para ambientes relajantes y hogareños.",
+                          "rating":  4.5,
+                          "reviews":  13,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-beige/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color beige cálido",
+                                           "Perfecto para respaldos",
+                                           "Aporta calidez",
+                                           "Ambientes hogareños",
+                                           "Naturalidad visual"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Beige",
+                                                 "style":  "Hogareño",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos cálidos y acogedores",
+                                           "Añade naturalidad",
+                                           "Formato versátil",
+                                           "Color relajante",
+                                           "Fácil armonización"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener tono beige natural"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-beige",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - BEIGE",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color beige. Formato rectangular grande con máxima calidez natural.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en beige cálido y natural. Su gran tamaño y color acogedor lo convierten en la pieza perfecta para aportar máxima calidez y elegancia natural a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.8,
+                          "reviews":  18,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-beige/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color beige cálido",
+                                           "Máxima calidez natural",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Elegancia natural superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Beige",
+                                                 "style":  "Natural elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima calidez por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Naturalidad constante",
+                                           "Calidad premium",
+                                           "Impacto visual cálido"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para beiges",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar calidez máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-gris-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - GRIS OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color gris oscuro. Diseño sofisticado con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en elegante gris oscuro, tamaño estándar de 45x45cm. Este tono profundo y sofisticado aporta elegancia y personalidad a cualquier espacio. El detalle circular del diseño añade un toque distintivo y contemporáneo.",
+                          "rating":  4.6,
+                          "reviews":  20,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color gris oscuro elegante",
+                                           "Diseño sofisticado",
+                                           "Detalle circular distintivo",
+                                           "Personalidad y elegancia",
+                                           "Estilo contemporáneo"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Gris Oscuro",
+                                                 "style":  "Sofisticado",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta elegancia y profundidad",
+                                           "Color sofisticado y moderno",
+                                           "Crea contrastes interesantes",
+                                           "Combina con colores claros",
+                                           "Personalidad única"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores oscuros",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener tono gris oscuro"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-gris-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - GRIS OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color gris oscuro. Tamaño compacto con elegancia profunda.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en gris oscuro sofisticado. Perfecto para añadir toques de elegancia profunda en espacios pequeños o para combinar con otros cojines. Su tono intenso aporta personalidad y distinción.",
+                          "rating":  4.4,
+                          "reviews":  16,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color gris oscuro sofisticado",
+                                           "Elegancia profunda",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta personalidad",
+                                           "Distinción contemporánea"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Gris Oscuro",
+                                                 "style":  "Elegante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques sofisticados",
+                                           "Aporta profundidad al espacio",
+                                           "Excelente para contrastes",
+                                           "Precio muy accesible",
+                                           "Tamaño versátil"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para oscuros",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar intensidad del color"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-gris-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - GRIS OSCURO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color gris oscuro. Tamaño grande con sofisticación profunda.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en gris oscuro intenso y sofisticado. Su generoso tamaño combinado con el color profundo lo convierte en una pieza central perfecta que aporta elegancia y personalidad distintiva a cualquier espacio.",
+                          "rating":  4.7,
+                          "reviews":  22,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color gris oscuro intenso",
+                                           "Pieza central sofisticada",
+                                           "Elegancia profunda",
+                                           "Personalidad distintiva",
+                                           "Impacto visual fuerte"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Gris Oscuro",
+                                                 "style":  "Sofisticado profundo",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo sofisticado",
+                                           "Profundidad visual constante",
+                                           "Aporta elegancia sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad en contrastes"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para grises oscuros",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener intensidad original"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-gris-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - GRIS OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color gris oscuro. Formato rectangular sofisticado para respaldos elegantes.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en gris oscuro elegante y profundo. Su formato alargado y color intenso lo hacen ideal para respaldos que requieren un toque de sofisticación y elegancia, perfecto para ambientes contemporáneos y distinguidos.",
+                          "rating":  4.5,
+                          "reviews":  14,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color gris oscuro elegante",
+                                           "Perfecto para respaldos",
+                                           "Aporta sofisticación",
+                                           "Ambientes distinguidos",
+                                           "Elegancia profunda"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Gris Oscuro",
+                                                 "style":  "Distinguido",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos sofisticados y elegantes",
+                                           "Añade profundidad visual",
+                                           "Formato especializado",
+                                           "Color distintivo",
+                                           "Contraste perfecto"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener tono gris oscuro"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-gris-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - GRIS OSCURO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color gris oscuro. Formato rectangular grande con máxima elegancia profunda.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en gris oscuro intenso y sofisticado. Su gran tamaño y color profundo lo convierten en la pieza perfecta para aportar máxima elegancia y personalidad distintiva a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.8,
+                          "reviews":  17,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color gris oscuro intenso",
+                                           "Máxima elegancia profunda",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Personalidad distintiva superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Gris Oscuro",
+                                                 "style":  "Elegante profundo",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima elegancia por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Profundidad visual constante",
+                                           "Calidad premium",
+                                           "Impacto visual sofisticado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para grises oscuros",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar elegancia máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-marron-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - MARRÓN OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color marrón oscuro. Diseño cálido y terroso con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en elegante marrón oscuro, tamaño estándar de 45x45cm. Este tono terroso y cálido aporta naturalidad y calidez a cualquier espacio. El detalle circular del diseño añade un toque distintivo y acogedor.",
+                          "rating":  4.5,
+                          "reviews":  18,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-marron-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color marrón oscuro cálido",
+                                           "Diseño terroso",
+                                           "Detalle circular distintivo",
+                                           "Calidez natural",
+                                           "Estilo acogedor"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Marrón Oscuro",
+                                                 "style":  "Cálido",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta calidez terrosa",
+                                           "Color natural versátil",
+                                           "Crea ambientes acogedores",
+                                           "Combina con tonos naturales",
+                                           "Confort visual cálido"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores oscuros",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener tono marrón"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-marron-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - MARRÓN OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color marrón oscuro. Tamaño compacto con calidez terrosa.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en marrón oscuro natural. Perfecto para añadir toques de calidez terrosa en espacios pequeños o para combinar con otros cojines. Su tono natural aporta confort y naturalidad.",
+                          "rating":  4.3,
+                          "reviews":  14,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-marron-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color marrón oscuro natural",
+                                           "Calidez terrosa",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta naturalidad",
+                                           "Confort hogareño"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Marrón Oscuro",
+                                                 "style":  "Natural",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques naturales",
+                                           "Aporta calidez al espacio",
+                                           "Excelente para ambientes rústicos",
+                                           "Precio muy accesible",
+                                           "Tamaño versátil"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para marrones",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar tono terroso"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-marron-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - MARRÓN OSCURO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color marrón oscuro. Tamaño grande con calidez natural intensa.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en marrón oscuro intenso y natural. Su generoso tamaño combinado con el color terroso lo convierte en una pieza central perfecta que aporta calidez y naturalidad a cualquier espacio.",
+                          "rating":  4.6,
+                          "reviews":  21,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-marron-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color marrón oscuro intenso",
+                                           "Pieza central natural",
+                                           "Calidez terrosa",
+                                           "Naturalidad distintiva",
+                                           "Impacto visual cálido"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Marrón Oscuro",
+                                                 "style":  "Natural intenso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo natural",
+                                           "Calidez visual constante",
+                                           "Aporta naturalidad sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad en decoración rústica"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para marrones",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener intensidad natural"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-marron-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - MARRÓN OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color marrón oscuro. Formato rectangular cálido para respaldos acogedores.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en marrón oscuro cálido y natural. Su formato alargado y color terroso lo hacen ideal para respaldos que requieren un toque de calidez natural, perfecto para ambientes rústicos y hogareños.",
+                          "rating":  4.4,
+                          "reviews":  12,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-marron-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color marrón oscuro cálido",
+                                           "Perfecto para respaldos",
+                                           "Aporta calidez natural",
+                                           "Ambientes rústicos",
+                                           "Naturalidad terrosa"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Marrón Oscuro",
+                                                 "style":  "Rústico",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos cálidos y naturales",
+                                           "Añade calidez terrosa",
+                                           "Formato especializado",
+                                           "Color distintivo natural",
+                                           "Armonía rústica"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener tono marrón natural"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-marron-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - MARRÓN OSCURO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color marrón oscuro. Formato rectangular grande con máxima calidez natural.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en marrón oscuro intenso y natural. Su gran tamaño y color terroso lo convierten en la pieza perfecta para aportar máxima calidez y naturalidad a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.7,
+                          "reviews":  15,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-marron-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color marrón oscuro intenso",
+                                           "Máxima calidez natural",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Naturalidad superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Marrón Oscuro",
+                                                 "style":  "Natural intenso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima calidez por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Naturalidad constante",
+                                           "Calidad premium",
+                                           "Impacto visual terroso"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para marrones",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar calidez máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-rojo",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - ROJO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color rojo vibrante. Diseño llamativo con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en vibrante color rojo, tamaño estándar de 45x45cm. Este tono intenso y energético aporta vitalidad y carácter a cualquier espacio. El detalle circular del diseño añade un toque distintivo y dinámico.",
+                          "rating":  4.8,
+                          "reviews":  25,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-rojo/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color rojo vibrante",
+                                           "Diseño llamativo",
+                                           "Detalle circular distintivo",
+                                           "Vitalidad y energía",
+                                           "Estilo dinámico"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Rojo",
+                                                 "style":  "Vibrante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta energía al ambiente",
+                                           "Color impactante",
+                                           "Crea puntos focales",
+                                           "Combina con neutros",
+                                           "Personalidad vibrante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores intensos",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener viveza del rojo"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-beige-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - BEIGE OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color beige oscuro. Diseño terroso y elegante con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en elegante beige oscuro, tamaño estándar de 45x45cm. Este tono cálido y terroso aporta sofisticación natural y calidez a cualquier espacio. El detalle circular del diseño añade un toque distintivo y acogedor.",
+                          "rating":  4.6,
+                          "reviews":  19,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-beige-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color beige oscuro elegante",
+                                           "Diseño terroso",
+                                           "Detalle circular distintivo",
+                                           "Sofisticación natural",
+                                           "Estilo cálido y acogedor"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Beige Oscuro",
+                                                 "style":  "Natural elegante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta calidez natural profunda",
+                                           "Color versátil y sofisticado",
+                                           "Crea ambientes acogedores",
+                                           "Combina con tonos neutros",
+                                           "Elegancia natural"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores naturales",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener tono beige oscuro"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-beige-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - BEIGE OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color beige oscuro. Tamaño compacto con calidez terrosa profunda.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en beige oscuro natural. Perfecto para añadir toques de calidez terrosa profunda en espacios pequeños o para combinar con otros cojines. Su tono cálido aporta confort y sofisticación natural.",
+                          "rating":  4.4,
+                          "reviews":  15,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-beige-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color beige oscuro natural",
+                                           "Calidez terrosa profunda",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta sofisticación",
+                                           "Confort natural"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Beige Oscuro",
+                                                 "style":  "Natural sofisticado",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques naturales",
+                                           "Aporta calidez profunda",
+                                           "Excelente para ambientes neutros",
+                                           "Precio muy accesible",
+                                           "Tamaño versátil"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para beiges",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar tono terroso"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-beige-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - BEIGE OSCURO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color beige oscuro. Tamaño grande con elegancia natural intensa.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en beige oscuro intenso y natural. Su generoso tamaño combinado con el color terroso profundo lo convierte en una pieza central perfecta que aporta elegancia natural y calidez sofisticada a cualquier espacio.",
+                          "rating":  4.7,
+                          "reviews":  22,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-beige-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color beige oscuro intenso",
+                                           "Pieza central natural",
+                                           "Elegancia terrosa",
+                                           "Sofisticación profunda",
+                                           "Impacto visual cálido"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Beige Oscuro",
+                                                 "style":  "Natural intenso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo natural",
+                                           "Calidez visual profunda",
+                                           "Aporta sofisticación terrosa",
+                                           "Calidad premium",
+                                           "Versatilidad en decoración natural"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para beiges oscuros",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener intensidad terrosa"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-beige-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - BEIGE OSCURO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color beige oscuro. Formato rectangular cálido para respaldos sofisticados.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en beige oscuro cálido y terroso. Su formato alargado y color profundo lo hacen ideal para respaldos que requieren un toque de sofisticación natural, perfecto para ambientes elegantes y acogedores.",
+                          "rating":  4.5,
+                          "reviews":  13,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-beige-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color beige oscuro cálido",
+                                           "Perfecto para respaldos",
+                                           "Aporta sofisticación natural",
+                                           "Ambientes elegantes",
+                                           "Calidez terrosa"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Beige Oscuro",
+                                                 "style":  "Elegante natural",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos sofisticados y naturales",
+                                           "Añade elegancia terrosa",
+                                           "Formato especializado",
+                                           "Color distintivo cálido",
+                                           "Armonía natural"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener tono beige oscuro"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-beige-oscuro",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - BEIGE OSCURO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color beige oscuro. Formato rectangular grande con máxima elegancia natural.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en beige oscuro intenso y terroso. Su gran tamaño y color profundo lo convierten en la pieza perfecta para aportar máxima elegancia natural y sofisticación cálida a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.8,
+                          "reviews":  18,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-beige-oscuro/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color beige oscuro intenso",
+                                           "Máxima elegancia natural",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Sofisticación terrosa superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Beige Oscuro",
+                                                 "style":  "Natural elegante",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima elegancia por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Calidez natural constante",
+                                           "Calidad premium",
+                                           "Impacto visual terroso"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para beiges oscuros",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar elegancia natural máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-rojo",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - ROJO",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color rojo vibrante. Tamaño compacto con energía dinámica.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en rojo vibrante y energético. Perfecto para añadir toques de vitalidad y dinamismo en espacios pequeños o para combinar con otros cojines. Su tono intenso aporta carácter y personalidad.",
+                          "rating":  4.7,
+                          "reviews":  21,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-rojo/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color rojo vibrante",
+                                           "Energía dinámica",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta vitalidad",
+                                           "Carácter distintivo"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Rojo",
+                                                 "style":  "Dinámico",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques energéticos",
+                                           "Aporta vitalidad al espacio",
+                                           "Excelente para puntos focales",
+                                           "Precio muy accesible",
+                                           "Tamaño versátil"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores intensos",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar viveza del rojo"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-rojo",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - ROJO",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color rojo vibrante. Tamaño grande con máxima energía visual.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en rojo vibrante e intenso. Su generoso tamaño combinado con el color energético lo convierte en una pieza central perfecta que aporta máxima vitalidad y carácter a cualquier espacio.",
+                          "rating":  4.8,
+                          "reviews":  28,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-rojo/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color rojo vibrante intenso",
+                                           "Pieza central energética",
+                                           "Máxima vitalidad",
+                                           "Carácter distintivo",
+                                           "Impacto visual fuerte"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Rojo",
+                                                 "style":  "Vibrante intenso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo máximo",
+                                           "Energía visual constante",
+                                           "Aporta vitalidad sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad en decoración dinámica"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para rojos",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener intensidad del rojo"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-30x50cm-rojo",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 30X50CM - ROJO",
+                          "category":  "cojines",
+                          "price":  "2.96€",
+                          "originalPrice":  "3.70€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 30x50cm en color rojo vibrante. Formato rectangular dinámico para respaldos energéticos.",
+                          "detailed_description":  "Cojín decorativo rectangular de 30x50cm en rojo vibrante y dinámico. Su formato alargado y color intenso lo hacen ideal para respaldos que requieren un toque de energía y vitalidad, perfecto para ambientes modernos y estimulantes.",
+                          "rating":  4.6,
+                          "reviews":  17,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-30x50cm-rojo/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular 30x50cm",
+                                           "Color rojo vibrante",
+                                           "Perfecto para respaldos",
+                                           "Aporta energía",
+                                           "Ambientes estimulantes",
+                                           "Dinamismo visual"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "30cm x 50cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "350g",
+                                                 "color":  "Rojo",
+                                                 "style":  "Estimulante",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Respaldos energéticos y dinámicos",
+                                           "Añade vitalidad",
+                                           "Formato versátil",
+                                           "Color estimulante",
+                                           "Fácil combinación moderna"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar evitando sol directo",
+                                                    "Conservar forma y color",
+                                                    "Mantener viveza del rojo"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-rojo",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - ROJO",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color rojo vibrante. Formato rectangular grande con máxima energía dinámica.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en rojo vibrante e intenso. Su gran tamaño y color energético lo convierten en la pieza perfecta para aportar máxima vitalidad y dinamismo a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.9,
+                          "reviews":  24,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-rojo/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color rojo vibrante intenso",
+                                           "Máxima energía dinámica",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Vitalidad superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Rojo",
+                                                 "style":  "Dinámico intenso",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima energía por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Vitalidad constante",
+                                           "Calidad premium",
+                                           "Impacto visual dinámico"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para rojos",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar energía máxima"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-45x45cm-rosa",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 45X45CM - ROSA",
+                          "category":  "cojines",
+                          "price":  "2.77€",
+                          "originalPrice":  "3.46€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 45x45cm en color rosa suave. Diseño delicado con detalle circular.",
+                          "detailed_description":  "Cojín decorativo en delicado color rosa suave, tamaño estándar de 45x45cm. Este tono dulce y romántico aporta ternura y calidez femenina a cualquier espacio. El detalle circular del diseño añade un toque distintivo y encantador.",
+                          "rating":  4.7,
+                          "reviews":  26,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-45x45cm-rosa/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 45x45cm",
+                                           "Color rosa suave delicado",
+                                           "Diseño romántico",
+                                           "Detalle circular encantador",
+                                           "Ternura y calidez",
+                                           "Estilo femenino"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "45cm x 45cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "400g",
+                                                 "color":  "Rosa",
+                                                 "style":  "Romántico",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Aporta ternura al ambiente",
+                                           "Color dulce y relajante",
+                                           "Crea atmósferas románticas",
+                                           "Combina con tonos pastel",
+                                           "Estilo delicado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para colores delicados",
+                                                    "Secar a la sombra",
+                                                    "Evitar decoloración",
+                                                    "Mantener suavidad del rosa"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x40cm-rosa",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X40CM - ROSA",
+                          "category":  "cojines",
+                          "price":  "2.56€",
+                          "originalPrice":  "3.20€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x40cm en color rosa suave. Tamaño compacto con dulzura delicada.",
+                          "detailed_description":  "Cojín decorativo compacto de 40x40cm en rosa suave y delicado. Perfecto para añadir toques de dulzura y ternura en espacios pequeños o para combinar con otros cojines. Su tono romántico aporta calidez femenina y encanto.",
+                          "rating":  4.5,
+                          "reviews":  19,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x40cm-rosa/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño compacto 40x40cm",
+                                           "Color rosa suave delicado",
+                                           "Dulzura encantadora",
+                                           "Ideal para espacios pequeños",
+                                           "Aporta ternura",
+                                           "Calidez femenina"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 40cm",
+                                                 "material":  "Microfibra",
+                                                 "weight":  "320g",
+                                                 "color":  "Rosa",
+                                                 "style":  "Delicado",
+                                                 "warranty":  "1 año"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para toques dulces",
+                                           "Aporta ternura al espacio",
+                                           "Muy versátil en combinaciones",
+                                           "Precio muy accesible",
+                                           "Tono romántico"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave para rosas",
+                                                    "Secar al aire libre",
+                                                    "Proteger de decoloración",
+                                                    "Conservar delicadeza del color"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-50x50cm-rosa",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 50X50CM - ROSA",
+                          "category":  "cojines",
+                          "price":  "4.15€",
+                          "originalPrice":  "5.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 50x50cm en color rosa suave. Tamaño grande con máxima dulzura romántica.",
+                          "detailed_description":  "Cojín decorativo de gran tamaño 50x50cm en rosa suave y romántico. Su generoso tamaño combinado con el color delicado lo convierte en una pieza central perfecta que aporta máxima dulzura y calidez femenina a cualquier espacio.",
+                          "rating":  4.8,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-50x50cm-rosa/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño generoso 50x50cm",
+                                           "Color rosa suave romántico",
+                                           "Pieza central dulce",
+                                           "Máxima dulzura",
+                                           "Calidez femenina",
+                                           "Impacto visual delicado"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 50cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "500g",
+                                                 "color":  "Rosa",
+                                                 "style":  "Romántico delicado",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Impacto decorativo romántico",
+                                           "Dulzura visual constante",
+                                           "Aporta ternura sin saturar",
+                                           "Calidad premium",
+                                           "Versatilidad en decoración femenina"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para rosas",
+                                                    "Secar a la sombra",
+                                                    "Planchar con protección",
+                                                    "Mantener suavidad del rosa"
+                                                ]
+                      },
+                      {
+                          "id":  "cojin-decorativo-nuevo-modelo-40x60cm-rosa",
+                          "name":  "COJÍN DECORATIVO NUEVO MODELO 40X60CM - ROSA",
+                          "category":  "cojines",
+                          "price":  "3.29€",
+                          "originalPrice":  "4.11€",
+                          "discount":  "20% OFF",
+                          "description":  "Cojín decorativo nuevo modelo 40x60cm en color rosa suave. Formato rectangular grande con máxima dulzura romántica.",
+                          "detailed_description":  "Cojín decorativo de formato rectangular amplio 40x60cm en rosa suave y delicado. Su gran tamaño y color romántico lo convierten en la pieza perfecta para aportar máxima dulzura y calidez femenina a espacios amplios, ideal como respaldo principal.",
+                          "rating":  4.9,
+                          "reviews":  23,
+                          "images":  [
+                                         "images/productos/cojines/cojin-decorativo-nuevo-modelo-40x60cm-rosa/principal"
+                                     ],
+                          "features":  [
+                                           "Formato rectangular amplio 40x60cm",
+                                           "Color rosa suave delicado",
+                                           "Máxima dulzura romántica",
+                                           "Ideal para espacios amplios",
+                                           "Respaldo principal",
+                                           "Ternura superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "40cm x 60cm",
+                                                 "material":  "Microfibra premium",
+                                                 "weight":  "450g",
+                                                 "color":  "Rosa",
+                                                 "style":  "Romántico delicado",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima dulzura por tamaño",
+                                           "Perfecto para espacios grandes",
+                                           "Ternura constante",
+                                           "Calidad premium",
+                                           "Impacto visual romántico"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para rosas",
+                                                    "Secar en lugar ventilado",
+                                                    "Planchar con cuidado especial",
+                                                    "Conservar dulzura máxima"
+                                                ]
+                      }
                 ],
     "edredones":  [
                       {
