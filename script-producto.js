@@ -243,7 +243,7 @@ function contactForProduct() {
             window.open(whatsappUrl, '_blank');
         } else {
             // En desktop, mostrar modal con opciones
-            alert(`Para contactar sobre "${currentProduct.name}":\n\n📞 Teléfono: 636 215 696\n📧 Email: info@tavolocasa.com\n💬 WhatsApp: Haz clic en OK para abrir`);
+            alert(`Para contactar sobre "${currentProduct.name}":\n\n📞 Teléfono: 636 215 696\n📧 Email: tavolocasainfo@gmail.com\n💬 WhatsApp: Haz clic en OK para abrir`);
             window.open(whatsappUrl, '_blank');
         }
     }
