@@ -139,13 +139,98 @@ function showPage(page) {
 
 // Función para actualizar botones de paginación
 function updatePaginationButtons(activePage) {
-    const buttons = document.querySelectorAll('.page-btn');
-    buttons.forEach(button => {
-        button.classList.remove('active');
-        if (parseInt(button.textContent) === activePage) {
-            button.classList.add('active');
+    const totalPages = Math.ceil(currentProducts.length / productsPerPage);
+    const paginationContainer = document.querySelector('.pagination');
+    
+    if (totalPages <= 1) {
+        paginationContainer.style.display = 'none';
+        return;
+    }
+    
+    paginationContainer.style.display = 'flex';
+    paginationContainer.innerHTML = '';
+    
+    // Crear contenedor de controles
+    const controlsContainer = document.createElement('div');
+    controlsContainer.className = 'pagination-controls';
+    
+    // Botón "Anterior"
+    if (activePage > 1) {
+        const prevBtn = createPaginationButton('«', activePage - 1, false, 'Página anterior');
+        prevBtn.classList.add('prev-btn');
+        controlsContainer.appendChild(prevBtn);
+    }
+    
+    // Lógica para mostrar números de página
+    let startPage = 1;
+    let endPage = totalPages;
+    
+    if (totalPages > 7) {
+        if (activePage <= 4) {
+            endPage = 5;
+        } else if (activePage >= totalPages - 3) {
+            startPage = totalPages - 4;
+        } else {
+            startPage = activePage - 2;
+            endPage = activePage + 2;
         }
-    });
+    }
+    
+    // Primera página y elipsis si es necesario
+    if (startPage > 1) {
+        controlsContainer.appendChild(createPaginationButton(1, 1, activePage === 1));
+        if (startPage > 2) {
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-ellipsis';
+            ellipsis.textContent = '...';
+            controlsContainer.appendChild(ellipsis);
+        }
+    }
+    
+    // Páginas del rango
+    for (let i = startPage; i <= endPage; i++) {
+        controlsContainer.appendChild(createPaginationButton(i, i, activePage === i));
+    }
+    
+    // Elipsis y última página si es necesario
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-ellipsis';
+            ellipsis.textContent = '...';
+            controlsContainer.appendChild(ellipsis);
+        }
+        controlsContainer.appendChild(createPaginationButton(totalPages, totalPages, activePage === totalPages));
+    }
+    
+    // Botón "Siguiente"
+    if (activePage < totalPages) {
+        const nextBtn = createPaginationButton('»', activePage + 1, false, 'Página siguiente');
+        nextBtn.classList.add('next-btn');
+        controlsContainer.appendChild(nextBtn);
+    }
+    
+    // Agregar contenedor de controles al contenedor principal
+    paginationContainer.appendChild(controlsContainer);
+    
+    // Información de página actual
+    const pageInfo = document.createElement('div');
+    pageInfo.className = 'page-info';
+    pageInfo.style.cssText = 'margin-left: 20px; color: #666; font-size: 14px; display: flex; align-items: center;';
+    const startItem = (activePage - 1) * productsPerPage + 1;
+    const endItem = Math.min(activePage * productsPerPage, currentProducts.length);
+    pageInfo.innerHTML = `Mostrando ${startItem}-${endItem} de ${currentProducts.length} productos`;
+    paginationContainer.appendChild(pageInfo);
+}
+
+// Función para crear un botón de paginación
+function createPaginationButton(text, page, isActive, title = '') {
+    const button = document.createElement('button');
+    button.className = `page-btn${isActive ? ' active' : ''}`;
+    button.textContent = text;
+    button.title = title || `Ir a página ${page}`;
+    button.onclick = () => showPage(page);
+    return button;
 }
 
 // Función para mostrar detalles del producto (navegar a página individual)
@@ -471,7 +556,100 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         document.body.style.opacity = '1';
     }, 100);
+    
+    // Inicializar carrusel
+    initCarousel();
 });
+
+// Variables globales del carrusel
+let currentSlide = 0;
+let carouselInterval;
+
+// Función para inicializar el carrusel
+function initCarousel() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    if (slides.length === 0 || indicators.length === 0) return;
+    
+    // Función para cambiar a una slide específica
+    function goToSlide(slideIndex) {
+        // Remover clase active de todas las slides e indicadores
+        slides.forEach(slide => slide.classList.remove('active'));
+        indicators.forEach(indicator => indicator.classList.remove('active'));
+        
+        // Activar la slide e indicador correspondientes
+        slides[slideIndex].classList.add('active');
+        indicators[slideIndex].classList.add('active');
+        
+        currentSlide = slideIndex;
+        console.log('Carrusel: cambio a slide', slideIndex + 1);
+    }
+    
+    // Función para avanzar al siguiente slide
+    function nextSlide() {
+        const nextIndex = (currentSlide + 1) % slides.length;
+        goToSlide(nextIndex);
+    }
+    
+    // Agregar event listeners a los indicadores
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener('click', () => {
+            goToSlide(index);
+            resetInterval();
+        });
+    });
+    
+    // Función para resetear el intervalo automático
+    function resetInterval() {
+        clearInterval(carouselInterval);
+        startAutoSlide();
+        console.log('Carrusel: intervalo reiniciado');
+    }
+    
+    // Función para iniciar el cambio automático
+    function startAutoSlide() {
+        carouselInterval = setInterval(() => {
+            nextSlide();
+            console.log('Carrusel: cambio automático cada 5 segundos');
+        }, 5000); // Cambia cada 5 segundos exactos
+        console.log('Carrusel: iniciado con intervalo de 5 segundos');
+    }
+    
+    // Pausar carrusel cuando el mouse está sobre el hero
+    const heroSection = document.querySelector('.hero');
+    if (heroSection) {
+        heroSection.addEventListener('mouseenter', () => {
+            clearInterval(carouselInterval);
+            console.log('Carrusel: pausado (mouse sobre hero)');
+        });
+        
+        heroSection.addEventListener('mouseleave', () => {
+            startAutoSlide();
+            console.log('Carrusel: reanudado (mouse fuera del hero)');
+        });
+    }
+    
+    // Pausar carrusel cuando la ventana no está visible
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+            startAutoSlide();
+            console.log('Carrusel: reanudado (ventana visible)');
+        } else {
+            clearInterval(carouselInterval);
+            console.log('Carrusel: pausado (ventana no visible)');
+        }
+    });
+    
+    // Inicializar con el primer slide
+    goToSlide(0);
+    
+    // Iniciar el carrusel automático inmediatamente
+    setTimeout(() => {
+        startAutoSlide();
+        console.log('Carrusel: iniciado automáticamente tras inicialización');
+    }, 1000); // Dar 1 segundo para que se cargue todo
+}
 
 // Función para smooth scroll en navegación
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
