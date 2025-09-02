@@ -493,6 +493,32 @@ function closeSideMenu() {
     });
 }
 
+// Función para seleccionar categoría desde el menú lateral
+function selectCategoryFromSideMenu(category, element) {
+    // Prevenir comportamiento por defecto del enlace
+    event.preventDefault();
+    
+    // Llamar a la función selectCategory existente
+    // Necesitamos simular el elemento del menú horizontal para que funcione correctamente
+    const horizontalCategoryItem = document.querySelector(`.category-item[data-category="${category}"]`);
+    
+    if (horizontalCategoryItem) {
+        selectCategory(category, horizontalCategoryItem.querySelector('a'));
+    }
+    
+    // Cerrar el menú lateral después de seleccionar
+    closeSideMenu();
+    
+    // Scroll suave hacia la sección de productos
+    const productsSection = document.querySelector('.products-section');
+    if (productsSection) {
+        productsSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
+}
+
 // Función para toggle del submenu en el menú lateral
 function toggleSideSubmenu(event) {
     event.preventDefault();

@@ -800,21 +800,8 @@ body {
 
 /* Responsive para el menú de categorías */
 @media (max-width: 768px) {
-    .category-item a {
-        padding: 12px 8px;
-        font-size: 12px;
-        min-height: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .category-item a {
-        padding: 10px 6px;
-        font-size: 11px;
-        min-height: 35px;
-    }
-    
-    .category-item a span {
+    /* Ocultar completamente el menú horizontal de categorías en móviles */
+    .category-menu-wrapper {
         display: none;
     }
 }
