@@ -851,7 +851,8 @@ body {
     overflow: hidden;
 }
 
-.product-image::before {
+/* Solo mostrar el ícono SVG cuando NO hay imagen real cargada */
+.product-image:not(:has(.product-main-image))::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -861,6 +862,11 @@ body {
     height: 60px;
     background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23999"><path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM3 8h18v8H3V8z"/></svg>') no-repeat center;
     opacity: 0.3;
+}
+
+/* Ocultar el ícono SVG cuando hay imagen real */
+.product-image:has(.product-main-image)::before {
+    display: none;
 }
 
 /* Estilos para imágenes reales de producto */
