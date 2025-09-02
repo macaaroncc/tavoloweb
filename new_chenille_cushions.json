@@ -1,0 +1,454 @@
+{
+  "chenille_cushions": [
+    {
+      "id": "cojin-decorativo-chenilla-35x50cm-gris-claro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 35*50cm - GRIS CLARO",
+      "category": "cojines",
+      "price": "3.07€",
+      "originalPrice": "3.83€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla en color gris claro, tamaño 35x50cm. Relleno incluido, textura suave y elegante.",
+      "detailed_description": "Cojín decorativo rectangular de chenilla premium en color gris claro, dimensiones 35x50cm. Incluye relleno de alta calidad que mantiene su forma y volumen. La textura de chenilla proporciona una sensación suave al tacto y aporta elegancia y calidez a cualquier espacio. Ideal para sofás, sillones y camas.",
+      "rating": 4.5,
+      "reviews": 18,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-35x50cm-gris-claro/principal"
+      ],
+      "features": [
+        "Textura de chenilla premium",
+        "Color gris claro versátil",
+        "Relleno incluido",
+        "Formato rectangular 35x50cm",
+        "Suave al tacto",
+        "Elegante y moderno"
+      ],
+      "specifications": {
+        "dimensions": "35cm x 50cm",
+        "material": "Chenilla 100%",
+        "weight": "380g",
+        "color": "Gris Claro",
+        "style": "Moderno",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Aporta calidez al ambiente",
+        "Textura lujosa y suave",
+        "Color neutro que combina con todo",
+        "Formato ideal para respaldos",
+        "Incluye relleno de calidad"
+      ],
+      "care_instructions": [
+        "Lavar a máquina a 30°C",
+        "Usar detergente suave",
+        "Secar al aire libre",
+        "No planchar directamente sobre la chenilla",
+        "Cepillar suavemente para mantener textura"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-40x40cm-gris-claro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 40*40cm - GRIS CLARO",
+      "category": "cojines",
+      "price": "3.07€",
+      "originalPrice": "3.83€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla cuadrado 40x40cm en gris claro. Con relleno incluido.",
+      "detailed_description": "Cojín decorativo cuadrado de chenilla de alta calidad en color gris claro, medidas 40x40cm. Incluye relleno que proporciona el volumen y confort perfectos. La chenilla de tacto suave y aspecto elegante lo convierte en el complemento ideal para cualquier decoración moderna.",
+      "rating": 4.4,
+      "reviews": 15,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-40x40cm-gris-claro/principal"
+      ],
+      "features": [
+        "Formato cuadrado 40x40cm",
+        "Chenilla de alta calidad",
+        "Color gris claro elegante",
+        "Relleno incluido",
+        "Tacto extremadamente suave",
+        "Diseño atemporal"
+      ],
+      "specifications": {
+        "dimensions": "40cm x 40cm",
+        "material": "Chenilla 100%",
+        "weight": "340g",
+        "color": "Gris Claro",
+        "style": "Elegante",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Tamaño perfecto para cualquier espacio",
+        "Color neutro y versátil",
+        "Textura de lujo",
+        "Fácil mantenimiento",
+        "Combina con cualquier decoración"
+      ],
+      "care_instructions": [
+        "Lavado delicado a 30°C",
+        "Detergente para tejidos delicados",
+        "Secar en posición horizontal",
+        "Evitar retorcer",
+        "Mantener suavidad de la chenilla"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-40x50cm-gris-claro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 40*50cm - GRIS CLARO",
+      "category": "cojines",
+      "price": "3.57€",
+      "originalPrice": "4.46€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla rectangular 40x50cm en gris claro. Incluye relleno de calidad.",
+      "detailed_description": "Cojín decorativo rectangular de chenilla premium en gris claro, dimensiones 40x50cm. Con relleno de alta calidad incluido que garantiza forma y confort duraderos. La textura suave y sedosa de la chenilla aporta un toque de sofisticación y calidez a cualquier ambiente.",
+      "rating": 4.6,
+      "reviews": 22,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-40x50cm-gris-claro/principal"
+      ],
+      "features": [
+        "Formato rectangular 40x50cm",
+        "Chenilla premium sedosa",
+        "Color gris claro sofisticado",
+        "Relleno de alta calidad incluido",
+        "Textura suave y lujosa",
+        "Diseño contemporáneo"
+      ],
+      "specifications": {
+        "dimensions": "40cm x 50cm",
+        "material": "Chenilla premium 100%",
+        "weight": "420g",
+        "color": "Gris Claro",
+        "style": "Sofisticado",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Formato versátil para múltiples usos",
+        "Aporta sofisticación al espacio",
+        "Textura de alta calidad",
+        "Color que combina con todo",
+        "Confort superior"
+      ],
+      "care_instructions": [
+        "Lavar a máquina programa delicado",
+        "Temperatura máxima 30°C",
+        "Usar suavizante para mantener textura",
+        "Secar al aire evitando sol directo",
+        "Cepillar suavemente si es necesario"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-45x45cm-gris-claro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 45*45cm - GRIS CLARO",
+      "category": "cojines",
+      "price": "3.17€",
+      "originalPrice": "3.96€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla cuadrado 45x45cm en gris claro. Tamaño estándar con relleno incluido.",
+      "detailed_description": "Cojín decorativo cuadrado de chenilla en tamaño estándar 45x45cm, color gris claro. Incluye relleno de calidad que mantiene la forma perfecta. La chenilla de tacto aterciopelado y aspecto lujoso lo convierte en el complemento perfecto para sofás, sillones y decoración del hogar.",
+      "rating": 4.5,
+      "reviews": 28,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-45x45cm-gris-claro/principal"
+      ],
+      "features": [
+        "Tamaño estándar 45x45cm",
+        "Chenilla con tacto aterciopelado",
+        "Color gris claro neutral",
+        "Relleno de calidad incluido",
+        "Aspecto lujoso",
+        "Versatilidad decorativa"
+      ],
+      "specifications": {
+        "dimensions": "45cm x 45cm",
+        "material": "Chenilla aterciopelada 100%",
+        "weight": "450g",
+        "color": "Gris Claro",
+        "style": "Lujoso",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Tamaño universalmente popular",
+        "Textura lujosa al tacto",
+        "Color neutro versátil",
+        "Perfecto para sofás estándar",
+        "Fácil combinación decorativa"
+      ],
+      "care_instructions": [
+        "Lavado a mano o máquina delicado",
+        "Agua fría o tibia máximo 30°C",
+        "Detergente suave sin blanqueadores",
+        "Secar horizontalmente",
+        "Mantener suavidad con cepillado suave"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-50x50cm-gris-claro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 50*50cm - GRIS CLARO",
+      "category": "cojines",
+      "price": "4.57€",
+      "originalPrice": "5.71€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla grande 50x50cm en gris claro. Máximo confort y elegancia con relleno incluido.",
+      "detailed_description": "Cojín decorativo de chenilla de gran formato 50x50cm en elegante gris claro. Incluye relleno premium que proporciona máximo volumen y confort. La chenilla de calidad superior ofrece una textura suave y sedosa que aporta elegancia y calidez excepcionales a cualquier espacio.",
+      "rating": 4.8,
+      "reviews": 35,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-50x50cm-gris-claro/principal"
+      ],
+      "features": [
+        "Formato grande 50x50cm",
+        "Chenilla de calidad superior",
+        "Color gris claro elegante",
+        "Relleno premium incluido",
+        "Máximo confort",
+        "Impacto decorativo destacado"
+      ],
+      "specifications": {
+        "dimensions": "50cm x 50cm",
+        "material": "Chenilla superior 100%",
+        "weight": "550g",
+        "color": "Gris Claro",
+        "style": "Premium",
+        "warranty": "3 años"
+      },
+      "benefits": [
+        "Máximo impacto visual",
+        "Confort superior por tamaño",
+        "Textura de lujo premium",
+        "Ideal como cojín principal",
+        "Calidad excepcional"
+      ],
+      "care_instructions": [
+        "Lavado profesional recomendado",
+        "Si se lava en casa, usar programa delicado",
+        "Temperatura no superior a 30°C",
+        "Secar en posición horizontal",
+        "Cepillar periódicamente para mantener textura"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-35x50cm-gris-oscuro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 35*50cm - GRIS OSCURO",
+      "category": "cojines",
+      "price": "3.07€",
+      "originalPrice": "3.83€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla en color gris oscuro, tamaño 35x50cm. Relleno incluido, elegancia y sofisticación.",
+      "detailed_description": "Cojín decorativo rectangular de chenilla premium en color gris oscuro, dimensiones 35x50cm. Incluye relleno de alta calidad. El gris oscuro aporta profundidad y sofisticación al ambiente, mientras que la textura de chenilla proporciona una sensación lujosa al tacto. Perfecto para crear contrastes elegantes.",
+      "rating": 4.6,
+      "reviews": 20,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-35x50cm-gris-oscuro/principal"
+      ],
+      "features": [
+        "Textura de chenilla premium",
+        "Color gris oscuro sofisticado",
+        "Relleno incluido",
+        "Formato rectangular 35x50cm",
+        "Aporta profundidad al ambiente",
+        "Elegancia contemporánea"
+      ],
+      "specifications": {
+        "dimensions": "35cm x 50cm",
+        "material": "Chenilla 100%",
+        "weight": "380g",
+        "color": "Gris Oscuro",
+        "style": "Sofisticado",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Crea contrastes elegantes",
+        "Color que aporta profundidad",
+        "Textura lujosa premium",
+        "Perfecto para decoración moderna",
+        "Incluye relleno de calidad"
+      ],
+      "care_instructions": [
+        "Lavar a máquina a 30°C",
+        "Usar detergente para colores oscuros",
+        "Secar al aire libre",
+        "No usar lejía",
+        "Mantener textura con cepillado suave"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-40x40cm-gris-oscuro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 40*40cm - GRIS OSCURO",
+      "category": "cojines",
+      "price": "3.07€",
+      "originalPrice": "3.83€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla cuadrado 40x40cm en gris oscuro. Con relleno incluido.",
+      "detailed_description": "Cojín decorativo cuadrado de chenilla en color gris oscuro, medidas 40x40cm. Incluye relleno que garantiza forma y volumen perfectos. El tono gris oscuro aporta elegancia y distinción, mientras que la chenilla suave al tacto proporciona confort y lujo en cualquier ambiente.",
+      "rating": 4.5,
+      "reviews": 17,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-40x40cm-gris-oscuro/principal"
+      ],
+      "features": [
+        "Formato cuadrado compacto 40x40cm",
+        "Chenilla suave al tacto",
+        "Color gris oscuro distinguido",
+        "Relleno incluido",
+        "Aporta elegancia",
+        "Diseño atemporal"
+      ],
+      "specifications": {
+        "dimensions": "40cm x 40cm",
+        "material": "Chenilla 100%",
+        "weight": "340g",
+        "color": "Gris Oscuro",
+        "style": "Distinguido",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Tamaño perfecto para espacios pequeños",
+        "Color elegante y distinguido",
+        "Textura de lujo accesible",
+        "Fácil combinación decorativa",
+        "Confort garantizado"
+      ],
+      "care_instructions": [
+        "Lavado delicado a 30°C",
+        "Detergente específico para tejidos oscuros",
+        "Secar evitando exposición solar directa",
+        "No retorcer al escurrir",
+        "Cepillar suavemente si es necesario"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-40x50cm-gris-oscuro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 40*50cm - GRIS OSCURO",
+      "category": "cojines",
+      "price": "3.07€",
+      "originalPrice": "3.83€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla rectangular 40x50cm en gris oscuro. Incluye relleno de calidad.",
+      "detailed_description": "Cojín decorativo rectangular de chenilla premium en gris oscuro, dimensiones 40x50cm. Con relleno de alta calidad incluido. El gris oscuro profundo combinado con la textura sedosa de la chenilla crea un elemento decorativo de gran impacto visual y confort superior.",
+      "rating": 4.7,
+      "reviews": 24,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-40x50cm-gris-oscuro/principal"
+      ],
+      "features": [
+        "Formato rectangular versátil 40x50cm",
+        "Chenilla premium sedosa",
+        "Color gris oscuro profundo",
+        "Relleno de alta calidad incluido",
+        "Gran impacto visual",
+        "Confort superior"
+      ],
+      "specifications": {
+        "dimensions": "40cm x 50cm",
+        "material": "Chenilla premium 100%",
+        "weight": "420g",
+        "color": "Gris Oscuro",
+        "style": "Impactante",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Versatilidad en colocación",
+        "Color que aporta carácter",
+        "Textura premium sedosa",
+        "Perfecto para contrastes",
+        "Durabilidad superior"
+      ],
+      "care_instructions": [
+        "Lavar a máquina programa delicado",
+        "Temperatura máxima 30°C",
+        "Usar productos para colores oscuros",
+        "Secar al aire en lugar ventilado",
+        "Mantener textura con cuidado suave"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-45x45cm-gris-oscuro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 45*45cm - GRIS OSCURO",
+      "category": "cojines",
+      "price": "3.17€",
+      "originalPrice": "3.96€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla cuadrado 45x45cm en gris oscuro. Tamaño estándar con relleno incluido.",
+      "detailed_description": "Cojín decorativo cuadrado de chenilla en tamaño estándar 45x45cm, color gris oscuro elegante. Incluye relleno de calidad que mantiene la forma perfecta. La chenilla de tacto aterciopelado en tono oscuro aporta distinción y carácter a cualquier ambiente decorativo.",
+      "rating": 4.6,
+      "reviews": 31,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-45x45cm-gris-oscuro/principal"
+      ],
+      "features": [
+        "Tamaño estándar popular 45x45cm",
+        "Chenilla con tacto aterciopelado",
+        "Color gris oscuro elegante",
+        "Relleno de calidad incluido",
+        "Aporta distinción",
+        "Carácter decorativo fuerte"
+      ],
+      "specifications": {
+        "dimensions": "45cm x 45cm",
+        "material": "Chenilla aterciopelada 100%",
+        "weight": "450g",
+        "color": "Gris Oscuro",
+        "style": "Caracterológico",
+        "warranty": "2 años"
+      },
+      "benefits": [
+        "Tamaño universalmente aceptado",
+        "Color que aporta personalidad",
+        "Textura lujosa al tacto",
+        "Ideal para sofás estándar",
+        "Combina bien con colores claros"
+      ],
+      "care_instructions": [
+        "Lavado a mano recomendado o máquina delicado",
+        "Agua fría a tibia máximo 30°C",
+        "Detergente suave para oscuros",
+        "Secar horizontalmente sin sol directo",
+        "Cepillar ocasionalmente para mantener textura"
+      ]
+    },
+    {
+      "id": "cojin-decorativo-chenilla-50x50cm-gris-oscuro",
+      "name": "(RELLENO) COJÍN DECORATIVO CHENILLA 50*50cm - GRIS OSCURO",
+      "category": "cojines",
+      "price": "4.57€",
+      "originalPrice": "5.71€",
+      "discount": "20% OFF",
+      "description": "Cojín decorativo de chenilla grande 50x50cm en gris oscuro. Máximo impacto decorativo con relleno incluido.",
+      "detailed_description": "Cojín decorativo de chenilla de gran formato 50x50cm en sofisticado gris oscuro. Incluye relleno premium que proporciona máximo volumen y presencia. La chenilla de calidad superior en tono oscuro crea un elemento decorativo de máximo impacto, aportando elegancia y personalidad excepcionales al espacio.",
+      "rating": 4.9,
+      "reviews": 38,
+      "images": [
+        "images/productos/cojines/cojin-decorativo-chenilla-50x50cm-gris-oscuro/principal"
+      ],
+      "features": [
+        "Formato grande impactante 50x50cm",
+        "Chenilla de calidad superior",
+        "Color gris oscuro sofisticado",
+        "Relleno premium incluido",
+        "Máximo impacto decorativo",
+        "Presencia excepcional"
+      ],
+      "specifications": {
+        "dimensions": "50cm x 50cm",
+        "material": "Chenilla superior 100%",
+        "weight": "550g",
+        "color": "Gris Oscuro",
+        "style": "Impactante Premium",
+        "warranty": "3 años"
+      },
+      "benefits": [
+        "Máximo impacto visual garantizado",
+        "Aporta personalidad al espacio",
+        "Textura de lujo premium",
+        "Perfecto como elemento central",
+        "Calidad excepcional duradera"
+      ],
+      "care_instructions": [
+        "Lavado profesional recomendado",
+        "Si se lava en casa, programa extra delicado",
+        "Temperatura no superior a 30°C",
+        "Secar en posición horizontal en sombra",
+        "Cepillar periódicamente con cuidado especial"
+      ]
+    }
+  ]
+}
