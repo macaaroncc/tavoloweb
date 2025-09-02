@@ -1437,8 +1437,34 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .header-content {
+    /* Header compacto para móvil */
+    .top-header {
+        padding: 6px 0;
+        font-size: 12px;
+    }
+    
+    .contact-info {
         gap: 15px;
+    }
+    
+    .main-header {
+        padding: 10px 0;
+    }
+    
+    .header-content {
+        gap: 10px;
+    }
+    
+    .logo {
+        margin-left: 5px;
+    }
+    
+    .logo img {
+        height: 35px;
+    }
+    
+    .logo h1 {
+        font-size: 20px;
     }
     
     .contact-btn span {
@@ -1446,7 +1472,8 @@ body {
     }
     
     .contact-btn {
-        padding: 12px 15px;
+        padding: 10px 12px;
+        font-size: 12px;
     }
     
     .search-section {
@@ -1457,10 +1484,34 @@ body {
         max-width: 90%;
     }
     
+    .search-bar input {
+        padding: 12px 50px 12px 20px;
+        font-size: 16px;
+    }
+    
+    .search-bar button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    /* Categorías compactas en móvil */
+    .category-menu-wrapper {
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    .category-item a {
+        padding: 10px 6px;
+        font-size: 11px;
+        min-height: 35px;
+        border-radius: 8px;
+    }
+    
     /* Hero responsive */
     .hero {
         background-attachment: scroll;
-        min-height: 500px;
+        min-height: 400px;
     }
     
     .hero::before {
@@ -1474,8 +1525,9 @@ body {
     
     .hero-content {
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
         text-align: center;
+        padding: 30px 15px;
     }
     
     .hero-right {
@@ -1484,13 +1536,62 @@ body {
         max-width: 500px;
     }
     
-    .hero-logo h1 {
-        font-size: 36px;
+    .hero-logo img {
+        height: 60px;
     }
     
+    .hero-logo h1 {
+        font-size: 32px;
+    }
+    
+    .hero-description p {
+        font-size: 16px;
+    }
+    
+    /* Grid de productos con 2 columnas en móvil */
     .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    
+    /* Productos más pequeños en móvil */
+    .product-card {
+        border-radius: 8px;
+    }
+    
+    .product-image {
+        height: 140px;
+    }
+    
+    .product-info {
+        padding: 12px;
+    }
+    
+    .product-name {
+        font-size: 13px;
+        margin-bottom: 6px;
+        line-height: 1.3;
+    }
+    
+    .product-description {
+        font-size: 11px;
+        margin-bottom: 8px;
+        line-height: 1.3;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    
+    .product-price {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .product-discount {
+        font-size: 10px;
+        padding: 1px 6px;
     }
     
     .form-row {
@@ -1506,6 +1607,11 @@ body {
     
     .phone-nav {
         margin-top: 10px;
+    }
+    
+    .section-title {
+        font-size: 26px;
+        margin-bottom: 30px;
     }
 }
 
@@ -2240,34 +2346,128 @@ body {
 }
 
 @media (max-width: 480px) {
-    .hero-text h2 {
-        font-size: 28px;
-    }
-    
-    .hero-text p {
-        font-size: 18px;
-    }
-    
-    .products-grid {
-        grid-template-columns: 1fr;
+    /* Header extra compacto */
+    .top-header {
+        padding: 4px 0;
+        font-size: 11px;
     }
     
     .top-header-content {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
         text-align: center;
     }
     
+    .contact-info {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-header {
+        padding: 8px 0;
+    }
+    
+    .logo img {
+        height: 30px;
+    }
+    
     .logo h1 {
-        font-size: 22px;
+        font-size: 16px;
+    }
+    
+    .contact-btn {
+        padding: 8px 10px;
+        font-size: 11px;
+        border-radius: 20px;
+    }
+    
+    .search-bar input {
+        padding: 10px 45px 10px 16px;
+        font-size: 14px;
+    }
+    
+    .search-bar button {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    /* Categorías ultra compactas */
+    .category-item a {
+        padding: 8px 4px;
+        font-size: 9px;
+        min-height: 30px;
+        text-align: center;
+    }
+    
+    .category-item a span {
+        display: block;
+        line-height: 1.1;
+    }
+    
+    /* Hero más compacto */
+    .hero {
+        min-height: 350px;
+    }
+    
+    .hero-content {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    
+    .hero-logo img {
+        height: 45px;
+    }
+    
+    .hero-logo h1 {
+        font-size: 24px;
+    }
+    
+    .hero-description p {
+        font-size: 14px;
+    }
+    
+    /* Mantener 2 columnas en móvil pequeño */
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    /* Productos aún más pequeños */
+    .product-image {
+        height: 120px;
+    }
+    
+    .product-info {
+        padding: 10px;
+    }
+    
+    .product-name {
+        font-size: 12px;
+        margin-bottom: 4px;
+        line-height: 1.2;
+    }
+    
+    .product-description {
+        font-size: 10px;
+        margin-bottom: 6px;
+        -webkit-line-clamp: 2;
+    }
+    
+    .product-price {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    
+    .product-discount {
+        font-size: 9px;
+        padding: 1px 4px;
     }
     
     .section-title {
-        font-size: 26px;
-    }
-    
-    .product-card {
-        margin-bottom: 15px;
+        font-size: 22px;
+        margin-bottom: 25px;
     }
     
     .contact-form-container {
@@ -2275,24 +2475,24 @@ body {
     }
     
     .about-content h1 {
-        font-size: 32px;
+        font-size: 28px;
     }
     
     .philosophy-section h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .philosophy-content p {
-        font-size: 16px;
+        font-size: 14px;
         text-align: left;
     }
     
     .contact-cta {
-        padding: 30px 20px;
+        padding: 25px 15px;
     }
     
     .contact-cta h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
