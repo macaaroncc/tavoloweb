@@ -1,90 +1,48 @@
-// Datos de productos por categorías
-const productosData = {
-    almohadas: [
-    { name: "Almohada Memory Foam Premium", description: "Espuma viscoelástica de alta densidad. 70x40cm", price: "29.95€", discount: "25% OFF" },
-    { name: "Almohada Cervical Ergonómica", description: "Diseño ortopédico para cuello y cervicales. 60x40cm", price: "34.95€", discount: "20% OFF" },
-    { name: "Almohada Plumas de Ganso", description: "Relleno 100% plumas naturales. 70x40cm", price: "24.95€", discount: "15% OFF" },
-    { name: "Almohada Fibra Hueca Siliconada", description: "Transpirable y lavable. 70x40cm", price: "19.95€", discount: "30% OFF" },
-    { name: "Almohada Látex Natural", description: "100% látex natural transpirable. 70x40cm", price: "39.95€", discount: "10% OFF" },
-    { name: "Almohada Bambú Ecológica", description: "Fibra de bambú antibacteriana. 70x40cm", price: "27.95€", discount: "20% OFF" },
-    { name: "Almohada Gel Cooling", description: "Efecto refrescante toda la noche. 70x40cm", price: "32.95€", discount: "25% OFF" },
-    { name: "Almohada Extra Firme", description: "Soporte máximo para dormida boca abajo. 70x40cm", price: "22.95€", discount: "15% OFF" },
-    { name: "Almohada Ultra Suave", description: "Tacto sedoso y suave. 70x40cm", price: "21.95€", discount: "20% OFF" },
-    { name: "Almohada Antiácaros", description: "Tratamiento hipoalergénico. 70x40cm", price: "26.95€", discount: "18% OFF" },
-    { name: "Almohada King Size", description: "Tamaño extra grande. 90x40cm", price: "35.95€", discount: "22% OFF" },
-    { name: "Almohada para Niños", description: "Tamaño infantil seguro. 50x30cm", price: "16.95€", discount: "25% OFF" },
-    { name: "Almohada Microfibra Premium", description: "Suavidad y durabilidad. 70x40cm", price: "18.95€", discount: "30% OFF" },
-    { name: "Almohada Dual Comfort", description: "Dos firmezas en una. 70x40cm", price: "28.95€", discount: "20% OFF" },
-    { name: "Almohada Aloe Vera", description: "Con extracto natural de aloe. 70x40cm", price: "31.95€", discount: "15% OFF" },
-    { name: "Almohada Plumón Sintético", description: "Tacto de plumón sin alergias. 70x40cm", price: "23.95€", discount: "25% OFF" },
-    { name: "Almohada Viscoelástica", description: "Se adapta perfectamente. 70x40cm", price: "33.95€", discount: "20% OFF" },
-    { name: "Almohada Transpirable 3D", description: "Estructura 3D ultra ventilada. 70x40cm", price: "36.95€", discount: "12% OFF" },
-    { name: "Almohada Cervical Mariposa", description: "Forma anatómica especial. 60x35cm", price: "29.95€", discount: "18% OFF" },
-    { name: "Almohada Térmica", description: "Regula la temperatura corporal. 70x40cm", price: "41.95€", discount: "15% OFF" },
-    { name: "Almohada Espuma HR", description: "Alta resistencia y durabilidad. 70x40cm", price: "25.95€", discount: "22% OFF" },
-    { name: "Almohada Fibra Hueca", description: "Ligera y confortable. 70x40cm", price: "17.95€", discount: "28% OFF" },
-    { name: "Almohada Lavanda", description: "Relleno con esencia de lavanda. 70x40cm", price: "24.95€", discount: "20% OFF" },
-    { name: "Almohada Memory Gel", description: "Viscoelástica con gel. 70x40cm", price: "37.95€", discount: "17% OFF" },
-    { name: "Almohada Microgel", description: "Sensación de frescor. 70x40cm", price: "30.95€", discount: "20% OFF" },
-    { name: "Almohada Ergonómica Plus", description: "Diseño científico avanzado. 70x40cm", price: "42.95€", discount: "10% OFF" },
-    { name: "Almohada Soft Touch", description: "Ultrasuave al tacto. 70x40cm", price: "20.95€", discount: "25% OFF" },
-    { name: "Almohada Plumas de Pato", description: "Relleno natural premium. 70x40cm", price: "26.95€", discount: "22% OFF" },
-    { name: "Almohada Carbón Activado", description: "Propiedades purificadoras. 70x40cm", price: "33.95€", discount: "15% OFF" },
-    { name: "Almohada Pocket Springs", description: "Muelles ensacados independientes. 70x40cm", price: "45.95€", discount: "12% OFF" },
-    { name: "Almohada Orgánica", description: "Materiales 100% orgánicos. 70x40cm", price: "38.95€", discount: "18% OFF" },
-    { name: "Almohada Antibacteriana", description: "Tratamiento antimicrobiano. 70x40cm", price: "27.95€", discount: "20% OFF" },
-    { name: "Almohada Firm Support", description: "Soporte firme para cuello. 70x40cm", price: "24.95€", discount: "25% OFF" },
-    { name: "Almohada Coolmax", description: "Tecnología de refrigeración. 70x40cm", price: "35.95€", discount: "15% OFF" },
-    { name: "Almohada Pluma Sintética", description: "Alternativa vegana a las plumas. 70x40cm", price: "22.95€", discount: "28% OFF" },
-    { name: "Almohada Magnética", description: "Con imanes terapéuticos. 70x40cm", price: "39.95€", discount: "10% OFF" },
-    { name: "Almohada Contour", description: "Forma de contorno cervical. 60x35cm", price: "31.95€", discount: "20% OFF" },
-    { name: "Almohada Soja Memory", description: "Viscoelástica con aceite de soja. 70x40cm", price: "34.95€", discount: "17% OFF" },
-    { name: "Almohada Wellness", description: "Bienestar y relajación. 70x40cm", price: "29.95€", discount: "22% OFF" },
-    { name: "Almohada Blue Cool", description: "Gel azul refrescante. 70x40cm", price: "36.95€", discount: "15% OFF" },
-    { name: "Almohada Luxury Plush", description: "Lujo y confort premium. 70x40cm", price: "43.95€", discount: "12% OFF" },
-    { name: "Almohada Travel Size", description: "Perfecta para viajar. 45x30cm", price: "19.95€", discount: "25% OFF" },
-    { name: "Almohada Híbrida", description: "Combinación de materiales. 70x40cm", price: "32.95€", discount: "20% OFF" },
-    { name: "Almohada Posture Perfect", description: "Corrige la postura al dormir. 70x40cm", price: "37.95€", discount: "15% OFF" },
-    { name: "Almohada Therapeutic", description: "Propiedades terapéuticas. 70x40cm", price: "40.95€", discount: "18% OFF" },
-    { name: "Almohada Cloud Soft", description: "Suavidad como una nube. 70x40cm", price: "25.95€", discount: "25% OFF" },
-    { name: "Almohada Pro Sleep", description: "Diseñada por expertos. 70x40cm", price: "44.95€", discount: "10% OFF" },
-    { name: "Almohada Fresh Air", description: "Máxima ventilación. 70x40cm", price: "28.95€", discount: "22% OFF" },
-    { name: "Almohada Smart Memory", description: "Memoria inteligente. 70x40cm", price: "41.95€", discount: "15% OFF" },
-    { name: "Almohada Dream Comfort", description: "El confort de tus sueños. 70x40cm", price: "26.95€", discount: "20% OFF" }
-    ],
-    cojines: [
-        { name: "Cojín Decorativo Velvet", description: "Terciopelo suave y elegante. 45x45cm", price: "14.95€", discount: "20% OFF" },
-        { name: "Cojín Memory Foam", description: "Espuma viscoelástica adaptable. 40x40cm", price: "19.95€", discount: "25% OFF" },
-        { name: "Cojín Lumbar Ergonómico", description: "Soporte para la espalda. 35x20cm", price: "16.95€", discount: "15% OFF" },
-        { name: "Cojín Piel Sintética", description: "Efecto cuero premium. 50x30cm", price: "22.95€", discount: "18% OFF" },
-        { name: "Cojín Lino Natural", description: "100% lino transpirable. 45x45cm", price: "17.95€", discount: "22% OFF" },
-        { name: "Cojín Bordado Artesanal", description: "Diseño único hecho a mano. 40x40cm", price: "24.95€", discount: "20% OFF" }
-    ],
-    edredones: [
-        { name: "Edredón Nórdico 4 Estaciones", description: "Adaptable a cualquier época. 240x220cm", price: "89.95€", discount: "30% OFF" },
-        { name: "Edredón Plumón Natural", description: "Relleno de plumón de ganso. 240x220cm", price: "129.95€", discount: "25% OFF" },
-        { name: "Edredón Fibra Hueca", description: "Ligero y cálido. 240x220cm", price: "59.95€", discount: "35% OFF" },
-        { name: "Edredón Bambú Ecológico", description: "Sostenible y antibacteriano. 240x220cm", price: "79.95€", discount: "28% OFF" },
-        { name: "Edredón Microfibra", description: "Fácil lavado y secado. 240x220cm", price: "49.95€", discount: "40% OFF" },
-        { name: "Edredón Luxury Premium", description: "Máxima calidad y confort. 240x220cm", price: "159.95€", discount: "20% OFF" }
-    ],
-    relleno: [
-        { name: "Relleno Fibra Hueca 500g", description: "Para almohadas y cojines. Bolsa 500g", price: "8.95€", discount: "25% OFF" },
-        { name: "Relleno Plumón Sintético 1kg", description: "Tacto suave y natural. Bolsa 1kg", price: "15.95€", discount: "30% OFF" },
-        { name: "Relleno Memory Foam Triturado", description: "Espuma viscoelástica. Bolsa 500g", price: "12.95€", discount: "20% OFF" },
-        { name: "Relleno Micro Perlas", description: "Microesferas adaptables. Bolsa 300g", price: "18.95€", discount: "15% OFF" },
-        { name: "Relleno Bambú Natural", description: "Fibra de bambú ecológica. Bolsa 400g", price: "11.95€", discount: "28% OFF" },
-        { name: "Relleno Algodón Orgánico", description: "100% algodón certificado. Bolsa 600g", price: "14.95€", discount: "22% OFF" }
-    ],
-    mascotas: [
-        { name: "Cama Ortopédica para Perros", description: "Memory foam para articulaciones. Talla L", price: "49.95€", discount: "25% OFF" },
-        { name: "Cojín Anti-ansiedad Gatos", description: "Reduce estrés felino. 40x30cm", price: "24.95€", discount: "20% OFF" },
-        { name: "Manta Termoreguladora", description: "Para todas las estaciones. 80x60cm", price: "19.95€", discount: "30% OFF" },
-        { name: "Almohada Cervical Canina", description: "Soporte para cuello de perro. Talla M", price: "32.95€", discount: "18% OFF" },
-        { name: "Cojín Calefactor Mascotas", description: "Calor suave y seguro. 35x25cm", price: "27.95€", discount: "22% OFF" },
-        { name: "Edredón Impermeable", description: "A prueba de accidentes. 70x50cm", price: "21.95€", discount: "25% OFF" }
-    ]
+// Variables globales
+let productosData = {
+    almohadas: [],
+    cojines: [],
+    edredones: [],
+    relleno: [],
+    mascotas: []
 };
+
+// Función para cargar productos desde JSON
+async function loadProductsData() {
+    try {
+        const response = await fetch('productos.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        productosData = data;
+        console.log('Productos cargados exitosamente desde JSON');
+        return data;
+    } catch (error) {
+        console.error('Error cargando productos:', error);
+        // Mantener datos vacíos en caso de error
+        return productosData;
+    }
+}
+
+// Función para cargar imagen con detección automática de extensión
+function loadProductImage(imagePath) {
+    return new Promise((resolve) => {
+        const img = new Image();
+        
+        // Primero intentar con .jpg
+        img.onload = () => resolve(imagePath + '.jpg');
+        img.onerror = () => {
+            // Si falla, intentar con .jpeg
+            const imgJpeg = new Image();
+            imgJpeg.onload = () => resolve(imagePath + '.jpeg');
+            imgJpeg.onerror = () => resolve(null); // Si ambas fallan, devolver null
+            imgJpeg.src = imagePath + '.jpeg';
+        };
+        
+        img.src = imagePath + '.jpg';
+    });
+}
 
 // Variables globales
 let currentPage = 1;
@@ -103,10 +61,16 @@ function getAllProducts() {
 
 // Función para crear una tarjeta de producto
 function createProductCard(product, index) {
-    return `
+    const imageId = `product-image-${index}`;
+    
+    // Crear la tarjeta inicialmente con placeholder
+    const cardHtml = `
         <div class="product-card" onclick="showProductDetails(${index})">
-            <div class="product-image">
-                <span>Imagen del producto</span>
+            <div class="product-image" id="${imageId}">
+                <div class="image-placeholder">
+                    <i class="fas fa-image"></i>
+                    <span>Cargando imagen...</span>
+                </div>
             </div>
             <div class="product-info">
                 <div class="product-name">${product.name}</div>
@@ -116,6 +80,41 @@ function createProductCard(product, index) {
             </div>
         </div>
     `;
+    
+    // Cargar imagen asíncronamente si existe la ruta
+    if (product.images && product.images.length > 0) {
+        setTimeout(async () => {
+            const imageContainer = document.getElementById(imageId);
+            if (imageContainer) {
+                const imagePath = await loadProductImage(product.images[0]);
+                if (imagePath) {
+                    imageContainer.innerHTML = `<img src="${imagePath}" alt="${product.name}" class="product-main-image">`;
+                } else {
+                    imageContainer.innerHTML = `
+                        <div class="image-placeholder no-image">
+                            <i class="fas fa-image"></i>
+                            <span>Sin imagen</span>
+                        </div>
+                    `;
+                }
+            }
+        }, 100);
+    } else {
+        // Si no hay imagen definida, mostrar placeholder permanente
+        setTimeout(() => {
+            const imageContainer = document.getElementById(imageId);
+            if (imageContainer) {
+                imageContainer.innerHTML = `
+                    <div class="image-placeholder no-image">
+                        <i class="fas fa-image"></i>
+                        <span>Sin imagen</span>
+                    </div>
+                `;
+            }
+        }, 100);
+    }
+    
+    return cardHtml;
 }
 
 // Función para mostrar productos de una página específica
@@ -237,8 +236,9 @@ function createPaginationButton(text, page, isActive, title = '') {
 function showProductDetails(index) {
     const product = currentProducts[index];
     
-    // Crear ID del producto basado en el nombre
-    const productId = createProductId(product.name);
+    // Si el producto tiene un ID definido, usarlo directamente
+    // Si no, crear ID basado en el nombre (para compatibilidad)
+    const productId = product.id || createProductId(product.name);
     
     // Navegar a la página de producto individual
     window.location.href = `producto.html?id=${productId}`;
@@ -267,10 +267,42 @@ function selectCategory(category, element) {
     // Actualizar categoría actual
     currentCategory = category;
     
-    // Si es "todo", obtener todos los productos, sino la categoría específica
+    // Si es "todo", obtener todos los productos
     if (category === 'todo') {
         currentProducts = getAllProducts();
-    } else {
+    } 
+    // Si es "cojines", buscar productos que contengan "cojin", "cojín" o "cojines"
+    else if (category === 'cojines') {
+        currentProducts = [];
+        const searchTerms = ['cojin', 'cojín', 'cojines'];
+        
+        // Buscar en todas las categorías productos que contengan estas palabras
+        Object.keys(productosData).forEach(cat => {
+            productosData[cat].forEach(product => {
+                const productText = (product.name + ' ' + product.description).toLowerCase();
+                if (searchTerms.some(term => productText.includes(term))) {
+                    currentProducts.push(product);
+                }
+            });
+        });
+    }
+    // Si es "relleno", buscar productos que contengan "relleno"
+    else if (category === 'relleno') {
+        currentProducts = [];
+        const searchTerm = 'relleno';
+        
+        // Buscar en todas las categorías productos que contengan "relleno"
+        Object.keys(productosData).forEach(cat => {
+            productosData[cat].forEach(product => {
+                const productText = (product.name + ' ' + product.description).toLowerCase();
+                if (productText.includes(searchTerm)) {
+                    currentProducts.push(product);
+                }
+            });
+        });
+    }
+    // Para otras categorías, usar el comportamiento normal
+    else {
         currentProducts = productosData[category] || [];
     }
     
@@ -521,7 +553,10 @@ function handleMobileNavigation() {
 }
 
 // Inicialización cuando se carga la página
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Cargar productos desde JSON
+    await loadProductsData();
+    
     // Inicializar con todos los productos
     currentProducts = getAllProducts();
     currentCategory = 'todo';

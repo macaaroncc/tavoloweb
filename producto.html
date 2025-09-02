@@ -30,27 +30,56 @@
         .main-image {
             width: 100%;
             height: 400px;
-            background: #f5f5f5;
-            border-radius: 12px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #666;
             font-size: 16px;
-            border: 2px dashed #ddd;
+            border: 2px dashed rgba(238, 36, 51, 0.2);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-main-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 13px;
+            display: block;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 16px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .main-image:hover {
+            border-color: rgba(238, 36, 51, 0.4);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
 
         .image-thumbnails {
             display: flex;
-            gap: 10px;
+            gap: 12px;
         }
 
         .thumbnail {
             width: 80px;
             height: 80px;
-            background: #f5f5f5;
-            border-radius: 8px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
             cursor: pointer;
             border: 2px solid transparent;
             display: flex;
@@ -58,11 +87,19 @@
             justify-content: center;
             color: #999;
             font-size: 12px;
-            transition: border-color 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .thumbnail:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(238, 36, 51, 0.2);
         }
 
         .thumbnail.active {
-            border-color: #2c5aa0;
+            border-color: #ee2433;
+            background: linear-gradient(135deg, rgba(238, 36, 51, 0.1) 0%, rgba(208, 30, 42, 0.1) 100%);
+            transform: translateY(-2px);
         }
 
         .product-info {
@@ -77,8 +114,13 @@
         }
 
         .breadcrumb a {
-            color: #2c5aa0;
+            color: #ee2433;
             text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: #d01e2a;
         }
 
         .product-title {
@@ -107,12 +149,16 @@
 
         .product-price-section {
             margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 15px;
+            border: 1px solid rgba(238, 36, 51, 0.1);
         }
 
         .current-price {
             font-size: 2.2rem;
             font-weight: bold;
-            color: #e74c3c;
+            color: #ee2433;
             margin-right: 15px;
         }
 
@@ -124,12 +170,19 @@
         }
 
         .discount-badge {
-            background: #e74c3c;
+            background: linear-gradient(135deg, #ee2433 0%, #d01e2a 100%);
             color: white;
-            padding: 5px 12px;
-            border-radius: 20px;
+            padding: 8px 16px;
+            border-radius: 25px;
             font-size: 0.9rem;
             font-weight: bold;
+            box-shadow: 0 4px 15px rgba(238, 36, 51, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
 
         .product-description {
@@ -137,6 +190,10 @@
             color: #555;
             line-height: 1.6;
             margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(248, 249, 250, 0.5);
+            border-radius: 12px;
+            border-left: 4px solid #ee2433;
         }
 
         .action-buttons {
@@ -146,41 +203,80 @@
         }
 
         .btn-primary {
-            background: #2c5aa0;
+            background: linear-gradient(135deg, #ee2433 0%, #d01e2a 100%);
             color: white;
-            padding: 15px 30px;
+            padding: 16px 32px;
             border: none;
-            border-radius: 8px;
+            border-radius: 30px;
             font-size: 1.1rem;
             font-weight: bold;
             cursor: pointer;
-            transition: background 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             flex: 1;
+            box-shadow: 0 6px 20px rgba(238, 36, 51, 0.3), inset 0 1px 0 rgba(255,255,255,0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
         }
 
         .btn-primary:hover {
-            background: #1e3d72;
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(238, 36, 51, 0.4), inset 0 1px 0 rgba(255,255,255,0.3);
+        }
+
+        .btn-primary:hover::before {
+            transform: translateX(100%);
         }
 
         .btn-secondary {
             background: transparent;
-            color: #2c5aa0;
-            padding: 15px 30px;
-            border: 2px solid #2c5aa0;
-            border-radius: 8px;
+            color: #ee2433;
+            padding: 16px 32px;
+            border: 2px solid #ee2433;
+            border-radius: 30px;
             font-size: 1.1rem;
             font-weight: bold;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-secondary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #ee2433 0%, #d01e2a 100%);
+            transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
         }
 
         .btn-secondary:hover {
-            background: #2c5aa0;
             color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(238, 36, 51, 0.3);
+        }
+
+        .btn-secondary:hover::before {
+            left: 0;
         }
 
         .product-details-tabs {
-            border-top: 1px solid #eee;
+            border-top: 2px solid rgba(238, 36, 51, 0.1);
             padding-top: 40px;
         }
 
@@ -189,27 +285,55 @@
             gap: 0;
             margin-bottom: 30px;
             border-bottom: 1px solid #eee;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-radius: 12px 12px 0 0;
+            overflow: hidden;
         }
 
         .tab-button {
             background: none;
             border: none;
-            padding: 15px 25px;
+            padding: 18px 30px;
             font-size: 1rem;
             font-weight: 600;
             color: #666;
             cursor: pointer;
             border-bottom: 3px solid transparent;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
         }
 
-        .tab-button.active {
-            color: #2c5aa0;
-            border-bottom-color: #2c5aa0;
+        .tab-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(238, 36, 51, 0.1) 0%, rgba(208, 30, 42, 0.1) 100%);
+            transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+        }
+
+        .tab-button.active,
+        .tab-button:hover {
+            color: #ee2433;
+            border-bottom-color: #ee2433;
+            transform: translateY(-2px);
+        }
+
+        .tab-button.active::before,
+        .tab-button:hover::before {
+            left: 0;
         }
 
         .tab-content {
             display: none;
+            padding: 30px;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
         }
 
         .tab-content.active {
@@ -222,59 +346,107 @@
         }
 
         .features-list li {
-            padding: 8px 0;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(238, 36, 51, 0.1);
             position: relative;
-            padding-left: 25px;
+            padding-left: 35px;
+            transition: all 0.3s ease;
+        }
+
+        .features-list li:hover {
+            background: rgba(238, 36, 51, 0.05);
+            padding-left: 40px;
         }
 
         .features-list li:before {
             content: "✓";
-            color: #27ae60;
+            color: #ee2433;
             font-weight: bold;
             position: absolute;
             left: 0;
+            top: 12px;
+            width: 25px;
+            height: 25px;
+            background: rgba(238, 36, 51, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
         }
 
         .specifications-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
 
         .spec-item {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(238, 36, 51, 0.1);
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .spec-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(238, 36, 51, 0.15);
+            border-color: rgba(238, 36, 51, 0.2);
         }
 
         .spec-label {
             font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 5px;
+            color: #ee2433;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
         }
 
         .spec-value {
             color: #555;
+            font-size: 1rem;
         }
 
         .back-button {
-            background: #6c757d;
+            background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
             color: white;
-            padding: 10px 20px;
+            padding: 12px 24px;
             border: none;
-            border-radius: 5px;
+            border-radius: 25px;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
             margin-bottom: 30px;
-            transition: background 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(108, 117, 125, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .back-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
         }
 
         .back-button:hover {
-            background: #5a6268;
+            background: linear-gradient(135deg, #5a6268 0%, #495057 100%);
             color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(108, 117, 125, 0.4);
+        }
+
+        .back-button:hover::before {
+            transform: translateX(100%);
         }
 
         .loading {
@@ -286,7 +458,7 @@
         .error {
             text-align: center;
             padding: 100px 20px;
-            color: #e74c3c;
+            color: #ee2433;
         }
 
         /* Responsive */
@@ -311,6 +483,11 @@
             .tab-button {
                 flex: 1;
                 min-width: 120px;
+                padding: 12px 20px;
+            }
+
+            .specifications-grid {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -331,9 +508,9 @@
                 </div>
                 
                 <div class="header-contact">
-                    <a href="tel:+34655586462" class="contact-btn">
+                    <a href="tel:+34636215696" class="contact-btn">
                         <i class="fas fa-phone"></i>
-                        <span>655 586 462</span>
+                        <span>636 215 696</span>
                     </a>
                 </div>
             </div>
@@ -372,7 +549,7 @@
                 <div class="side-contact">
                     <div class="side-contact-item">
                         <i class="fas fa-phone"></i>
-                        <span>655 586 462</span>
+                        <span>636 215 696</span>
                     </div>
                     <div class="side-contact-item">
                         <i class="fas fa-envelope"></i>
@@ -527,7 +704,7 @@
                         </div>
                         <div class="footer-phone">
                             <i class="fas fa-phone"></i>
-                            <span>655 586 462</span>
+                            <span>636 215 696</span>
                         </div>
                         <div class="footer-email">
                             <i class="fas fa-envelope"></i>
@@ -539,6 +716,7 @@
         </div>
     </footer>
 
+    <script src="image-loader.js"></script>
     <script src="script.js"></script>
     <script src="script-producto.js"></script>
 </body>

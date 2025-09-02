@@ -1,231 +1,1500 @@
-{
-  "almohadas": [
-    {
-      "id": "almohada-memory-foam-premium",
-      "name": "Almohada Memory Foam Premium",
-      "category": "almohadas",
-      "price": "29.95€",
-      "originalPrice": "39.95€",
-      "discount": "25% OFF",
-      "rating": 4.8,
-      "reviews": 127,
-      "images": [
-        "images/productos/almohadas/memory-foam-premium/principal.jpg",
-        "images/productos/almohadas/memory-foam-premium/detalle1.jpg",
-        "images/productos/almohadas/memory-foam-premium/detalle2.jpg"
-      ],
-      "description": "Espuma viscoelástica de alta densidad. 70x40cm",
-      "detailed_description": "Nuestra almohada Memory Foam Premium está diseñada con espuma viscoelástica de alta densidad que se adapta perfectamente a la forma de tu cabeza y cuello, proporcionando un soporte óptimo durante toda la noche. La tecnología de memoria térmica permite que la almohada regrese a su forma original después de cada uso, garantizando durabilidad y confort constante.",
-      "specifications": {
-        "dimensions": "70x40x12cm",
-        "material": "Espuma viscoelástica de alta densidad",
-        "cover": "Funda de algodón 100% transpirable",
-        "firmness": "Media-Alta",
-        "weight": "1.2kg",
-        "warranty": "2 años",
-        "certifications": ["OEKO-TEX", "CertiPUR"]
-      },
-      "features": [
-        "Espuma viscoelástica de alta densidad (50kg/m³)",
-        "Transpirable y termorreguladora",
-        "Funda lavable incluida con cremallera",
-        "Hipoalergénica y antibacteriana",
-        "Diseño ergonómico para alineación cervical",
-        "Resistente a ácaros y hongos"
-      ],
-      "benefits": [
-        "Reduce dolores de cuello y cervicales",
-        "Mejora la calidad del sueño",
-        "Mantiene la temperatura ideal",
-        "Duradera y resistente al desgaste"
-      ],
-      "care_instructions": [
-        "Funda lavable a máquina (30°C)",
-        "Núcleo no lavable - solo limpieza en seco",
-        "Airear regularmente",
-        "No exponer a luz solar directa"
-      ]
-    },
-    {
-      "id": "almohada-cervical-ergonomica",
-      "name": "Almohada Cervical Ergonómica",
-      "category": "almohadas",
-      "price": "34.95€",
-      "originalPrice": "43.95€",
-      "discount": "20% OFF",
-      "rating": 4.6,
-      "reviews": 89,
-      "images": [
-        "images/productos/almohadas/cervical-ergonomica/principal.jpg",
-        "images/productos/almohadas/cervical-ergonomica/detalle1.jpg"
-      ],
-      "description": "Diseño ortopédico para cuello y cervicales. 60x40cm",
-      "detailed_description": "Diseñada específicamente para personas con problemas cervicales, esta almohada ortopédica cuenta con una forma contorneada que mantiene la alineación natural de la columna vertebral. Su núcleo de espuma de alta resistencia proporciona el soporte necesario para reducir tensiones y dolores cervicales.",
-      "specifications": {
-        "dimensions": "60x40x10/12cm",
-        "material": "Espuma HR + Memory Foam",
-        "cover": "Tejido Coolmax transpirable",
-        "firmness": "Firme",
-        "weight": "1.1kg",
-        "warranty": "3 años",
-        "certifications": ["Certificado Ortopédico"]
-      },
-      "features": [
-        "Diseño contorneado ortopédico",
-        "Doble altura para diferentes posiciones",
-        "Núcleo de espuma HR de 35kg/m³",
-        "Capa superior de Memory Foam",
-        "Funda Coolmax thermoreguladora"
-      ],
-      "benefits": [
-        "Alivia dolores cervicales",
-        "Mejora la postura al dormir",
-        "Reduce ronquidos",
-        "Recomendada por fisioterapeutas"
-      ],
-      "care_instructions": [
-        "Funda lavable a 40°C",
-        "Núcleo ventilable al aire",
-        "Rotar cada 2 semanas",
-        "Usar protector adicional si es necesario"
-      ]
-    },
-    {
-      "id": "almohada-plumas-ganso",
-      "name": "Almohada Plumas de Ganso",
-      "category": "almohadas",
-      "price": "24.95€",
-      "originalPrice": "29.95€",
-      "discount": "15% OFF",
-      "rating": 4.4,
-      "reviews": 156,
-      "images": [
-        "images/productos/almohadas/plumas-ganso/principal.jpg",
-        "images/productos/almohadas/plumas-ganso/detalle1.jpg"
-      ],
-      "description": "Relleno 100% plumas naturales. 70x40cm",
-      "detailed_description": "Almohada tradicional rellena con plumas de ganso seleccionadas, ofreciendo la suavidad y adaptabilidad que solo los materiales naturales pueden proporcionar. Cada pluma es cuidadosamente tratada y esterilizada para garantizar higiene y durabilidad.",
-      "specifications": {
-        "dimensions": "70x40x15cm",
-        "material": "100% plumas de ganso naturales",
-        "cover": "Algodón percal 200 hilos",
-        "firmness": "Suave-Media",
-        "weight": "0.8kg",
-        "warranty": "1 año",
-        "certifications": ["RDS Certified"]
-      },
-      "features": [
-        "Plumas de ganso 100% naturales",
-        "Tratamiento antiácaros",
-        "Funda de algodón percal premium",
-        "Regulación natural de temperatura",
-        "Moldeable y adaptable"
-      ],
-      "benefits": [
-        "Transpirable y fresca",
-        "Se adapta a tu forma de dormir",
-        "Material natural y sostenible",
-        "Sensación tradicional y cómoda"
-      ],
-      "care_instructions": [
-        "Lavado profesional recomendado",
-        "Airear frecuentemente",
-        "Sacudir regularmente",
-        "Proteger de humedad"
-      ]
-    }
-  ],
-  "cojines": [
-    {
-      "id": "cojin-decorativo-velvet",
-      "name": "Cojín Decorativo Velvet",
-      "category": "cojines",
-      "price": "14.95€",
-      "originalPrice": "18.95€",
-      "discount": "20% OFF",
-      "rating": 4.7,
-      "reviews": 203,
-      "images": [
-        "images/productos/cojines/decorativo-velvet/principal.jpg",
-        "images/productos/cojines/decorativo-velvet/colores.jpg"
-      ],
-      "description": "Terciopelo suave y elegante. 45x45cm",
-      "detailed_description": "Cojín decorativo de terciopelo premium que aporta elegancia y sofisticación a cualquier espacio. Su textura suave y rica en matices crea un ambiente acogedor y lujoso. Disponible en múltiples colores para combinar con cualquier decoración.",
-      "specifications": {
-        "dimensions": "45x45x12cm",
-        "material": "Terciopelo 100% poliéster",
-        "filling": "Fibra hueca siliconada",
-        "colors": ["Azul marino", "Gris perla", "Verde esmeralda", "Burdeos", "Dorado"],
-        "weight": "0.4kg",
-        "warranty": "1 año"
-      },
-      "features": [
-        "Terciopelo premium ultra suave",
-        "Cremallera invisible",
-        "Relleno hipoalergénico",
-        "Resistente a decoloración",
-        "Fácil mantenimiento"
-      ],
-      "benefits": [
-        "Aporta elegancia al hogar",
-        "Tacto sedoso y lujoso",
-        "Múltiples opciones de color",
-        "Fácil de combinar"
-      ],
-      "care_instructions": [
-        "Lavado en seco recomendado",
-        "Si es necesario, lavar a mano con agua fría",
-        "No usar lejía",
-        "Secar al aire libre"
-      ]
-    }
-  ],
-  "edredones": [
-    {
-      "id": "edredon-nordico-4-estaciones",
-      "name": "Edredón Nórdico 4 Estaciones",
-      "category": "edredones",
-      "price": "89.95€",
-      "originalPrice": "129.95€",
-      "discount": "30% OFF",
-      "rating": 4.9,
-      "reviews": 342,
-      "images": [
-        "images/productos/edredones/nordico-4-estaciones/principal.jpg",
-        "images/productos/edredones/nordico-4-estaciones/detalle1.jpg",
-        "images/productos/edredones/nordico-4-estaciones/detalle2.jpg"
-      ],
-      "description": "Adaptable a cualquier época. 240x220cm",
-      "detailed_description": "El edredón nórdico 4 estaciones es la solución perfecta para todo el año. Consta de dos piezas que se pueden usar por separado o unir mediante corchetes para crear diferentes niveles de calor según la temporada. Fabricado con materiales de primera calidad que garantizan confort y durabilidad.",
-      "specifications": {
-        "dimensions": "240x220cm",
-        "material": "Microfibra premium",
-        "filling": "Fibra hueca siliconada 300g/m²",
-        "tog_rating": "4.5 (individual) / 13.5 (unidos)",
-        "weight": "2.1kg",
-        "warranty": "5 años",
-        "certifications": ["OEKO-TEX Standard 100"]
-      },
-      "features": [
-        "Sistema 2 en 1 con corchetes",
-        "Distribución uniforme del relleno",
-        "Costuras reforzadas",
-        "Esquinas con lazos de sujeción",
-        "Transpirable y termorregulador",
-        "Lavable a máquina"
-      ],
-      "benefits": [
-        "Perfecto para todas las estaciones",
-        "Ahorro de espacio de almacenamiento",
-        "Versatilidad térmica",
-        "Excelente relación calidad-precio"
-      ],
-      "care_instructions": [
-        "Lavable a máquina 40°C",
-        "Usar detergente suave",
-        "Secado en secadora a baja temperatura",
-        "Airear regularmente"
-      ]
-    }
-  ]
+﻿{
+    "almohadas":  [
+                      {
+                          "id":  "relleno-almohada-microfibra-70cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 70CM",
+                          "category":  "almohadas",
+                          "price":  "3.53€",
+                          "originalPrice":  "4.41€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 70cm. Suave y cómodo para un descanso perfecto.",
+                          "detailed_description":  "Relleno de microfibra premium diseñado específicamente para almohadas de 70cm. La microfibra de alta calidad proporciona una suavidad excepcional y un confort superior para garantizar un descanso perfecto. Este relleno mantiene su forma original por mucho tiempo y es resistente al lavado.",
+                          "rating":  4.5,
+                          "reviews":  23,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-70cm/principal"
+                                     ],
+                          "features":  [
+                                           "Microfibra de alta calidad",
+                                           "Suave y cómodo al tacto",
+                                           "Mantiene la forma original",
+                                           "Resistente al lavado",
+                                           "Hipoalergénico",
+                                           "Transpirable"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "70cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "500g",
+                                                 "cover":  "Algodón",
+                                                 "firmness":  "Media",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Mejor calidad de sueño",
+                                           "Soporte adecuado para cuello y cabeza",
+                                           "Fácil mantenimiento",
+                                           "Durabilidad superior",
+                                           "Confort personalizable"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "No usar lejía",
+                                                    "Secar al aire o secadora a baja temperatura",
+                                                    "Agitar periódicamente para mantener volumen",
+                                                    "Cambiar funda regularmente"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-almohada-microfibra-80cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 80CM",
+                          "category":  "almohadas",
+                          "price":  "3.85€",
+                          "originalPrice":  "4.81€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 80cm. Ideal para almohadas estándar.",
+                          "detailed_description":  "Relleno de microfibra premium para almohadas de tamaño estándar de 80cm. Fabricado con las mejores fibras sintéticas que proporcionan un equilibrio perfecto entre suavidad y soporte. Ideal para todo tipo de durmientes.",
+                          "rating":  4.6,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-80cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 80cm",
+                                           "Microfibra premium",
+                                           "Equilibrio perfecto suavidad/soporte",
+                                           "Adaptable a diferentes posiciones",
+                                           "Hipoalergénico",
+                                           "Lavable en casa"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "80cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "600g",
+                                                 "cover":  "Algodón",
+                                                 "firmness":  "Media",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tamaño universal compatible",
+                                           "Confort adaptable",
+                                           "Fácil cuidado en casa",
+                                           "Resistente al desgaste",
+                                           "Relación calidad-precio excelente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "No planchar directamente",
+                                                    "Ventilar regularmente",
+                                                    "Proteger con funda"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-almohada-microfibra-90cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 90CM",
+                          "category":  "almohadas",
+                          "price":  "4.42€",
+                          "originalPrice":  "5.53€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 90cm. Perfecto para almohadas grandes.",
+                          "detailed_description":  "Relleno de microfibra de calidad superior diseñado para almohadas grandes de 90cm. Perfecto para quienes prefieren almohadas de mayor tamaño. La microfibra utilizada es especialmente suave y proporciona un soporte óptimo.",
+                          "rating":  4.7,
+                          "reviews":  28,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-90cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño grande 90cm",
+                                           "Microfibra extra suave",
+                                           "Soporte óptimo",
+                                           "Ideal para almohadas grandes",
+                                           "Durabilidad excepcional",
+                                           "Fácil mantenimiento"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "90cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "700g",
+                                                 "cover":  "Algodón",
+                                                 "firmness":  "Media-Alta",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Espacio amplio para descanso",
+                                           "Soporte extendido",
+                                           "Confort duradero",
+                                           "Versatilidad de uso",
+                                           "Calidad profesional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar separadamente",
+                                                    "Usar programa delicado",
+                                                    "Secar completamente antes de usar",
+                                                    "Agitar para mantener forma",
+                                                    "Almacenar en lugar seco"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-almohada-microfibra-105cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 105CM",
+                          "category":  "almohadas",
+                          "price":  "4.98€",
+                          "originalPrice":  "6.23€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 105cm. Tamaño extra largo para máximo confort.",
+                          "detailed_description":  "Relleno de microfibra premium para almohadas extra largas de 105cm. Diseñado para proporcionar máximo confort con un tamaño generoso que se adapta perfectamente a camas grandes y personas que requieren más espacio para descansar.",
+                          "rating":  4.4,
+                          "reviews":  19,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-105cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño extra largo 105cm",
+                                           "Confort máximo",
+                                           "Microfibra premium",
+                                           "Ideal para camas grandes",
+                                           "Espacio generoso",
+                                           "Adaptabilidad superior"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "105cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "800g",
+                                                 "cover":  "Algodón",
+                                                 "firmness":  "Media",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tamaño generoso",
+                                           "Confort extendido",
+                                           "Adaptación perfecta a camas grandes",
+                                           "Versatilidad de posiciones",
+                                           "Calidad duradera"
+                                       ],
+                          "care_instructions":  [
+                                                    "Requiere lavadora de carga grande",
+                                                    "Lavar con agua fría",
+                                                    "Secar al aire preferiblemente",
+                                                    "Voltear periódicamente",
+                                                    "Mantener forma con uso regular"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-almohada-microfibra-135cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 135CM",
+                          "category":  "almohadas",
+                          "price":  "5.85€",
+                          "originalPrice":  "7.31€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 135cm. Perfecto para almohadas matrimoniales.",
+                          "detailed_description":  "Relleno de microfibra de calidad superior diseñado específicamente para almohadas matrimoniales de 135cm. Perfecto para parejas que desean compartir una almohada grande o para quienes prefieren el máximo espacio de descanso.",
+                          "rating":  4.8,
+                          "reviews":  35,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-135cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño matrimonial 135cm",
+                                           "Ideal para parejas",
+                                           "Microfibra de calidad superior",
+                                           "Espacio amplio de descanso",
+                                           "Confort compartido",
+                                           "Durabilidad excepcional"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "135cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "1000g",
+                                                 "cover":  "Algodón",
+                                                 "firmness":  "Media",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para camas matrimoniales",
+                                           "Confort para dos personas",
+                                           "Ahorro de espacio",
+                                           "Uniformidad en el descanso",
+                                           "Económico para parejas"
+                                       ],
+                          "care_instructions":  [
+                                                    "Usar lavadora industrial o lavandería",
+                                                    "Lavar con productos suaves",
+                                                    "Secar completamente",
+                                                    "Rotar regularmente",
+                                                    "Proteger con fundas de calidad"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-almohada-microfibra-150cm",
+                          "name":  "RELLENO ALMOHADA MICROFIBRA 150CM",
+                          "category":  "almohadas",
+                          "price":  "6.29€",
+                          "originalPrice":  "7.86€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno para almohada de microfibra de alta calidad, 150cm. Tamaño king size para máximo lujo.",
+                          "detailed_description":  "Relleno de microfibra premium de tamaño king size de 150cm. Representa el máximo lujo en almohadas, proporcionando un espacio generoso y confort superior. Ideal para camas king size y para quienes buscan la experiencia de descanso más lujosa.",
+                          "rating":  4.9,
+                          "reviews":  42,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-almohada-microfibra-150cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño king size 150cm",
+                                           "Máximo lujo y confort",
+                                           "Microfibra premium",
+                                           "Experiencia de hotel 5 estrellas",
+                                           "Espacio generoso",
+                                           "Calidad excepcional"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "150cm x 45cm",
+                                                 "material":  "Microfibra 100%",
+                                                 "weight":  "1200g",
+                                                 "cover":  "Algodón premium",
+                                                 "firmness":  "Media-Suave",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Experiencia de lujo en casa",
+                                           "Confort king size",
+                                           "Inversión en calidad de sueño",
+                                           "Durabilidad superior",
+                                           "Estatus premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Limpieza profesional recomendada",
+                                                    "Si se lava en casa, usar lavadora grande",
+                                                    "Secar en instalaciones adecuadas",
+                                                    "Mantenimiento profesional anual",
+                                                    "Proteger con fundas premium"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-tnt-almohada-80cm",
+                          "name":  "RELLENO TNT ALMOHADA 80CM",
+                          "category":  "almohadas",
+                          "price":  "3.20€",
+                          "originalPrice":  "3.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno TNT (tela no tejida) para almohada de 80cm. Material resistente que mantiene su forma y firmeza ideal.",
+                          "detailed_description":  "Relleno fabricado con tecnología TNT (Tela No Tejida) para almohadas de 80cm. Este material innovador proporciona una firmeza superior y mantiene su forma original por mucho más tiempo que los rellenos tradicionales. Ideal para quienes buscan soporte firme y durabilidad.",
+                          "rating":  4.3,
+                          "reviews":  26,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-tnt-almohada-80cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tecnología TNT avanzada",
+                                           "Firmeza superior",
+                                           "Mantiene forma original",
+                                           "Durabilidad excepcional",
+                                           "Soporte firme",
+                                           "Resistente al desgaste"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "80cm x 45cm",
+                                                 "material":  "Tela No Tejida (TNT)",
+                                                 "weight":  "550g",
+                                                 "cover":  "Polipropileno",
+                                                 "firmness":  "Firme",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Soporte cervical óptimo",
+                                           "Durabilidad profesional",
+                                           "Mantiene propiedades por años",
+                                           "Resistente a deformaciones",
+                                           "Relación precio-durabilidad excelente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina temperatura media",
+                                                    "No usar suavizantes",
+                                                    "Secar al aire preferiblemente",
+                                                    "No requiere agitado especial",
+                                                    "Resistente a lavados frecuentes"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-tnt-almohada-90cm",
+                          "name":  "RELLENO TNT ALMOHADA 90CM",
+                          "category":  "almohadas",
+                          "price":  "3.47€",
+                          "originalPrice":  "4.33€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno TNT (tela no tejida) para almohada de 90cm. Durabilidad superior para almohadas grandes.",
+                          "detailed_description":  "Relleno TNT de alta calidad diseñado para almohadas grandes de 90cm. La tecnología de tela no tejida proporciona una durabilidad superior y mantiene las propiedades de soporte a lo largo del tiempo, siendo ideal para uso intensivo.",
+                          "rating":  4.4,
+                          "reviews":  22,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-tnt-almohada-90cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño grande 90cm",
+                                           "Tecnología TNT superior",
+                                           "Durabilidad profesional",
+                                           "Soporte consistente",
+                                           "Resistencia al uso intensivo",
+                                           "Forma estable"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "90cm x 45cm",
+                                                 "material":  "Tela No Tejida (TNT)",
+                                                 "weight":  "650g",
+                                                 "cover":  "Polipropileno",
+                                                 "firmness":  "Firme",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Ideal para almohadas grandes",
+                                           "Soporte duradero",
+                                           "Resistencia superior",
+                                           "Mantenimiento mínimo",
+                                           "Inversión a largo plazo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado estándar en máquina",
+                                                    "Temperatura media recomendada",
+                                                    "Secado rápido",
+                                                    "No requiere cuidados especiales",
+                                                    "Mantiene propiedades tras lavados"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-tnt-almohada-105cm",
+                          "name":  "RELLENO TNT ALMOHADA 105CM",
+                          "category":  "almohadas",
+                          "price":  "3.92€",
+                          "originalPrice":  "4.89€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno TNT (tela no tejida) para almohada de 105cm. Soporte firme para tamaño extra largo.",
+                          "detailed_description":  "Relleno TNT especialmente diseñado para almohadas extra largas de 105cm. Combina la tecnología de tela no tejida con un tamaño generoso, proporcionando soporte firme y uniforme en toda su extensión.",
+                          "rating":  4.2,
+                          "reviews":  18,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-tnt-almohada-105cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño extra largo 105cm",
+                                           "Soporte firme uniforme",
+                                           "Tecnología TNT avanzada",
+                                           "Distribución equilibrada",
+                                           "Resistencia superior",
+                                           "Confort extendido"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "105cm x 45cm",
+                                                 "material":  "Tela No Tejida (TNT)",
+                                                 "weight":  "750g",
+                                                 "cover":  "Polipropileno",
+                                                 "firmness":  "Firme",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Soporte para toda la longitud",
+                                           "Confort extendido",
+                                           "Durabilidad probada",
+                                           "Adaptable a diferentes usos",
+                                           "Calidad profesional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar en ciclo normal",
+                                                    "Usar detergente estándar",
+                                                    "Secar completamente",
+                                                    "No requiere acondicionador",
+                                                    "Resistente al uso diario"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-tnt-almohada-135cm",
+                          "name":  "RELLENO TNT ALMOHADA 135CM",
+                          "category":  "almohadas",
+                          "price":  "4.46€",
+                          "originalPrice":  "5.57€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno TNT (tela no tejida) para almohada de 135cm. Ideal para camas matrimoniales con máxima resistencia.",
+                          "detailed_description":  "Relleno TNT de calidad superior para almohadas matrimoniales de 135cm. Diseñado específicamente para camas matrimoniales, ofrece máxima resistencia y durabilidad, siendo perfecto para uso compartido o individual en espacios amplios.",
+                          "rating":  4.6,
+                          "reviews":  33,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-tnt-almohada-135cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño matrimonial 135cm",
+                                           "Máxima resistencia TNT",
+                                           "Ideal para uso compartido",
+                                           "Durabilidad profesional",
+                                           "Soporte firme constante",
+                                           "Tecnología avanzada"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "135cm x 45cm",
+                                                 "material":  "Tela No Tejida (TNT)",
+                                                 "weight":  "950g",
+                                                 "cover":  "Polipropileno reforzado",
+                                                 "firmness":  "Firme",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para matrimonios",
+                                           "Resistencia al uso intensivo",
+                                           "Soporte uniforme",
+                                           "Larga vida útil",
+                                           "Inversión inteligente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado en máquina estándar",
+                                                    "Temperatura media-alta",
+                                                    "Secado industrial recomendado",
+                                                    "Mantenimiento simple",
+                                                    "Resistente a lavados frecuentes"
+                                                ]
+                      },
+                      {
+                          "id":  "relleno-tnt-almohada-150cm",
+                          "name":  "RELLENO TNT ALMOHADA 150CM",
+                          "category":  "almohadas",
+                          "price":  "4.95€",
+                          "originalPrice":  "6.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Relleno TNT (tela no tejida) para almohada de 150cm. King size con durabilidad profesional.",
+                          "detailed_description":  "Relleno TNT de calidad king size para almohadas de 150cm. Representa la cúspide de la tecnología TNT con durabilidad profesional. Ideal para hoteles, instituciones y hogares que buscan el máximo en resistencia y confort firme.",
+                          "rating":  4.8,
+                          "reviews":  29,
+                          "images":  [
+                                         "images/productos/almohadas/relleno-tnt-almohada-150cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño king size 150cm",
+                                           "Durabilidad profesional",
+                                           "Tecnología TNT premium",
+                                           "Calidad institucional",
+                                           "Soporte firme excepcional",
+                                           "Resistencia máxima"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "150cm x 45cm",
+                                                 "material":  "Tela No Tejida (TNT) Premium",
+                                                 "weight":  "1100g",
+                                                 "cover":  "Polipropileno de alta resistencia",
+                                                 "firmness":  "Extra Firme",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Calidad profesional/institucional",
+                                           "Máxima durabilidad",
+                                           "Soporte king size",
+                                           "Resistencia excepcional",
+                                           "Inversión a largo plazo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado industrial recomendado",
+                                                    "Resistente a lavados intensivos",
+                                                    "Secado rápido",
+                                                    "Mantenimiento profesional",
+                                                    "Conserva propiedades por años"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-con-doble-vivo-70cm",
+                          "name":  "ALMOHADA TERMOFORMADA CON DOBLE VIVO 70CM",
+                          "category":  "almohadas",
+                          "price":  "7.34€",
+                          "originalPrice":  "9.18€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con doble vivo 70cm. Tecnología avanzada de moldeado térmico con acabado profesional de doble ribete.",
+                          "detailed_description":  "Almohada termoformada de alta tecnología con acabado de doble vivo para almohadas de 70cm. El proceso de termoformado garantiza una forma perfecta y duradera, mientras que el doble vivo proporciona un acabado elegante y profesional que mantiene la integridad estructural.",
+                          "rating":  4.7,
+                          "reviews":  24,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-con-doble-vivo-70cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tecnología termoformada",
+                                           "Doble vivo profesional",
+                                           "Moldeado térmico avanzado",
+                                           "Forma perfecta garantizada",
+                                           "Acabado elegante",
+                                           "Integridad estructural"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "70cm x 45cm",
+                                                 "material":  "Fibra termoformada",
+                                                 "weight":  "600g",
+                                                 "cover":  "Microfibra con doble vivo",
+                                                 "firmness":  "Media-Firme",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Forma perfecta permanente",
+                                           "Acabado profesional",
+                                           "Durabilidad superior",
+                                           "Confort personalizado",
+                                           "Estética elegante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar con cuidado especial",
+                                                    "No retorcer ni escurrir",
+                                                    "Secar en posición horizontal",
+                                                    "Mantener forma durante secado",
+                                                    "Cuidar el doble vivo"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-con-doble-vivo-80cm",
+                          "name":  "ALMOHADA TERMOFORMADA CON DOBLE VIVO 80CM",
+                          "category":  "almohadas",
+                          "price":  "8.11€",
+                          "originalPrice":  "10.14€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con doble vivo 80cm. Proceso térmico de calidad superior con diseño elegante de doble vivo.",
+                          "detailed_description":  "Almohada termoformada de tamaño estándar de 80cm con proceso térmico de calidad superior. El diseño elegante de doble vivo no solo aporta belleza estética sino que también refuerza la estructura, garantizando una forma perfecta y duradera.",
+                          "rating":  4.8,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-con-doble-vivo-80cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 80cm",
+                                           "Proceso térmico superior",
+                                           "Diseño elegante",
+                                           "Doble vivo reforzado",
+                                           "Calidad garantizada",
+                                           "Forma duradera"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "80cm x 45cm",
+                                                 "material":  "Fibra termoformada premium",
+                                                 "weight":  "700g",
+                                                 "cover":  "Microfibra premium con doble vivo",
+                                                 "firmness":  "Media-Firme",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tamaño universal popular",
+                                           "Proceso térmico avanzado",
+                                           "Elegancia y funcionalidad",
+                                           "Durabilidad excepcional",
+                                           "Confort optimizado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado delicado recomendado",
+                                                    "Usar programas suaves",
+                                                    "Secar horizontalmente",
+                                                    "Preservar el doble vivo",
+                                                    "Almacenar correctamente"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-con-doble-vivo-90cm",
+                          "name":  "ALMOHADA TERMOFORMADA CON DOBLE VIVO 90CM",
+                          "category":  "almohadas",
+                          "price":  "8.82€",
+                          "originalPrice":  "11.03€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con doble vivo 90cm. Máxima calidad en termoformado con acabado premium de doble ribete decorativo.",
+                          "detailed_description":  "Almohada termoformada de máxima calidad para medidas grandes de 90cm. El proceso de termoformado alcanza su máxima expresión con un acabado premium de doble ribete decorativo que no solo embellece sino que también proporciona una resistencia excepcional.",
+                          "rating":  4.9,
+                          "reviews":  27,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-con-doble-vivo-90cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño grande 90cm",
+                                           "Máxima calidad termoformada",
+                                           "Acabado premium",
+                                           "Doble ribete decorativo",
+                                           "Resistencia excepcional",
+                                           "Proceso perfeccionado"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "90cm x 45cm",
+                                                 "material":  "Fibra termoformada de máxima calidad",
+                                                 "weight":  "800g",
+                                                 "cover":  "Microfibra premium con ribete decorativo",
+                                                 "firmness":  "Firme",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Tamaño generoso",
+                                           "Calidad máxima garantizada",
+                                           "Acabado de lujo",
+                                           "Durabilidad premium",
+                                           "Inversión en calidad"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado premium recomendado",
+                                                    "Lavado profesional opcional",
+                                                    "Secado especializado",
+                                                    "Mantenimiento del ribete",
+                                                    "Conservación de calidad"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-aloe-vera-70cm",
+                          "name":  "ALMOHADA TERMOFORMADA ALOE VERA 70CM",
+                          "category":  "almohadas",
+                          "price":  "7.35€",
+                          "originalPrice":  "9.19€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con extracto de Aloe Vera 70cm. Propiedades hidratantes y suavizantes naturales con tecnología de termoformado.",
+                          "detailed_description":  "Almohada termoformada revolucionaria que combina la tecnología de moldeado térmico con las propiedades naturales del Aloe Vera. El extracto de Aloe Vera proporciona beneficios hidratantes y suavizantes para la piel, mientras que el termoformado garantiza una forma perfecta y duradera.",
+                          "rating":  4.6,
+                          "reviews":  22,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-aloe-vera-70cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tecnología termoformada + Aloe Vera",
+                                           "Propiedades hidratantes naturales",
+                                           "Beneficios para la piel",
+                                           "Extracto de Aloe Vera auténtico",
+                                           "Suavidad excepcional",
+                                           "Forma perfecta duradera"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "70cm x 45cm",
+                                                 "material":  "Fibra termoformada con Aloe Vera",
+                                                 "weight":  "650g",
+                                                 "cover":  "Microfibra tratada con Aloe Vera",
+                                                 "firmness":  "Media-Suave",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Hidratación natural durante el sueño",
+                                           "Cuidado de la piel",
+                                           "Propiedades calmantes",
+                                           "Confort termoformado",
+                                           "Beneficios terapéuticos naturales"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar con productos naturales",
+                                                    "Temperatura suave para preservar Aloe Vera",
+                                                    "Secar al aire preferiblemente",
+                                                    "No usar productos químicos agresivos",
+                                                    "Mantener propiedades naturales"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-aloe-vera-80cm",
+                          "name":  "ALMOHADA TERMOFORMADA ALOE VERA 80CM",
+                          "category":  "almohadas",
+                          "price":  "8.08€",
+                          "originalPrice":  "10.09€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con extracto de Aloe Vera 80cm. Beneficios naturales del Aloe Vera combinados con tecnología termoformada avanzada.",
+                          "detailed_description":  "Almohada de tamaño estándar que combina perfectamente los beneficios naturales del Aloe Vera con la tecnología termoformada más avanzada. Esta combinación única ofrece cuidado natural de la piel junto con el soporte y durabilidad del termoformado.",
+                          "rating":  4.7,
+                          "reviews":  28,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-aloe-vera-80cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño estándar 80cm",
+                                           "Aloe Vera + tecnología avanzada",
+                                           "Beneficios naturales garantizados",
+                                           "Cuidado integral durante el sueño",
+                                           "Combinación perfecta",
+                                           "Innovación en confort"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "80cm x 45cm",
+                                                 "material":  "Fibra termoformada premium con Aloe Vera",
+                                                 "weight":  "750g",
+                                                 "cover":  "Microfibra avanzada con tratamiento Aloe Vera",
+                                                 "firmness":  "Media",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tamaño universal con beneficios naturales",
+                                           "Tecnología y naturaleza combinadas",
+                                           "Cuidado continuo de la piel",
+                                           "Confort y salud unidos",
+                                           "Innovación accesible"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado especial para preservar Aloe Vera",
+                                                    "Detergentes suaves únicamente",
+                                                    "Evitar altas temperaturas",
+                                                    "Secado natural recomendado",
+                                                    "Mantenimiento de propiedades naturales"
+                                                ]
+                      },
+                      {
+                          "id":  "almohada-termoformada-aloe-vera-90cm",
+                          "name":  "ALMOHADA TERMOFORMADA ALOE VERA 90CM",
+                          "category":  "almohadas",
+                          "price":  "8.93€",
+                          "originalPrice":  "11.16€",
+                          "discount":  "20% OFF",
+                          "description":  "Almohada termoformada con extracto de Aloe Vera 90cm. Máximo confort y propiedades naturales hidratantes del Aloe Vera.",
+                          "detailed_description":  "La almohada definitiva que combina máximo confort con propiedades naturales excepcionales. Con 90cm de tamaño generoso, ofrece las máximas propiedades hidratantes del Aloe Vera junto con la tecnología termoformada más avanzada para una experiencia de descanso única.",
+                          "rating":  4.9,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/almohadas/almohada-termoformada-aloe-vera-90cm/principal"
+                                     ],
+                          "features":  [
+                                           "Tamaño grande 90cm",
+                                           "Máximo confort garantizado",
+                                           "Propiedades hidratantes excepcionales",
+                                           "Aloe Vera de máxima calidad",
+                                           "Tecnología termoformada avanzada",
+                                           "Experiencia de descanso única"
+                                       ],
+                          "specifications":  {
+                                                 "dimensions":  "90cm x 45cm",
+                                                 "material":  "Fibra termoformada de máxima calidad con Aloe Vera premium",
+                                                 "weight":  "850g",
+                                                 "cover":  "Microfibra premium con tratamiento Aloe Vera concentrado",
+                                                 "firmness":  "Media-Suave",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo espacio con beneficios naturales",
+                                           "Hidratación intensiva durante el sueño",
+                                           "Confort superior garantizado",
+                                           "Cuidado premium de la piel",
+                                           "Inversión en salud y confort"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado premium para preservar beneficios",
+                                                    "Productos de limpieza naturales únicamente",
+                                                    "Temperatura controlada siempre",
+                                                    "Secado profesional recomendado",
+                                                    "Conservación óptima de propiedades"
+                                                ]
+                      }
+                  ],
+    "cojines":  [
+
+                ],
+    "edredones":  [
+
+                  ],
+    "relleno":  [
+                    {
+                        "id":  "relleno-cojin-microfibra-30x50cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 30X50CM",
+                        "category":  "relleno",
+                        "price":  "1.66€",
+                        "originalPrice":  "2.08€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 30x50cm. Perfecto para dar comodidad y suavidad a tus cojines.",
+                        "detailed_description":  "Relleno de microfibra premium diseñado específicamente para cojines rectangulares de 30x50cm. La microfibra de alta calidad proporciona la combinación perfecta de suavidad y soporte, ideal para cojines decorativos y de confort.",
+                        "rating":  4.4,
+                        "reviews":  18,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-30x50cm/principal"
+                                   ],
+                        "features":  [
+                                         "Formato rectangular 30x50cm",
+                                         "Microfibra de alta calidad",
+                                         "Suavidad excepcional",
+                                         "Soporte equilibrado",
+                                         "Ideal para decoración",
+                                         "Versatilidad de uso"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "30cm x 50cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "300g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Perfecto para cojines decorativos",
+                                         "Confort en espacios pequeños",
+                                         "Fácil manejo y colocación",
+                                         "Precio muy accesible",
+                                         "Calidad garantizada"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Usar detergente suave",
+                                                  "Secar al aire o secadora baja",
+                                                  "Agitar para mantener volumen",
+                                                  "Fácil mantenimiento"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-cojin-microfibra-40x40cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 40X40CM",
+                        "category":  "relleno",
+                        "price":  "1.66€",
+                        "originalPrice":  "2.08€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 40x40cm. Ideal para cojines decorativos.",
+                        "detailed_description":  "Relleno de microfibra premium para cojines cuadrados de 40x40cm. Tamaño perfecto para cojines decorativos que aportan estilo y confort a sofás, camas y sillas.",
+                        "rating":  4.5,
+                        "reviews":  25,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-40x40cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño cuadrado 40x40cm",
+                                         "Ideal para decoración",
+                                         "Microfibra premium",
+                                         "Fácil colocación",
+                                         "Versatilidad decorativa",
+                                         "Confort garantizado"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 40cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "320g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Tamaño decorativo perfecto",
+                                         "Fácil combinación",
+                                         "Confort inmediato",
+                                         "Precio económico",
+                                         "Calidad duradera"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavado estándar a 30°C",
+                                                  "Secar preferiblemente al aire",
+                                                  "Agitar ocasionalmente",
+                                                  "Mantener forma cuadrada",
+                                                  "Cuidado simple"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-cojin-microfibra-45x45cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 45X45CM",
+                        "category":  "relleno",
+                        "price":  "1.92€",
+                        "originalPrice":  "2.40€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 45x45cm. Perfecto para cojines cuadrados.",
+                        "detailed_description":  "Relleno de microfibra premium para cojines cuadrados de 45x45cm. Tamaño estándar perfecto para cojines decorativos de sofás, camas y sillas.",
+                        "rating":  4.3,
+                        "reviews":  19,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-45x45cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño estándar 45x45cm",
+                                         "Microfibra de alta calidad",
+                                         "Suavidad excepcional",
+                                         "Soporte equilibrado",
+                                         "Perfecto para cojines cuadrados",
+                                         "Versatilidad de uso"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "45cm x 45cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "380g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Tamaño estándar popular",
+                                         "Confort inmediato",
+                                         "Fácil manejo",
+                                         "Precio económico",
+                                         "Calidad garantizada"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Usar detergente suave",
+                                                  "Secar al aire o secadora baja",
+                                                  "Agitar para mantener volumen",
+                                                  "Fácil mantenimiento"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-cojin-microfibra-50x50cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 50X50CM",
+                        "category":  "relleno",
+                        "price":  "2.21€",
+                        "originalPrice":  "2.76€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 50x50cm. Ideal para cojines grandes.",
+                        "detailed_description":  "Relleno de microfibra premium para cojines grandes de 50x50cm. Tamaño generoso perfecto para cojines de sofá y decorativos de gran impacto.",
+                        "rating":  4.4,
+                        "reviews":  22,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-50x50cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño grande 50x50cm",
+                                         "Microfibra premium",
+                                         "Volumen generoso",
+                                         "Ideal para sofás",
+                                         "Confort superior",
+                                         "Durabilidad excepcional"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "50cm x 50cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "440g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Tamaño impactante",
+                                         "Confort de sofá",
+                                         "Fácil colocación",
+                                         "Precio competitivo",
+                                         "Calidad duradera"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Usar detergente suave",
+                                                  "Secar al aire preferiblemente",
+                                                  "Agitar ocasionalmente",
+                                                  "Mantener forma cuadrada"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-microfibra-40x60cm",
+                        "name":  "RELLENO MICROFIBRA 40X60CM",
+                        "category":  "relleno",
+                        "price":  "2.21€",
+                        "originalPrice":  "2.76€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno de microfibra de alta calidad, medidas 40x60cm. Perfecto para almohadas y cojines rectangulares.",
+                        "detailed_description":  "Relleno de microfibra premium para formato rectangular de 40x60cm. Versátil para almohadas pequeñas y cojines rectangulares decorativos y lumbares.",
+                        "rating":  4.2,
+                        "reviews":  16,
+                        "images":  [
+                                       "images/productos/relleno/relleno-microfibra-40x60cm/principal"
+                                   ],
+                        "features":  [
+                                         "Formato rectangular 40x60cm",
+                                         "Microfibra de alta calidad",
+                                         "Versatilidad de uso",
+                                         "Ideal para cojines lumbares",
+                                         "También para almohadas",
+                                         "Suavidad garantizada"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 60cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "400g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Formato versátil",
+                                         "Múltiples usos",
+                                         "Confort lumbar",
+                                         "Precio económico",
+                                         "Fácil adaptación"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Detergente suave recomendado",
+                                                  "Secar al aire o secadora baja",
+                                                  "Agitar para mantener forma",
+                                                  "Cuidado simple"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-cojin-microfibra-55x55cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 55X55CM",
+                        "category":  "relleno",
+                        "price":  "2.55€",
+                        "originalPrice":  "3.19€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 55x55cm. Ideal para cojines extra grandes.",
+                        "detailed_description":  "Relleno de microfibra premium para cojines extra grandes de 55x55cm. Perfecto para crear cojines de gran impacto visual y confort excepcional.",
+                        "rating":  4.6,
+                        "reviews":  20,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-55x55cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño extra grande 55x55cm",
+                                         "Microfibra premium",
+                                         "Volumen excepcional",
+                                         "Gran impacto visual",
+                                         "Confort superior",
+                                         "Calidad profesional"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "55cm x 55cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "510g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "1 año"
+                                           },
+                        "benefits":  [
+                                         "Tamaño impresionante",
+                                         "Confort excepcional",
+                                         "Presencia decorativa",
+                                         "Calidad superior",
+                                         "Durabilidad garantizada"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Usar ciclo delicado",
+                                                  "Secar al aire preferiblemente",
+                                                  "Agitar regularmente",
+                                                  "Mantener volumen"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-cojin-microfibra-60x60cm",
+                        "name":  "RELLENO COJÍN MICROFIBRA 60X60CM",
+                        "category":  "relleno",
+                        "price":  "2.95€",
+                        "originalPrice":  "3.69€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno para cojín de microfibra de alta calidad, medidas 60x60cm. Perfecto para cojines muy grandes.",
+                        "detailed_description":  "Relleno de microfibra premium para cojines muy grandes de 60x60cm. El tamaño más grande de nuestra colección, ideal para espacios amplios y máximo confort.",
+                        "rating":  4.7,
+                        "reviews":  18,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-microfibra-60x60cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño muy grande 60x60cm",
+                                         "El más grande de la colección",
+                                         "Microfibra premium",
+                                         "Máximo confort",
+                                         "Ideal para espacios amplios",
+                                         "Calidad excepcional"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "60cm x 60cm",
+                                               "material":  "Microfibra 100%",
+                                               "weight":  "600g",
+                                               "cover":  "Algodón",
+                                               "firmness":  "Suave",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño máximo disponible",
+                                         "Confort supremo",
+                                         "Impacto decorativo máximo",
+                                         "Calidad profesional",
+                                         "Garantía extendida"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina a 30°C",
+                                                  "Usar lavadora grande",
+                                                  "Secar al aire recomendado",
+                                                  "Agitar frecuentemente",
+                                                  "Mantenimiento profesional"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-30x50cm",
+                        "name":  "RELLENO TNT COJÍN 30X50CM",
+                        "category":  "relleno",
+                        "price":  "1.24€",
+                        "originalPrice":  "1.55€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 30x50cm. Material resistente y duradero para uso intensivo.",
+                        "detailed_description":  "Relleno TNT de alta resistencia para cojines rectangulares de 30x50cm. La tecnología de tela no tejida ofrece durabilidad superior y mantiene la forma por más tiempo, ideal para uso intensivo y comercial.",
+                        "rating":  4.1,
+                        "reviews":  14,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-30x50cm/principal"
+                                   ],
+                        "features":  [
+                                         "Formato rectangular 30x50cm",
+                                         "Tecnología TNT avanzada",
+                                         "Resistencia superior",
+                                         "Durabilidad excepcional",
+                                         "Ideal uso intensivo",
+                                         "Mantiene forma original"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "30cm x 50cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "250g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Resistencia al uso diario",
+                                         "Mantiene propiedades",
+                                         "Económico y duradero",
+                                         "No se deforma",
+                                         "Ideal para comercial"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina temperatura media",
+                                                  "No usar suavizantes",
+                                                  "Secado rápido",
+                                                  "Resistente a lavados frecuentes",
+                                                  "Mantenimiento mínimo"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-40x40cm",
+                        "name":  "RELLENO TNT COJÍN 40X40CM",
+                        "category":  "relleno",
+                        "price":  "1.24€",
+                        "originalPrice":  "1.55€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 40x40cm. Ideal para cojines decorativos con alta durabilidad.",
+                        "detailed_description":  "Relleno TNT de alta calidad para cojines cuadrados de 40x40cm. Perfecto para cojines decorativos que requieren durabilidad excepcional y resistencia al uso continuado.",
+                        "rating":  4.2,
+                        "reviews":  17,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-40x40cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño cuadrado 40x40cm",
+                                         "Tecnología TNT profesional",
+                                         "Alta durabilidad",
+                                         "Resistente a la deformación",
+                                         "Ideal para decorativos",
+                                         "Precio muy económico"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 40cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "280g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Decorativo y resistente",
+                                         "Excelente precio-calidad",
+                                         "No pierde forma",
+                                         "Fácil mantenimiento",
+                                         "Larga vida útil"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavado estándar en máquina",
+                                                  "Temperatura media recomendada",
+                                                  "Secado rápido",
+                                                  "No requiere cuidados especiales",
+                                                  "Mantiene propiedades tras lavados"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-45x45cm",
+                        "name":  "RELLENO TNT COJÍN 45X45CM",
+                        "category":  "relleno",
+                        "price":  "1.36€",
+                        "originalPrice":  "1.70€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 45x45cm. Perfecto equilibrio entre confort y resistencia.",
+                        "detailed_description":  "Relleno TNT de calidad premium para cojines estándar de 45x45cm. Ofrece el equilibrio perfecto entre confort y resistencia, ideal para uso doméstico y profesional.",
+                        "rating":  4.3,
+                        "reviews":  21,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-45x45cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño estándar 45x45cm",
+                                         "Equilibrio confort-resistencia",
+                                         "Tecnología TNT premium",
+                                         "Versatilidad de uso",
+                                         "Durabilidad probada",
+                                         "Precio competitivo"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "45cm x 45cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "320g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Medio-Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño popular",
+                                         "Confort equilibrado",
+                                         "Resistencia superior",
+                                         "Versátil para cualquier uso",
+                                         "Excelente inversión"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar en ciclo normal",
+                                                  "Usar detergente estándar",
+                                                  "Secar completamente",
+                                                  "No requiere acondicionador",
+                                                  "Resistente al uso diario"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-40x60cm",
+                        "name":  "RELLENO TNT COJÍN 40X60CM",
+                        "category":  "relleno",
+                        "price":  "1.58€",
+                        "originalPrice":  "1.97€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 40x60cm. Formato rectangular ideal para cojines lumbares.",
+                        "detailed_description":  "Relleno TNT especializado para cojines rectangulares de 40x60cm. Formato ideal para cojines lumbares y decorativos alargados, con la durabilidad TNT característica.",
+                        "rating":  4.1,
+                        "reviews":  13,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-40x60cm/principal"
+                                   ],
+                        "features":  [
+                                         "Formato rectangular 40x60cm",
+                                         "Ideal para cojines lumbares",
+                                         "Tecnología TNT resistente",
+                                         "Soporte firme",
+                                         "Durabilidad excepcional",
+                                         "Formato versátil"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 60cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "350g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Soporte lumbar excelente",
+                                         "Formato específico",
+                                         "Alta resistencia",
+                                         "Mantiene firmeza",
+                                         "Precio económico"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina estándar",
+                                                  "Temperatura media-alta",
+                                                  "Secado industrial recomendado",
+                                                  "Mantenimiento simple",
+                                                  "Resistente a lavados frecuentes"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-50x50cm",
+                        "name":  "RELLENO TNT COJÍN 50X50CM",
+                        "category":  "relleno",
+                        "price":  "1.58€",
+                        "originalPrice":  "1.97€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 50x50cm. Tamaño grande con excelente soporte.",
+                        "detailed_description":  "Relleno TNT de calidad superior para cojines grandes de 50x50cm. Ofrece excelente soporte y durabilidad para cojines de sofá y decorativos de gran tamaño.",
+                        "rating":  4.4,
+                        "reviews":  19,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-50x50cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño grande 50x50cm",
+                                         "Excelente soporte TNT",
+                                         "Resistencia superior",
+                                         "Ideal para sofás",
+                                         "Durabilidad profesional",
+                                         "Precio muy competitivo"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "50cm x 50cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "400g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño impactante",
+                                         "Soporte excepcional",
+                                         "Resistencia comprobada",
+                                         "Ideal uso intensivo",
+                                         "Excelente relación precio-calidad"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavado en máquina estándar",
+                                                  "Temperatura media recomendada",
+                                                  "Secado rápido",
+                                                  "No requiere cuidados especiales",
+                                                  "Mantiene propiedades tras lavados"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-50x70cm",
+                        "name":  "RELLENO TNT COJÍN 50X70CM",
+                        "category":  "relleno",
+                        "price":  "2.78€",
+                        "originalPrice":  "3.47€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 50x70cm. Ideal para cojines grandes y sofás.",
+                        "detailed_description":  "Relleno TNT de gran formato para cojines rectangulares de 50x70cm. Perfecto para cojines grandes de sofá, respaldos y aplicaciones decorativas de gran impacto.",
+                        "rating":  4.5,
+                        "reviews":  15,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-50x70cm/principal"
+                                   ],
+                        "features":  [
+                                         "Gran formato 50x70cm",
+                                         "Ideal para sofás",
+                                         "Tecnología TNT avanzada",
+                                         "Soporte firme extendido",
+                                         "Durabilidad excepcional",
+                                         "Uso profesional"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "50cm x 70cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "550g",
+                                               "cover":  "Polipropileno reforzado",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Gran tamaño para sofás",
+                                         "Soporte extendido",
+                                         "Resistencia profesional",
+                                         "Durabilidad superior",
+                                         "Inversión a largo plazo"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar en lavadora grande",
+                                                  "Temperatura media-alta",
+                                                  "Secado industrial preferible",
+                                                  "Mantenimiento profesional",
+                                                  "Resistente al uso intensivo"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-55x55cm",
+                        "name":  "RELLENO TNT COJÍN 55X55CM",
+                        "category":  "relleno",
+                        "price":  "2.12€",
+                        "originalPrice":  "2.64€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 55x55cm. Tamaño extra grande con máxima comodidad.",
+                        "detailed_description":  "Relleno TNT premium para cojines extra grandes de 55x55cm. Combina el tamaño extra grande con la máxima comodidad y la durabilidad característica de la tecnología TNT.",
+                        "rating":  4.6,
+                        "reviews":  17,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-55x55cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño extra grande 55x55cm",
+                                         "Máxima comodidad TNT",
+                                         "Resistencia superior",
+                                         "Gran presencia decorativa",
+                                         "Durabilidad profesional",
+                                         "Calidad premium"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "55cm x 55cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "480g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Medio-Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño extra grande",
+                                         "Comodidad excepcional",
+                                         "Resistencia TNT comprobada",
+                                         "Impacto visual máximo",
+                                         "Calidad profesional"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina grande",
+                                                  "Temperatura media recomendada",
+                                                  "Secado al aire preferible",
+                                                  "Agitar ocasionalmente",
+                                                  "Mantiene propiedades TNT"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-60x60cm",
+                        "name":  "RELLENO TNT COJÍN 60X60CM",
+                        "category":  "relleno",
+                        "price":  "2.57€",
+                        "originalPrice":  "3.21€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para cojín, medidas 60x60cm. El más grande de nuestra colección TNT.",
+                        "detailed_description":  "El relleno TNT más grande de nuestra colección premium, diseñado para cojines de 60x60cm. Máxima resistencia, durabilidad y presencia decorativa para espacios amplios.",
+                        "rating":  4.8,
+                        "reviews":  21,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-cojin-60x60cm/principal"
+                                   ],
+                        "features":  [
+                                         "El más grande 60x60cm",
+                                         "Tecnología TNT máxima",
+                                         "Resistencia excepcional",
+                                         "Presencia decorativa máxima",
+                                         "Durabilidad profesional",
+                                         "Calidad premium certificada"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "60cm x 60cm",
+                                               "material":  "Tela No Tejida (TNT) Premium",
+                                               "weight":  "580g",
+                                               "cover":  "Polipropileno de alta resistencia",
+                                               "firmness":  "Firme",
+                                               "warranty":  "3 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño máximo disponible",
+                                         "Resistencia TNT superior",
+                                         "Durabilidad excepcional",
+                                         "Impacto decorativo máximo",
+                                         "Garantía extendida"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar en máquina grande",
+                                                  "Temperatura media-alta",
+                                                  "Secado industrial recomendado",
+                                                  "Mantenimiento profesional",
+                                                  "Conserva propiedades por años"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-almohada-70cm",
+                        "name":  "RELLENO TNT ALMOHADA 70CM",
+                        "category":  "relleno",
+                        "price":  "2.66€",
+                        "originalPrice":  "3.32€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT (tela no tejida) para almohada de 70cm. Material resistente que mantiene su forma por más tiempo.",
+                        "detailed_description":  "Relleno TNT especializado para almohadas de 70cm. La tecnología de tela no tejida garantiza que mantenga su forma original por mucho más tiempo que los rellenos tradicionales, ideal para uso prolongado.",
+                        "rating":  4.3,
+                        "reviews":  16,
+                        "images":  [
+                                       "images/productos/relleno/relleno-tnt-almohada-70cm/principal"
+                                   ],
+                        "features":  [
+                                         "Especializado para almohadas 70cm",
+                                         "Tecnología TNT avanzada",
+                                         "Mantiene forma original",
+                                         "Durabilidad superior",
+                                         "Resistente al desgaste",
+                                         "Uso prolongado"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "70cm x 45cm",
+                                               "material":  "Tela No Tejida (TNT)",
+                                               "weight":  "520g",
+                                               "cover":  "Polipropileno",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Forma permanente",
+                                         "Resistencia al uso diario",
+                                         "Larga vida útil",
+                                         "Soporte consistente",
+                                         "Precio económico"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar a máquina temperatura media",
+                                                  "No usar suavizantes",
+                                                  "Secar al aire preferiblemente",
+                                                  "No requiere agitado especial",
+                                                  "Resistente a lavados frecuentes"
+                                              ]
+                    }
+                ],
+    "mascotas":  [
+
+                 ]
 }

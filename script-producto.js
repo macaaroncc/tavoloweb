@@ -86,8 +86,8 @@ function displayProduct(product) {
     `;
     document.getElementById('product-rating').innerHTML = ratingHtml;
     
-    // Generar thumbnails de imágenes
-    generateImageThumbnails(product.images);
+    // Cargar imagen principal (una sola imagen)
+    loadProductMainImage(product.images);
     
     // Generar contenido de tabs
     generateTabsContent(product);
@@ -97,15 +97,54 @@ function displayProduct(product) {
     document.getElementById('product-content').style.display = 'block';
 }
 
-// Función para generar thumbnails de imágenes
-function generateImageThumbnails(images) {
-    const thumbnailsContainer = document.getElementById('image-thumbnails');
+// Función para cargar la imagen principal (simplificada para una sola imagen)
+async function loadProductMainImage(images) {
+    if (!images || images.length === 0) {
+        // No hay imágenes, mostrar placeholder
+        document.getElementById('main-image').innerHTML = '<div class="image-placeholder">Imagen del producto</div>';
+        document.getElementById('image-thumbnails').style.display = 'none';
+        return;
+    }
     
-    thumbnailsContainer.innerHTML = images.map((image, index) => `
-        <div class="thumbnail ${index === 0 ? 'active' : ''}" onclick="selectImage(${index})">
-            Img ${index + 1}
-        </div>
-    `).join('');
+    // Solo procesamos la primera imagen (principal)
+    const principalImagePath = images[0];
+    let processedImagePath = principalImagePath;
+    
+    // Procesar imagen para soportar .jpg y .jpeg
+    if (window.imageLoader) {
+        try {
+            const processedImages = await window.imageLoader.processImagePaths([principalImagePath]);
+            processedImagePath = processedImages[0];
+        } catch (error) {
+            console.warn('Error procesando imagen, usando ruta original:', error);
+        }
+    }
+    
+    // Guardar la imagen procesada para uso posterior
+    currentProduct.processedImage = processedImagePath;
+    
+    // Cargar la imagen principal
+    loadMainImage(processedImagePath, 0);
+    
+    // Ocultar thumbnails ya que solo hay una imagen
+    document.getElementById('image-thumbnails').style.display = 'none';
+}
+
+// Función para cargar imagen principal
+function loadMainImage(imageSrc, index) {
+    const mainImageContainer = document.getElementById('main-image');
+    
+    // Crear elemento de imagen
+    const img = new Image();
+    img.onload = function() {
+        // La imagen se cargó correctamente
+        mainImageContainer.innerHTML = `<img src="${imageSrc}" alt="${currentProduct.name} - Imagen ${index + 1}" class="product-main-image">`;
+    };
+    img.onerror = function() {
+        // Error al cargar la imagen, mostrar placeholder
+        mainImageContainer.innerHTML = `<div class="image-placeholder">Imagen ${index + 1} del producto</div>`;
+    };
+    img.src = imageSrc;
 }
 
 // Función para seleccionar imagen principal
@@ -114,8 +153,14 @@ function selectImage(index) {
     thumbnails.forEach(thumb => thumb.classList.remove('active'));
     thumbnails[index].classList.add('active');
     
-    // Aquí podrías cambiar la imagen principal si tuvieras las imágenes reales
-    document.getElementById('main-image').textContent = `Imagen ${index + 1} del producto`;
+    // Cargar la imagen seleccionada
+    if (currentProduct.processedImages && currentProduct.processedImages[index]) {
+        loadMainImage(currentProduct.processedImages[index], index);
+    } else if (currentProduct.images && currentProduct.images[index]) {
+        loadMainImage(currentProduct.images[index], index);
+    } else {
+        document.getElementById('main-image').textContent = `Imagen ${index + 1} del producto`;
+    }
 }
 
 // Función para generar contenido de las tabs
@@ -189,7 +234,7 @@ function contactForProduct() {
         const message = `Hola, estoy interesado en el producto: ${currentProduct.name} (${currentProduct.price}). ¿Podrían darme más información?`;
         
         // Crear enlace de WhatsApp con mensaje predefinido
-        const phone = '34655586462'; // Número sin espacios ni símbolos
+        const phone = '34636215696'; // Número sin espacios ni símbolos
         const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
         
         // Abrir WhatsApp o mostrar opciones de contacto
@@ -198,7 +243,7 @@ function contactForProduct() {
             window.open(whatsappUrl, '_blank');
         } else {
             // En desktop, mostrar modal con opciones
-            alert(`Para contactar sobre "${currentProduct.name}":\n\n📞 Teléfono: 655 586 462\n📧 Email: info@tavolocasa.com\n💬 WhatsApp: Haz clic en OK para abrir`);
+            alert(`Para contactar sobre "${currentProduct.name}":\n\n📞 Teléfono: 636 215 696\n📧 Email: info@tavolocasa.com\n💬 WhatsApp: Haz clic en OK para abrir`);
             window.open(whatsappUrl, '_blank');
         }
     }
