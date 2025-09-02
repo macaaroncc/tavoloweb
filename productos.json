@@ -2170,5 +2170,457 @@
                 ],
     "mascotas":  [
 
-                 ]
+                 ],
+    "peluches": [
+                    {
+                        "id": "tela-fria-cojin-forma-45cm-rosa",
+                        "name": "TELA FRÍA COJÍN FORMA 45CM - ROSA",
+                        "category": "peluches",
+                        "price": "8.72€",
+                        "originalPrice": "10.90€",
+                        "discount": "20% OFF",
+                        "description": "Cojín de tela fría con forma divertida de 45cm en color rosa. Suave y cómodo para un descanso perfecto.",
+                        "detailed_description": "Adorable cojín de tela fría con forma especial en un hermoso color rosa. Diseñado para brindar frescura y comodidad, perfecto para el descanso o como elemento decorativo. Su tamaño de 45cm lo hace ideal para sofás, camas o espacios de relajación.",
+                        "rating": 4.5,
+                        "reviews": 18,
+                        "images": [
+                            "images/peluches/tela-fria-cojin-forma-45cm-rosa/principal"
+                        ],
+                        "features": [
+                            "Tela fría refrescante",
+                            "Forma divertida y original",
+                            "Color rosa suave",
+                            "Tamaño perfecto 45cm",
+                            "Suave al tacto",
+                            "Decorativo y funcional"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x forma especial",
+                            "material": "Tela fría, relleno de microfibra",
+                            "weight": "400g",
+                            "color": "Rosa",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Sensación de frescura",
+                            "Confort visual y táctil",
+                            "Fácil mantenimiento",
+                            "Versatilidad decorativa",
+                            "Calidad duradera"
+                        ],
+                        "care_instructions": [
+                            "Lavar a mano o máquina delicado",
+                            "Agua fría únicamente",
+                            "Secar al aire",
+                            "No planchar",
+                            "Guardar en lugar seco"
+                        ]
+                    },
+                    {
+                        "id": "tela-fria-cojin-forma-45cm-verde",
+                        "name": "TELA FRÍA COJÍN FORMA 45CM - VERDE",
+                        "category": "peluches",
+                        "price": "8.72€",
+                        "originalPrice": "10.90€",
+                        "discount": "20% OFF",
+                        "description": "Cojín de tela fría con forma divertida de 45cm en color verde. Suave y cómodo para un descanso perfecto.",
+                        "detailed_description": "Encantador cojín de tela fría con forma especial en un relajante color verde. Su diseño único y material refrescante lo convierten en el compañero perfecto para momentos de relajación y descanso.",
+                        "rating": 4.6,
+                        "reviews": 22,
+                        "images": [
+                            "images/peluches/tela-fria-cojin-forma-45cm-verde/principal"
+                        ],
+                        "features": [
+                            "Tela fría refrescante",
+                            "Forma divertida y original",
+                            "Color verde relajante",
+                            "Tamaño perfecto 45cm",
+                            "Suave al tacto",
+                            "Decorativo y funcional"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x forma especial",
+                            "material": "Tela fría, relleno de microfibra",
+                            "weight": "400g",
+                            "color": "Verde",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Sensación de frescura",
+                            "Color calmante",
+                            "Confort excepcional",
+                            "Versatilidad de uso",
+                            "Diseño atractivo"
+                        ],
+                        "care_instructions": [
+                            "Lavar a mano o máquina delicado",
+                            "Agua fría únicamente",
+                            "Secar al aire",
+                            "No planchar",
+                            "Guardar en lugar seco"
+                        ]
+                    },
+                    {
+                        "id": "tela-fria-cojin-forma-45cm-amarillo",
+                        "name": "TELA FRÍA COJÍN FORMA 45CM - AMARILLO",
+                        "category": "peluches",
+                        "price": "8.72€",
+                        "originalPrice": "10.90€",
+                        "discount": "20% OFF",
+                        "description": "Cojín de tela fría con forma divertida de 45cm en color amarillo brillante. Perfecto para alegrar cualquier espacio.",
+                        "detailed_description": "Vibrante cojín de tela fría con forma especial en un alegre color amarillo. Su diseño luminoso y material refrescante aporta energía positiva y comodidad a cualquier ambiente.",
+                        "rating": 4.4,
+                        "reviews": 15,
+                        "images": [
+                            "images/peluches/tela-fria-cojin-forma-45cm-amarillo/principal"
+                        ],
+                        "features": [
+                            "Tela fría refrescante",
+                            "Forma divertida y original",
+                            "Color amarillo brillante",
+                            "Tamaño perfecto 45cm",
+                            "Suave al tacto",
+                            "Energizante y decorativo"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x forma especial",
+                            "material": "Tela fría, relleno de microfibra",
+                            "weight": "400g",
+                            "color": "Amarillo",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Sensación de frescura",
+                            "Ambiente alegre",
+                            "Confort visual",
+                            "Versatilidad decorativa",
+                            "Estado de ánimo positivo"
+                        ],
+                        "care_instructions": [
+                            "Lavar a mano o máquina delicado",
+                            "Agua fría únicamente",
+                            "Secar al aire",
+                            "No planchar",
+                            "Mantener color brillante"
+                        ]
+                    },
+                    {
+                        "id": "tela-fria-cojin-forma-45cm-blanco",
+                        "name": "TELA FRÍA COJÍN FORMA 45CM - BLANCO",
+                        "category": "peluches",
+                        "price": "8.72€",
+                        "originalPrice": "10.90€",
+                        "discount": "20% OFF",
+                        "description": "Cojín de tela fría con forma divertida de 45cm en color blanco elegante. Combinable con cualquier decoración.",
+                        "detailed_description": "Elegante cojín de tela fría con forma especial en color blanco puro. Su versatilidad y diseño neutral lo hacen perfecto para cualquier estilo decorativo, mientras que su material refrescante proporciona máximo confort.",
+                        "rating": 4.7,
+                        "reviews": 28,
+                        "images": [
+                            "images/peluches/tela-fria-cojin-forma-45cm-blanco/principal"
+                        ],
+                        "features": [
+                            "Tela fría refrescante",
+                            "Forma divertida y original",
+                            "Color blanco elegante",
+                            "Tamaño perfecto 45cm",
+                            "Combinable con todo",
+                            "Diseño versátil"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x forma especial",
+                            "material": "Tela fría, relleno de microfibra",
+                            "weight": "400g",
+                            "color": "Blanco",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Sensación de frescura",
+                            "Versatilidad decorativa total",
+                            "Elegancia atemporal",
+                            "Fácil combinación",
+                            "Limpieza visual"
+                        ],
+                        "care_instructions": [
+                            "Lavar a mano o máquina delicado",
+                            "Agua fría únicamente",
+                            "Secar al aire",
+                            "Evitar manchas",
+                            "Mantener blanco brillante"
+                        ]
+                    },
+                    {
+                        "id": "cojin-decorativo-flor-45d-surtido",
+                        "name": "COJÍN DECORATIVO FLOR 45D - SURTIDO",
+                        "category": "peluches",
+                        "price": "5.59€",
+                        "originalPrice": "6.98€",
+                        "discount": "20% OFF",
+                        "description": "Cojín decorativo con forma de flor de 45cm de diámetro. Colores surtidos disponibles.",
+                        "detailed_description": "Hermoso cojín decorativo con forma de flor multicolor de 45cm de diámetro. Disponible en diferentes combinaciones de colores surtidos. Perfecto para añadir un toque natural y alegre a cualquier espacio.",
+                        "rating": 4.3,
+                        "reviews": 32,
+                        "images": [
+                            "images/peluches/cojin-decorativo-flor-45d-surtido/principal"
+                        ],
+                        "features": [
+                            "Forma de flor única",
+                            "Diámetro de 45cm",
+                            "Colores surtidos",
+                            "Diseño natural",
+                            "Decorativo y funcional",
+                            "Suave y cómodo"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm diámetro",
+                            "material": "Tejido suave, relleno sintético",
+                            "weight": "350g",
+                            "color": "Multicolor surtido",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Diseño natural y alegre",
+                            "Variedad de colores",
+                            "Fácil mantenimiento",
+                            "Versatilidad decorativa",
+                            "Ambiente acogedor"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina programa delicado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "No torcer",
+                            "Mantener forma de flor"
+                        ]
+                    },
+                    {
+                        "id": "cojin-corazon-45x35cm-surtido",
+                        "name": "COJÍN CORAZÓN 45X35CM - SURTIDO",
+                        "category": "peluches",
+                        "price": "5.20€",
+                        "originalPrice": "6.50€",
+                        "discount": "20% OFF",
+                        "description": "Cojín con forma de corazón de 45x35cm. Colores surtidos para expresar amor y ternura.",
+                        "detailed_description": "Tierno cojín con forma de corazón en medidas 45x35cm, disponible en colores surtidos. Perfecto para regalar o decorar espacios con amor. Su forma romántica y suave textura lo convierten en un elemento especial.",
+                        "rating": 4.6,
+                        "reviews": 41,
+                        "images": [
+                            "images/peluches/cojin-corazon-45x35cm-surtido/principal"
+                        ],
+                        "features": [
+                            "Forma de corazón romántica",
+                            "Medidas 45x35cm",
+                            "Colores surtidos",
+                            "Ideal para regalar",
+                            "Suave y tierno",
+                            "Expresión de amor"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x 35cm",
+                            "material": "Tejido suave, relleno sintético",
+                            "weight": "320g",
+                            "color": "Surtido (rojo, rosa, amarillo)",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Símbolo de amor",
+                            "Variedad de colores",
+                            "Regalo perfecto",
+                            "Decoración romántica",
+                            "Confort emocional"
+                        ],
+                        "care_instructions": [
+                            "Lavar con cuidado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "Mantener forma de corazón",
+                            "Evitar deformaciones"
+                        ]
+                    },
+                    {
+                        "id": "cojin-estrella-60x45cm-surtido",
+                        "name": "COJÍN ESTRELLA 60X45CM - SURTIDO",
+                        "category": "peluches",
+                        "price": "5.20€",
+                        "originalPrice": "6.50€",
+                        "discount": "20% OFF",
+                        "description": "Cojín con forma de estrella de 60x45cm. Colores surtidos para brillar en cualquier espacio.",
+                        "detailed_description": "Mágico cojín con forma de estrella en medidas 60x45cm, disponible en hermosos colores surtidos. Diseñado para aportar magia y brillo a cualquier habitación, especialmente perfecto para espacios infantiles.",
+                        "rating": 4.5,
+                        "reviews": 26,
+                        "images": [
+                            "images/peluches/cojin-estrella-60x45cm-surtido/principal"
+                        ],
+                        "features": [
+                            "Forma de estrella mágica",
+                            "Medidas 60x45cm",
+                            "Colores surtidos brillantes",
+                            "Perfecto para niños",
+                            "Suave y acogedor",
+                            "Diseño celestial"
+                        ],
+                        "specifications": {
+                            "dimensions": "60cm x 45cm",
+                            "material": "Tejido suave, relleno sintético",
+                            "weight": "450g",
+                            "color": "Surtido (azul, rosa, amarillo)",
+                            "firmness": "Suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Ambiente mágico",
+                            "Estimula imaginación",
+                            "Confort nocturno",
+                            "Decoración temática",
+                            "Suavidad celestial"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina delicado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "Mantener forma de estrella",
+                            "Cuidar puntas de la estrella"
+                        ]
+                    },
+                    {
+                        "id": "cojin-nube-65x30cm-surtido",
+                        "name": "COJÍN NUBE 65X30CM - SURTIDO",
+                        "category": "peluches",
+                        "price": "5.20€",
+                        "originalPrice": "6.50€",
+                        "discount": "20% OFF",
+                        "description": "Cojín con forma de nube de 65x30cm. Colores surtidos para soñar entre las nubes.",
+                        "detailed_description": "Esponjoso cojín con forma de nube en medidas 65x30cm, disponible en suaves colores surtidos. Diseñado para crear una atmósfera de ensueño y tranquilidad, perfecto para la relajación y el descanso.",
+                        "rating": 4.7,
+                        "reviews": 34,
+                        "images": [
+                            "images/peluches/cojin-nube-65x30cm-surtido/principal"
+                        ],
+                        "features": [
+                            "Forma de nube esponjosa",
+                            "Medidas 65x30cm",
+                            "Colores surtidos suaves",
+                            "Atmósfera de ensueño",
+                            "Muy suave al tacto",
+                            "Relajante y tranquilo"
+                        ],
+                        "specifications": {
+                            "dimensions": "65cm x 30cm",
+                            "material": "Tejido extra suave, relleno esponjoso",
+                            "weight": "380g",
+                            "color": "Surtido (azul, blanco, rosa)",
+                            "firmness": "Extra suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Sensación de tranquilidad",
+                            "Estimula la relajación",
+                            "Decoración onírica",
+                            "Confort superior",
+                            "Ambiente sereno"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina delicado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "Mantener esponjosidad",
+                            "Proteger de humedad"
+                        ]
+                    },
+                    {
+                        "id": "cojin-decorativo-flor-50d-verde",
+                        "name": "COJÍN DECORATIVO FLOR 50D - VERDE",
+                        "category": "peluches",
+                        "price": "5.35€",
+                        "originalPrice": "6.68€",
+                        "discount": "20% OFF",
+                        "description": "Cojín decorativo con forma de flor de 50cm de diámetro en color verde natural.",
+                        "detailed_description": "Precioso cojín decorativo con forma de flor de 50cm de diámetro en un hermoso color verde natural. Su diseño floral y tamaño generoso lo convierten en una pieza central perfecta para la decoración del hogar.",
+                        "rating": 4.4,
+                        "reviews": 19,
+                        "images": [
+                            "images/peluches/cojin-decorativo-flor-50d-verde/principal"
+                        ],
+                        "features": [
+                            "Forma de flor detallada",
+                            "Diámetro generoso 50cm",
+                            "Color verde natural",
+                            "Diseño botánico",
+                            "Suave y decorativo",
+                            "Pieza central"
+                        ],
+                        "specifications": {
+                            "dimensions": "50cm diámetro",
+                            "material": "Tejido texturizado, relleno sintético",
+                            "weight": "420g",
+                            "color": "Verde",
+                            "firmness": "Media-suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Ambiente natural",
+                            "Decoración botánica",
+                            "Confort visual",
+                            "Tamaño llamativo",
+                            "Calidad decorativa"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina delicado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "Mantener forma floral",
+                            "Cuidar pétalos"
+                        ]
+                    },
+                    {
+                        "id": "cojin-decorativo-flor-50d-morado",
+                        "name": "COJÍN DECORATIVO FLOR 50D - MORADO",
+                        "category": "peluches",
+                        "price": "5.35€",
+                        "originalPrice": "6.68€",
+                        "discount": "20% OFF",
+                        "description": "Cojín decorativo con forma de flor de 50cm de diámetro en color morado elegante.",
+                        "detailed_description": "Elegante cojín decorativo con forma de flor de 50cm de diámetro en un sofisticado color morado. Su diseño floral y tonalidad púrpura aportan distinción y elegancia a cualquier ambiente.",
+                        "rating": 4.6,
+                        "reviews": 23,
+                        "images": [
+                            "images/peluches/cojin-decorativo-flor-50d-morado/principal"
+                        ],
+                        "features": [
+                            "Forma de flor sofisticada",
+                            "Diámetro generoso 50cm",
+                            "Color morado elegante",
+                            "Diseño distinguido",
+                            "Suave y lujoso",
+                            "Decoración premium"
+                        ],
+                        "specifications": {
+                            "dimensions": "50cm diámetro",
+                            "material": "Tejido texturizado, relleno sintético",
+                            "weight": "420g",
+                            "color": "Morado",
+                            "firmness": "Media-suave",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Ambiente sofisticado",
+                            "Decoración distinguida",
+                            "Confort visual premium",
+                            "Elegancia natural",
+                            "Calidad superior"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina delicado",
+                            "Agua fría",
+                            "Secar al aire",
+                            "Mantener forma floral",
+                            "Preservar color morado"
+                        ]
+                    }
+                ]
 }

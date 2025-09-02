@@ -675,6 +675,7 @@ body {
 
 .category-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -686,6 +687,7 @@ body {
 .category-item {
     flex: 1;
     position: relative;
+    min-width: calc(100% / 6);
 }
 
 .category-item a {
@@ -771,6 +773,14 @@ body {
 
 .category-item:nth-child(5).active ~ .category-slider {
     transform: translateX(400%);
+}
+
+.category-item:nth-child(6).active ~ .category-slider {
+    transform: translateX(500%);
+}
+
+.category-item:nth-child(7).active ~ .category-slider {
+    transform: translateX(600%);
 }
 
 .category-item:nth-child(6).active ~ .category-slider {
