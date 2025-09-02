@@ -770,7 +770,456 @@
 
                 ],
     "edredones":  [
-
+                      {
+                          "id":  "edredon-150x220cm-relleno-300gr-cama-90cm",
+                          "name":  "EDREDON 150*220CM RELLENO DE 300gr CAMA 90CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "15.79€",
+                          "originalPrice":  "19.738€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 300gr para cama de 90cm. Tamaño 150x220cm. Color blanco, perfecto para descanso individual.",
+                          "detailed_description":  "Edredón de alta calidad con relleno de 300gr específicamente diseñado para camas individuales de 90cm. Sus medidas de 150x220cm proporcionan cobertura perfecta y el relleno de 300gr ofrece el equilibrio ideal entre calidez y transpirabilidad.",
+                          "rating":  4.6,
+                          "reviews":  34,
+                          "images":  [
+                                         "images/productos/edredones/edredon-150x220cm-relleno-300gr-cama-90cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 300gr",
+                                         "Tamaño 150x220cm",
+                                         "Para cama de 90cm",
+                                         "Color blanco",
+                                         "Transpirable",
+                                         "Lavable"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "150cm x 220cm",
+                                                 "filling_weight":  "300gr",
+                                                 "bed_size":  "90cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para camas individuales",
+                                           "Relleno equilibrado 300gr",
+                                           "Transpirable y cómodo",
+                                           "Fácil mantenimiento",
+                                           "Calidad precio excelente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-180x220cm-relleno-300gr-cama-105cm",
+                          "name":  "EDREDON 180*220CM RELLENO DE 300gr CAMA 105CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "16.885€",
+                          "originalPrice":  "21.106€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 300gr para cama de 105cm. Tamaño 180x220cm. Color blanco, ideal para camas pequeñas de matrimonio.",
+                          "detailed_description":  "Edredón con relleno de 300gr diseñado para camas de 105cm. Las medidas de 180x220cm lo hacen perfecto para camas pequeñas de matrimonio, proporcionando comodidad y calidez equilibrada.",
+                          "rating":  4.7,
+                          "reviews":  28,
+                          "images":  [
+                                         "images/productos/edredones/edredon-180x220cm-relleno-300gr-cama-105cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 300gr",
+                                         "Tamaño 180x220cm",
+                                         "Para cama de 105cm",
+                                         "Color blanco",
+                                         "Matrimonio pequeño",
+                                         "Transpirable"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "180cm x 220cm",
+                                                 "filling_weight":  "300gr",
+                                                 "bed_size":  "105cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Ideal para matrimonio pequeño",
+                                           "Relleno equilibrado 300gr",
+                                           "Cobertura perfecta para camas 105cm",
+                                           "Transpirable y cómodo",
+                                           "Relación calidad-precio excelente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-220x220cm-relleno-300gr-cama-135cm",
+                          "name":  "EDREDON 220*220CM RELLENO DE 300gr CAMA 135CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "17.985€",
+                          "originalPrice":  "22.481€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 300gr para cama de 135cm. Tamaño 220x220cm. Color blanco, perfecto para camas matrimoniales estándar.",
+                          "detailed_description":  "Edredón matrimonial estándar con relleno de 300gr para camas de 135cm. Sus medidas cuadradas de 220x220cm garantizan cobertura completa y el relleno de 300gr proporciona calidez perfecta para todas las estaciones.",
+                          "rating":  4.8,
+                          "reviews":  45,
+                          "images":  [
+                                         "images/productos/edredones/edredon-220x220cm-relleno-300gr-cama-135cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 300gr",
+                                         "Tamaño 220x220cm",
+                                         "Para cama de 135cm",
+                                         "Color blanco",
+                                         "Matrimonial estándar",
+                                         "Cuatro estaciones"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "220cm x 220cm",
+                                                 "filling_weight":  "300gr",
+                                                 "bed_size":  "135cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para matrimonio estándar",
+                                           "Medidas cuadradas ideales",
+                                           "Cobertura completa garantizada",
+                                           "Calidez para cuatro estaciones",
+                                           "Durabilidad y confort unidos"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-220x240cm-relleno-300gr-cama-150cm",
+                          "name":  "EDREDON 220*240CM RELLENO DE 300gr CAMA 150CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "20.185€",
+                          "originalPrice":  "25.231€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 300gr para cama de 150cm. Tamaño 220x240cm. Color blanco, ideal para camas matrimoniales grandes.",
+                          "detailed_description":  "Edredón de gran tamaño con relleno de 300gr diseñado para camas matrimoniales grandes de 150cm. Las medidas de 220x240cm ofrecen cobertura superior y máximo confort para parejas.",
+                          "rating":  4.9,
+                          "reviews":  38,
+                          "images":  [
+                                         "images/productos/edredones/edredon-220x240cm-relleno-300gr-cama-150cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 300gr",
+                                         "Tamaño 220x240cm",
+                                         "Para cama de 150cm",
+                                         "Color blanco",
+                                         "Matrimonial grande",
+                                         "Cobertura superior"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "220cm x 240cm",
+                                                 "filling_weight":  "300gr",
+                                                 "bed_size":  "150cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima cobertura para camas grandes",
+                                           "Confort para cuatro estaciones",
+                                           "Material transpirable",
+                                           "Fácil cuidado",
+                                           "Relación calidad-precio excelente"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar en ciclo delicado a 30°C",
+                                                    "Usar detergente neutro",
+                                                    "No usar lejía ni suavizantes",
+                                                    "Secar al aire o secadora a baja temperatura",
+                                                    "Planchar a baja temperatura sólo si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-240x260cm-relleno-300gr-cama-180cm",
+                          "name":  "EDREDON 240*260CM RELLENO DE 300gr CAMA 180CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "22.385€",
+                          "originalPrice":  "27.981€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 300gr para cama de 180cm. Tamaño 240x260cm. Color blanco, perfecto para camas king size.",
+                          "detailed_description":  "Edredón king size con relleno de 300gr para camas de 180cm. Las medidas extragrandes de 240x260cm proporcionan la máxima cobertura y lujo en el descanso para camas king size.",
+                          "rating":  4.9,
+                          "reviews":  29,
+                          "images":  [
+                                         "images/productos/edredones/edredon-240x260cm-relleno-300gr-cama-180cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 300gr",
+                                         "Tamaño 240x260cm",
+                                         "Para cama de 180cm",
+                                         "Color blanco",
+                                         "King size",
+                                         "Máximo lujo"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "240cm x 260cm",
+                                                 "filling_weight":  "300gr",
+                                                 "bed_size":  "180cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Cobertura superior para camas muy grandes",
+                                           "Alta transpirabilidad y confort",
+                                           "Material de alta calidad",
+                                           "Diseño funcional y elegante",
+                                           "Durabilidad y resistencia"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "No usar lejía",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No planchar"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-150x220cm-relleno-400gr-cama-90cm",
+                          "name":  "EDREDON 150*220CM RELLENO DE 400gr CAMA 90CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "16.885€",
+                          "originalPrice":  "21.106€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 400gr para cama de 90cm. Tamaño 150x220cm. Color blanco, mayor calidez para invierno.",
+                          "detailed_description":  "Edredón individual con relleno de 400gr para camas de 90cm. El relleno más denso proporciona mayor calidez, ideal para temporadas frías y personas que buscan más abrigo durante el descanso.",
+                          "rating":  4.7,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/edredones/edredon-150x220cm-relleno-400gr-cama-90cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 400gr",
+                                         "Tamaño 150x220cm",
+                                         "Para cama de 90cm",
+                                         "Color blanco",
+                                         "Extra calidez",
+                                         "Ideal invierno"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "150cm x 220cm",
+                                                 "filling_weight":  "400gr",
+                                                 "bed_size":  "90cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Mayor calidez para invierno",
+                                           "Relleno denso 400gr",
+                                           "Perfecto para temporadas frías",
+                                           "Abrigo superior",
+                                           "Confort individual mejorado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-180x220cm-relleno-400gr-cama-105cm",
+                          "name":  "EDREDON 180*220CM RELLENO DE 400gr CAMA 105CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "17.985€",
+                          "originalPrice":  "22.481€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 400gr para cama de 105cm. Tamaño 180x220cm. Color blanco, calidez superior para matrimonio pequeño.",
+                          "detailed_description":  "Edredón para matrimonio pequeño con relleno de 400gr para camas de 105cm. Proporciona calidez superior y confort excepcional para parejas que buscan mayor abrigo.",
+                          "rating":  4.8,
+                          "reviews":  26,
+                          "images":  [
+                                         "images/productos/edredones/edredon-180x220cm-relleno-400gr-cama-105cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 400gr",
+                                         "Tamaño 180x220cm",
+                                         "Para cama de 105cm",
+                                         "Color blanco",
+                                         "Matrimonio pequeño",
+                                         "Calidez superior"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "180cm x 220cm",
+                                                 "filling_weight":  "400gr",
+                                                 "bed_size":  "105cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Calidez superior para matrimonio pequeño",
+                                           "Relleno 400gr para mayor abrigo",
+                                           "Confort excepcional para parejas",
+                                           "Ideal para temporadas frías",
+                                           "Cobertura perfecta 180x220cm"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-220x220cm-relleno-400gr-cama-135cm",
+                          "name":  "EDREDON 220*220CM RELLENO DE 400gr CAMA 135CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "20.185€",
+                          "originalPrice":  "25.231€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 400gr para cama de 135cm. Tamaño 220x220cm. Color blanco, máxima calidez para matrimonio estándar.",
+                          "detailed_description":  "Edredón matrimonial estándar con relleno de 400gr para camas de 135cm. Ofrece máxima calidez y confort para el descanso invernal de parejas.",
+                          "rating":  4.9,
+                          "reviews":  41,
+                          "images":  [
+                                         "images/productos/edredones/edredon-220x220cm-relleno-400gr-cama-135cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 400gr",
+                                         "Tamaño 220x220cm",
+                                         "Para cama de 135cm",
+                                         "Color blanco",
+                                         "Matrimonial estándar",
+                                         "Máxima calidez"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "220cm x 220cm",
+                                                 "filling_weight":  "400gr",
+                                                 "bed_size":  "135cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima calidez para matrimonio estándar",
+                                           "Relleno denso 400gr ideal invierno",
+                                           "Medidas cuadradas perfectas",
+                                           "Confort invernal para parejas",
+                                           "Calidad y abrigo unidos"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-220x240cm-relleno-400gr-cama-150cm",
+                          "name":  "EDREDON 220*240CM RELLENO DE 400gr CAMA 150CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "22.385€",
+                          "originalPrice":  "27.981€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 400gr para cama de 150cm. Tamaño 220x240cm. Color blanco, máxima calidez para camas matrimoniales grandes.",
+                          "detailed_description":  "Edredón de gran tamaño con relleno de 400gr diseñado para camas matrimoniales grandes de 150cm. Las medidas de 220x240cm ofrecen cobertura superior con máxima calidez para temporadas frías.",
+                          "rating":  4.9,
+                          "reviews":  32,
+                          "images":  [
+                                         "images/productos/edredones/edredon-220x240cm-relleno-400gr-cama-150cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 400gr",
+                                         "Tamaño 220x240cm",
+                                         "Para cama de 150cm",
+                                         "Color blanco",
+                                         "Matrimonial grande",
+                                         "Máxima calidez"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "220cm x 240cm",
+                                                 "filling_weight":  "400gr",
+                                                 "bed_size":  "150cm",
+                                                 "material":  "Microfibra",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima calidez para camas grandes",
+                                           "Cobertura superior 220x240cm",
+                                           "Relleno 400gr para temporadas frías",
+                                           "Confort invernal para parejas",
+                                           "Calidad y lujo combinados"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Planchar a baja temperatura si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "edredon-240x260cm-relleno-400gr-cama-180cm",
+                          "name":  "EDREDON 240*260CM RELLENO DE 400gr CAMA 180CM - BLANCO",
+                          "category":  "edredones",
+                          "price":  "24.585€",
+                          "originalPrice":  "30.731€",
+                          "discount":  "20% OFF",
+                          "description":  "Edredón con relleno de 400gr para cama de 180cm. Tamaño 240x260cm. Color blanco, máximo lujo y calidez para camas king size.",
+                          "detailed_description":  "Edredón king size premium con relleno de 400gr para camas de 180cm. Las medidas extragrandes de 240x260cm proporcionan la máxima cobertura, lujo y calidez superior para el descanso más confortable en camas king size.",
+                          "rating":  5.0,
+                          "reviews":  23,
+                          "images":  [
+                                         "images/productos/edredones/edredon-240x260cm-relleno-400gr-cama-180cm/principal"
+                                     ],
+                          "features":  [
+                                         "Relleno de 400gr",
+                                         "Tamaño 240x260cm",
+                                         "Para cama de 180cm",
+                                         "Color blanco",
+                                         "King size premium",
+                                         "Máximo lujo y calidez"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "240cm x 260cm",
+                                                 "filling_weight":  "400gr",
+                                                 "bed_size":  "180cm",
+                                                 "material":  "Microfibra premium",
+                                                 "color":  "Blanco",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo lujo y calidez king size",
+                                           "Cobertura extragrande 240x260cm",
+                                           "Relleno premium 400gr",
+                                           "Confort superior para camas 180cm",
+                                           "Experiencia de lujo total"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente premium",
+                                                    "Secar al aire o secadora baja temperatura",
+                                                    "No usar lejía",
+                                                    "Cuidado especial por tamaño king"
+                                                ]
+                      }
                   ],
     "relleno":  [
                     {
@@ -1266,6 +1715,231 @@
                                                   "Secado industrial recomendado",
                                                   "Mantenimiento simple",
                                                   "Resistente a lavados frecuentes"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-termoformado-40x40cm",
+                        "name":  "RELLENO COJÍN TERMOFORMADO 40*40CM",
+                        "category":  "relleno",
+                        "price":  "2.261€",
+                        "originalPrice":  "2.826€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT termoformado para cojín 40x40cm. Tecnología avanzada que combina resistencia TNT con moldeado térmico perfecto.",
+                        "detailed_description":  "Relleno innovador que combina la tecnología TNT (Tela No Tejida) con el proceso de termoformado para cojines cuadrados de 40x40cm. Esta combinación única ofrece la máxima durabilidad del TNT junto con la forma perfecta y estable del termoformado.",
+                        "rating":  4.5,
+                        "reviews":  26,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-termoformado-40x40cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tecnología TNT + Termoformado",
+                                         "Tamaño cuadrado 40x40cm",
+                                         "Forma perfecta garantizada",
+                                         "Resistencia máxima",
+                                         "Durabilidad profesional",
+                                         "Innovación tecnológica"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 40cm",
+                                               "material":  "TNT Termoformado",
+                                               "weight":  "320g",
+                                               "cover":  "Polipropileno termoformado",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Máxima durabilidad combinada",
+                                         "Forma estable permanente",
+                                         "Resistencia profesional",
+                                         "Tecnología avanzada",
+                                         "Inversión a largo plazo"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavar con cuidado especial",
+                                                  "Mantener forma termoformada",
+                                                  "Secado horizontal",
+                                                  "Resistente a deformaciones",
+                                                  "Conserva propiedades por años"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-termoformado-45x45cm",
+                        "name":  "RELLENO COJÍN TERMOFORMADO 45*45CM",
+                        "category":  "relleno",
+                        "price":  "2.385€",
+                        "originalPrice":  "2.981€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT termoformado para cojín 45x45cm. Tecnología superior que garantiza forma perfecta y resistencia excepcional.",
+                        "detailed_description":  "Relleno de tecnología avanzada TNT termoformado para cojines estándar de 45x45cm. La combinación de materiales TNT con proceso termoformado garantiza una forma perfecta duradera y resistencia excepcional al uso.",
+                        "rating":  4.6,
+                        "reviews":  24,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-termoformado-45x45cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño estándar 45x45cm",
+                                         "Tecnología TNT termoformada",
+                                         "Forma perfecta duradera",
+                                         "Resistencia excepcional",
+                                         "Calidad profesional",
+                                         "Proceso avanzado"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "45cm x 45cm",
+                                               "material":  "TNT Termoformado Premium",
+                                               "weight":  "380g",
+                                               "cover":  "Polipropileno termoformado",
+                                               "firmness":  "Medio-Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño popular optimizado",
+                                         "Tecnología dual avanzada",
+                                         "Durabilidad superior",
+                                         "Forma estable garantizada",
+                                         "Calidad certificada"
+                                     ],
+                        "care_instructions":  [
+                                                  "Lavado especializado",
+                                                  "Preservar termoformado",
+                                                  "Secado controlado",
+                                                  "Mantiene forma original",
+                                                  "Resistencia a lavados"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-termoformado-40x60cm",
+                        "name":  "RELLENO COJÍN TERMOFORMADO 40*60CM",
+                        "category":  "relleno",
+                        "price":  "2.613€",
+                        "originalPrice":  "3.266€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT termoformado para cojín 40x60cm. Formato rectangular con tecnología avanzada para cojines lumbares.",
+                        "detailed_description":  "Relleno especializado TNT termoformado en formato rectangular de 40x60cm. Diseñado específicamente para cojines lumbares y decorativos alargados, combinando la resistencia TNT con la precisión del termoformado.",
+                        "rating":  4.4,
+                        "reviews":  20,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-termoformado-40x60cm/principal"
+                                   ],
+                        "features":  [
+                                         "Formato rectangular 40x60cm",
+                                         "Especializado para lumbares",
+                                         "TNT + Termoformado avanzado",
+                                         "Soporte lumbar perfecto",
+                                         "Resistencia superior",
+                                         "Forma rectangular estable"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "40cm x 60cm",
+                                               "material":  "TNT Termoformado Especializado",
+                                               "weight":  "420g",
+                                               "cover":  "Polipropileno reforzado",
+                                               "firmness":  "Firme",
+                                               "warranty":  "2 años"
+                                           },
+                        "benefits":  [
+                                         "Soporte lumbar profesional",
+                                         "Formato especializado",
+                                         "Tecnología combinada",
+                                         "Durabilidad certificada",
+                                         "Confort ergonómico"
+                                     ],
+                        "care_instructions":  [
+                                                  "Cuidado especializado",
+                                                  "Mantener formato rectangular",
+                                                  "Secado horizontal obligatorio",
+                                                  "Preservar termoformado",
+                                                  "Resistencia comprobada"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-termoformado-50x50cm",
+                        "name":  "RELLENO COJÍN TERMOFORMADO 50*50CM",
+                        "category":  "relleno",
+                        "price":  "2.613€",
+                        "originalPrice":  "3.266€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT termoformado para cojín 50x50cm. Tamaño grande con máxima calidad y tecnología avanzada.",
+                        "detailed_description":  "Relleno TNT termoformado de tamaño grande para cojines de 50x50cm. Combina la máxima calidad de materiales TNT con la precisión del termoformado, ideal para cojines de sofá y decorativos de gran impacto.",
+                        "rating":  4.7,
+                        "reviews":  22,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-termoformado-50x50cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño grande 50x50cm",
+                                         "Máxima calidad TNT",
+                                         "Termoformado de precisión",
+                                         "Ideal para sofás",
+                                         "Tecnología avanzada",
+                                         "Impacto decorativo"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "50cm x 50cm",
+                                               "material":  "TNT Termoformado de Máxima Calidad",
+                                               "weight":  "480g",
+                                               "cover":  "Polipropileno premium",
+                                               "firmness":  "Firme",
+                                               "warranty":  "3 años"
+                                           },
+                        "benefits":  [
+                                         "Tamaño impactante optimizado",
+                                         "Calidad máxima garantizada",
+                                         "Tecnología de vanguardia",
+                                         "Durabilidad excepcional",
+                                         "Garantía extendida"
+                                     ],
+                        "care_instructions":  [
+                                                  "Cuidado premium",
+                                                  "Mantener termoformado",
+                                                  "Secado profesional",
+                                                  "Conservación máxima calidad",
+                                                  "Resistencia profesional"
+                                              ]
+                    },
+                    {
+                        "id":  "relleno-tnt-cojin-termoformado-55x55cm",
+                        "name":  "RELLENO COJÍN TERMOFORMADO 55*55CM",
+                        "category":  "relleno",
+                        "price":  "3.182€",
+                        "originalPrice":  "3.978€",
+                        "discount":  "20% OFF",
+                        "description":  "Relleno TNT termoformado para cojín 55x55cm. Tamaño extra grande con tecnología premium y máxima durabilidad.",
+                        "detailed_description":  "Relleno TNT termoformado premium de tamaño extra grande para cojines de 55x55cm. Representa la cúspide de la tecnología combinada TNT-termoformado, ofreciendo máxima durabilidad y forma perfecta para cojines de gran impacto visual.",
+                        "rating":  4.8,
+                        "reviews":  18,
+                        "images":  [
+                                       "images/productos/relleno/relleno-cojin-termoformado-55x55cm/principal"
+                                   ],
+                        "features":  [
+                                         "Tamaño extra grande 55x55cm",
+                                         "Tecnología premium TNT",
+                                         "Termoformado de máxima precisión",
+                                         "Durabilidad excepcional",
+                                         "Gran impacto visual",
+                                         "Calidad profesional"
+                                     ],
+                        "specifications":  {
+                                               "dimensions":  "55cm x 55cm",
+                                               "material":  "TNT Termoformado Premium",
+                                               "weight":  "560g",
+                                               "cover":  "Polipropileno de alta resistencia",
+                                               "firmness":  "Extra Firme",
+                                               "warranty":  "3 años"
+                                           },
+                        "benefits":  [
+                                         "Máximo tamaño disponible",
+                                         "Tecnología de vanguardia",
+                                         "Durabilidad profesional",
+                                         "Presencia decorativa máxima",
+                                         "Inversión premium"
+                                     ],
+                        "care_instructions":  [
+                                                  "Cuidado profesional premium",
+                                                  "Preservar tecnología avanzada",
+                                                  "Secado especializado",
+                                                  "Mantenimiento profesional",
+                                                  "Conservación óptima"
                                               ]
                     },
                     {

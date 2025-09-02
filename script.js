@@ -75,8 +75,10 @@ function createProductCard(product, index) {
             <div class="product-info">
                 <div class="product-name">${product.name}</div>
                 <div class="product-description">${product.description}</div>
-                <div class="product-price">${product.price}</div>
-                <div class="product-discount">${product.discount}</div>
+                <div class="product-price-section">
+                    <div class="product-price">${product.price}</div>
+                    <div class="product-discount">${product.discount}</div>
+                </div>
             </div>
         </div>
     `;
