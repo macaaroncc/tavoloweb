@@ -6895,6 +6895,456 @@
                             "Mantener forma floral",
                             "Preservar color morado"
                         ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-azul",
+                        "name": "COJIN MULTIUSO 52X15CM - AZUL",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm en color azul. Formato alargado versátil para múltiples usos.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm en color azul vibrante. Su diseño versátil lo hace perfecto para usar como respaldo lumbar, soporte cervical, cojín decorativo o apoyo corporal. Ideal para sofás, sillas de oficina, camas y espacios de relajación.",
+                        "rating": 4.3,
+                        "reviews": 15,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-azul/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Color azul vibrante",
+                            "Versatilidad de uso",
+                            "Soporte lumbar y cervical",
+                            "Diseño ergonómico",
+                            "Múltiples aplicaciones"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra resistente",
+                            "weight": "280g",
+                            "color": "Azul",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Soporte ergonómico versátil",
+                            "Mejora postura corporal",
+                            "Alivia tensión muscular",
+                            "Uso en múltiples espacios",
+                            "Precio muy accesible"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente suave",
+                            "Secar al aire",
+                            "Conservar forma alargada",
+                            "Mantener firmeza"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-gris",
+                        "name": "COJIN MULTIUSO 52X15CM - GRIS",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm en color gris neutro. Formato alargado versátil que combina con cualquier decoración.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm en color gris neutro y elegante. Su tonalidad versátil se adapta a cualquier estilo decorativo, mientras que su diseño ergonómico proporciona soporte y confort en múltiples situaciones de uso.",
+                        "rating": 4.4,
+                        "reviews": 18,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-gris/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Color gris neutro",
+                            "Combina con cualquier decoración",
+                            "Soporte ergonómico",
+                            "Diseño versátil",
+                            "Elegancia neutra"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra resistente",
+                            "weight": "280g",
+                            "color": "Gris",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Neutralidad decorativa total",
+                            "Versatilidad de combinación",
+                            "Soporte corporal efectivo",
+                            "Adaptable a cualquier ambiente",
+                            "Excelente relación calidad-precio"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente neutro",
+                            "Secar horizontalmente",
+                            "Mantener tono gris",
+                            "Conservar firmeza original"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-rojo",
+                        "name": "COJIN MULTIUSO 52X15CM - ROJO",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm en color rojo vibrante. Aporta energía y soporte ergonómico.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm en color rojo vibrante y energético. Combina funcionalidad ergonómica con un toque decorativo llamativo, perfecto para quienes buscan soporte corporal sin renunciar a un ambiente dinámico y lleno de vitalidad.",
+                        "rating": 4.5,
+                        "reviews": 12,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-rojo/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Color rojo energético",
+                            "Aporta vitalidad al espacio",
+                            "Soporte ergonómico efectivo",
+                            "Decoración dinámica",
+                            "Funcionalidad colorida"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra resistente",
+                            "weight": "280g",
+                            "color": "Rojo",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Energía visual constante",
+                            "Soporte corporal dinámico",
+                            "Punto focal decorativo",
+                            "Estimula ambiente positivo",
+                            "Funcionalidad con estilo"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente para colores intensos",
+                            "Secar a la sombra",
+                            "Preservar viveza del rojo",
+                            "Mantener forma ergonómica"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-encaje-blanco",
+                        "name": "COJIN MULTIUSO 52X15CM - ENCAJE BLANCO",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm con diseño de encaje blanco elegante. Combina funcionalidad y delicadeza.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm con hermoso diseño de encaje blanco. Une la funcionalidad ergonómica con la elegancia del encaje, creando una pieza que proporciona soporte corporal mientras añade un toque de sofisticación y delicadeza al ambiente.",
+                        "rating": 4.6,
+                        "reviews": 22,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-encaje-blanco/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Diseño de encaje elegante",
+                            "Color blanco sofisticado",
+                            "Funcionalidad delicada",
+                            "Textura refinada",
+                            "Elegancia clásica"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra con patrón de encaje",
+                            "weight": "285g",
+                            "color": "Blanco con encaje",
+                            "firmness": "Media-suave",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Elegancia funcional única",
+                            "Soporte corporal refinado",
+                            "Decoración sofisticada",
+                            "Versatilidad con estilo",
+                            "Delicadeza y funcionalidad"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina programa delicado",
+                            "Detergente suave para blancos",
+                            "Secar con cuidado especial",
+                            "Preservar patrón de encaje",
+                            "Mantener elegancia original"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-flor-dorado",
+                        "name": "COJIN MULTIUSO 52X15CM - FLOR DORADO",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm con diseño floral dorado. Lujo y funcionalidad en perfecta armonía.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm con exquisito diseño floral en tonos dorados. Esta pieza combina la funcionalidad ergonómica con un patrón floral lujoso que aporta elegancia y calidez, ideal para espacios que buscan sofisticación y confort.",
+                        "rating": 4.7,
+                        "reviews": 19,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-flor-dorado/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Diseño floral dorado",
+                            "Patrón botánico lujoso",
+                            "Funcionalidad premium",
+                            "Elegancia natural",
+                            "Tonos cálidos"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra con patrón floral",
+                            "weight": "290g",
+                            "color": "Dorado floral",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Lujo funcional excepcional",
+                            "Soporte con elegancia natural",
+                            "Decoración botánica premium",
+                            "Calidez visual constante",
+                            "Sofisticación accesible"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente para estampados",
+                            "Secar a la sombra",
+                            "Preservar patrón floral",
+                            "Mantener tonos dorados"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-flor-azul",
+                        "name": "COJIN MULTIUSO 52X15CM - FLOR AZUL",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm con diseño floral azul. Frescura botánica con soporte ergonómico.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm con hermoso diseño floral en tonos azules. Combina la funcionalidad ergonómica con un patrón botánico fresco y relajante, perfecto para crear ambientes serenos mientras proporciona soporte corporal óptimo.",
+                        "rating": 4.5,
+                        "reviews": 16,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-flor-azul/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Diseño floral azul",
+                            "Patrón botánico fresco",
+                            "Funcionalidad relajante",
+                            "Tonos serenos",
+                            "Naturaleza tranquilizante"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra con patrón floral",
+                            "weight": "290g",
+                            "color": "Azul floral",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Tranquilidad funcional",
+                            "Soporte con serenidad",
+                            "Decoración botánica fresca",
+                            "Ambiente relajante",
+                            "Frescura visual constante"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente suave para estampados",
+                            "Secar al aire libre",
+                            "Preservar patrón floral",
+                            "Mantener tonos azules"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-52x15cm-pluma-marron",
+                        "name": "COJIN MULTIUSO 52X15CM - PLUMA MARRON",
+                        "category": "cojines",
+                        "price": "3.35€",
+                        "originalPrice": "4.18€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso de 52x15cm con diseño de plumas marrones. Estilo natural con funcionalidad ergonómica.",
+                        "detailed_description": "Cojín multiuso de formato alargado 52x15cm con elegante diseño de plumas en tonos marrones. Une la funcionalidad ergonómica con un patrón natural inspirado en plumas, creando una pieza que aporta calidez terrosa y soporte corporal.",
+                        "rating": 4.4,
+                        "reviews": 14,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-52x15cm-pluma-marron/principal"
+                        ],
+                        "features": [
+                            "Formato multiuso 52x15cm",
+                            "Diseño de plumas marrón",
+                            "Patrón natural orgánico",
+                            "Funcionalidad terrosa",
+                            "Inspiración en naturaleza",
+                            "Calidez natural"
+                        ],
+                        "specifications": {
+                            "dimensions": "52cm x 15cm",
+                            "material": "Microfibra con patrón de plumas",
+                            "weight": "285g",
+                            "color": "Marrón con plumas",
+                            "firmness": "Media",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Naturalidad funcional",
+                            "Soporte con calidez terrosa",
+                            "Decoración orgánica",
+                            "Conexión con la naturaleza",
+                            "Versatilidad natural"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente para marrones",
+                            "Secar horizontalmente",
+                            "Preservar patrón de plumas",
+                            "Mantener tonos naturales"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-80x23d-manchas-amarillas",
+                        "name": "COJIN MULTIUSO 80X23D - MANCHAS AMARILLAS",
+                        "category": "cojines",
+                        "price": "8.50€",
+                        "originalPrice": "10.62€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso cilíndrico 80x23cm con patrón de manchas amarillas. Soporte corporal versátil.",
+                        "detailed_description": "Cojín multiuso de formato cilíndrico 80x23cm con vibrante patrón de manchas amarillas. Su forma redonda y longitud generosa lo hacen ideal para soporte lumbar, cervical, entre piernas o como apoyo corporal versátil. El patrón amarillo aporta energía y alegría.",
+                        "rating": 4.6,
+                        "reviews": 28,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-80x23d-manchas-amarillas/principal"
+                        ],
+                        "features": [
+                            "Formato cilíndrico 80x23cm",
+                            "Patrón de manchas amarillas",
+                            "Soporte corporal versátil",
+                            "Energía visual constante",
+                            "Múltiples posiciones de uso",
+                            "Diseño alegre y dinámico"
+                        ],
+                        "specifications": {
+                            "dimensions": "80cm x 23cm diámetro",
+                            "material": "Microfibra resistente con patrón",
+                            "weight": "650g",
+                            "color": "Amarillo con manchas",
+                            "firmness": "Media-firme",
+                            "warranty": "3 años"
+                        },
+                        "benefits": [
+                            "Soporte corporal completo",
+                            "Versatilidad máxima de uso",
+                            "Energía visual positiva",
+                            "Adaptable a múltiples posturas",
+                            "Calidad premium duradera"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente para colores intensos",
+                            "Secar manteniendo forma cilíndrica",
+                            "Preservar patrón de manchas",
+                            "Conservar firmeza original"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-80x23d-manchas-verdes",
+                        "name": "COJIN MULTIUSO 80X23D - MANCHAS VERDES",
+                        "category": "cojines",
+                        "price": "8.50€",
+                        "originalPrice": "10.62€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso cilíndrico 80x23cm con patrón de manchas verdes. Soporte ergonómico con frescura natural.",
+                        "detailed_description": "Cojín multiuso de formato cilíndrico 80x23cm con refrescante patrón de manchas verdes. Su diseño circular y longitud generosa proporcionan soporte ergonómico versatil, mientras que el patrón verde aporta frescura natural y tranquilidad al ambiente.",
+                        "rating": 4.5,
+                        "reviews": 24,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-80x23d-manchas-verdes/principal"
+                        ],
+                        "features": [
+                            "Formato cilíndrico 80x23cm",
+                            "Patrón de manchas verdes",
+                            "Frescura natural constante",
+                            "Soporte ergonómico versátil",
+                            "Tranquilidad visual",
+                            "Conexión con naturaleza"
+                        ],
+                        "specifications": {
+                            "dimensions": "80cm x 23cm diámetro",
+                            "material": "Microfibra resistente con patrón",
+                            "weight": "650g",
+                            "color": "Verde con manchas",
+                            "firmness": "Media-firme",
+                            "warranty": "3 años"
+                        },
+                        "benefits": [
+                            "Soporte con frescura natural",
+                            "Tranquilidad funcional",
+                            "Versatilidad ergonómica",
+                            "Ambiente relajante",
+                            "Durabilidad superior"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina a 30°C",
+                            "Detergente suave para verdes",
+                            "Secar conservando forma redonda",
+                            "Preservar patrón natural",
+                            "Mantener frescura del verde"
+                        ]
+                    },
+                    {
+                        "id": "cojin-multiuso-80x23d-dorado",
+                        "name": "COJIN MULTIUSO 80X23D - DORADO",
+                        "category": "cojines",
+                        "price": "8.50€",
+                        "originalPrice": "10.62€",
+                        "discount": "20% OFF",
+                        "description": "Cojín multiuso cilíndrico 80x23cm en color dorado elegante. Soporte corporal con lujo accesible.",
+                        "detailed_description": "Cojín multiuso de formato cilíndrico 80x23cm en elegante color dorado. Su forma redonda y tamaño generoso proporcionan soporte corporal excepcional, mientras que el acabado dorado aporta un toque de lujo y sofisticación a cualquier espacio.",
+                        "rating": 4.7,
+                        "reviews": 31,
+                        "images": [
+                            "images/productos/cojines/cojin-multiuso-80x23d-dorado/principal"
+                        ],
+                        "features": [
+                            "Formato cilíndrico 80x23cm",
+                            "Color dorado elegante",
+                            "Lujo accesible",
+                            "Soporte corporal premium",
+                            "Sofisticación funcional",
+                            "Versatilidad lujosa"
+                        ],
+                        "specifications": {
+                            "dimensions": "80cm x 23cm diámetro",
+                            "material": "Microfibra premium dorada",
+                            "weight": "680g",
+                            "color": "Dorado",
+                            "firmness": "Media-firme",
+                            "warranty": "3 años"
+                        },
+                        "benefits": [
+                            "Soporte corporal lujoso",
+                            "Elegancia funcional",
+                            "Versatilidad premium",
+                            "Sofisticación accesible",
+                            "Calidad excepcional"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina programa delicado",
+                            "Detergente especial para dorados",
+                            "Secar con cuidado especial",
+                            "Preservar acabado dorado",
+                            "Mantener elegancia original"
+                        ]
                     }
                 ]
 }
