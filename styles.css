@@ -2021,6 +2021,17 @@ body {
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.side-submenu a i,
+.side-submenu a img {
+  width: 16px !important;        /* mismo ancho para todos los iconos */
+  height: 16px !important;       /* misma altura */
+  display: inline-block !important;
+  vertical-align: middle !important; /* alinear con el texto */
+  margin-right: 12px !important;  /* espacio consistente entre icono y texto */
+  margin-left: 0 !important;     /* eliminar cualquier margen izquierdo */
+  flex-shrink: 0;
+}
+
 .side-menu.active {
     visibility: visible;
     opacity: 1;

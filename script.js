@@ -3,7 +3,6 @@ let productosData = {
     almohadas: [],
     cojines: [],
     edredones: [],
-    relleno: [],
     mascotas: []
 };
 
@@ -288,21 +287,6 @@ function selectCategory(category, element) {
             });
         });
     }
-    // Si es "relleno", buscar productos que contengan "relleno"
-    else if (category === 'relleno') {
-        currentProducts = [];
-        const searchTerm = 'relleno';
-        
-        // Buscar en todas las categorías productos que contengan "relleno"
-        Object.keys(productosData).forEach(cat => {
-            productosData[cat].forEach(product => {
-                const productText = (product.name + ' ' + product.description).toLowerCase();
-                if (productText.includes(searchTerm)) {
-                    currentProducts.push(product);
-                }
-            });
-        });
-    }
     // Para otras categorías, usar el comportamiento normal
     else {
         currentProducts = productosData[category] || [];
@@ -356,7 +340,6 @@ function updateCategoryTitle(category) {
         almohadas: 'Almohadas - Colección Premium',
         cojines: 'Cojines - Decoración y Confort',
         edredones: 'Edredones - Calor y Suavidad',
-        relleno: 'Rellenos - Personaliza tu Confort',
         mascotas: 'Mascotas - Descanso para tus Amigos'
     };
     
