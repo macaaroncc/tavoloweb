@@ -185,6 +185,56 @@
             50% { transform: scale(1.05); }
         }
 
+        /* Selector de variantes */
+        .variant-selector {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border: 1px solid rgba(238, 36, 51, 0.1);
+        }
+
+        .variant-selector h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .variant-group {
+            margin-bottom: 20px;
+        }
+
+        .variant-group label {
+            display: block;
+            color: #666;
+            font-weight: 600;
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+        }
+
+        .variant-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 16px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .variant-select:focus {
+            outline: none;
+            border-color: #ee2433;
+            box-shadow: 0 0 0 3px rgba(238, 36, 51, 0.1);
+        }
+
+        .variant-select:hover {
+            border-color: #ee2433;
+        }
+
         .product-description {
             font-size: 1.1rem;
             color: #555;
@@ -854,16 +904,21 @@
                         <span class="discount-badge" id="discount-badge">--</span>
                     </div>
 
+                    <!-- Selector de variantes -->
+                    <div class="variant-selector">
+                        <!-- Se generará dinámicamente con JavaScript -->
+                    </div>
+
                     <div class="product-description" id="product-description">
                         Cargando descripción...
                     </div>
 
                     <div class="action-buttons">
-                        <button class="btn-primary" onclick="contactForProduct()">
+                        <button class="btn-primary" onclick="contactarProducto()">
                             <i class="fas fa-phone"></i>
                             Contactar para pedido
                         </button>
-                        <button class="btn-secondary" onclick="shareProduct()">
+                        <button class="btn-secondary" onclick="compartirProducto()">
                             <i class="fas fa-share"></i>
                             Compartir
                         </button>
@@ -874,38 +929,30 @@
             <!-- Tabs con información detallada -->
             <div class="product-details-tabs">
                 <div class="tab-buttons">
-                    <button class="tab-button active" onclick="showTab('features')">Características</button>
-                    <button class="tab-button" onclick="showTab('specifications')">Especificaciones</button>
-                    <button class="tab-button" onclick="showTab('benefits')">Beneficios</button>
-                    <button class="tab-button" onclick="showTab('care')">Cuidados</button>
+                    <button class="tab-button active" data-tab="caracteristicas">Características</button>
+                    <button class="tab-button" data-tab="especificaciones">Especificaciones</button>
+                    <button class="tab-button" data-tab="beneficios">Beneficios</button>
+                    <button class="tab-button" data-tab="cuidados">Cuidados</button>
                 </div>
 
-                <div class="tab-content active" id="features-tab">
+                <div class="tab-content active" id="tab-caracteristicas">
                     <h3>Características principales</h3>
-                    <ul class="features-list" id="features-list">
-                        <!-- Se generará con JS -->
-                    </ul>
+                    <!-- Se generará con JS -->
                 </div>
 
-                <div class="tab-content" id="specifications-tab">
+                <div class="tab-content" id="tab-especificaciones">
                     <h3>Especificaciones técnicas</h3>
-                    <div class="specifications-grid" id="specifications-grid">
-                        <!-- Se generará con JS -->
-                    </div>
+                    <!-- Se generará con JS -->
                 </div>
 
-                <div class="tab-content" id="benefits-tab">
+                <div class="tab-content" id="tab-beneficios">
                     <h3>Beneficios</h3>
-                    <ul class="features-list" id="benefits-list">
-                        <!-- Se generará con JS -->
-                    </ul>
+                    <!-- Se generará con JS -->
                 </div>
 
-                <div class="tab-content" id="care-tab">
+                <div class="tab-content" id="tab-cuidados">
                     <h3>Instrucciones de cuidado</h3>
-                    <ul class="features-list" id="care-list">
-                        <!-- Se generará con JS -->
-                    </ul>
+                    <!-- Se generará con JS -->
                 </div>
             </div>
         </div>
@@ -955,7 +1002,499 @@
     </footer>
 
     <script src="image-loader.js"></script>
-    <script src="script.js"></script>
-    <script src="script-producto.js"></script>
+    <!-- Scripts del sistema simple de variantes -->
+    <script>
+        // Variables globales para el sistema de variantes integrado
+        let productosOriginales = {};
+        let productosAgrupados = {};
+        let productoActual = null;
+        let varianteActual = null;
+        
+        // Incluir las funciones del sistema simple de agrupación
+        // Cargar productos del JSON original
+        async function cargarProductos() {
+            try {
+                const response = await fetch('./productos.json');
+                const data = await response.json();
+                productosOriginales = data;
+                
+                // Agrupar productos automáticamente
+                agruparProductos();
+                
+                console.log('✅ Productos cargados y agrupados:', productosAgrupados);
+                return true;
+            } catch (error) {
+                console.error('❌ Error cargando productos:', error);
+                return false;
+            }
+        }
+        
+        // Función simple para agrupar productos por nombre base
+        function agruparProductos() {
+            productosAgrupados = {};
+            
+            Object.keys(productosOriginales).forEach(categoria => {
+                productosOriginales[categoria].forEach(producto => {
+                    // Para cojines, usar agrupación por color; para otros, agrupación estándar
+                    const nombreBase = producto.category === 'cojines' 
+                        ? extraerNombreBaseCojin(producto.name)
+                        : extraerNombreBase(producto.name);
+                    
+                    if (!productosAgrupados[nombreBase]) {
+                        productosAgrupados[nombreBase] = {
+                            id: crearId(nombreBase),
+                            nombreBase: nombreBase,
+                            categoria: producto.category,
+                            descripcion: producto.description,
+                            descripcionDetallada: producto.detailed_description,
+                            caracteristicas: producto.features || [],
+                            beneficios: producto.benefits || [],
+                            cuidados: producto.care_instructions || [],
+                            variantes: []
+                        };
+                    }
+                    
+                    // Agregar como variante
+                    productosAgrupados[nombreBase].variantes.push({
+                        id: producto.id,
+                        nombre: producto.name,
+                        precio: producto.price,
+                        precioOriginal: producto.originalPrice,
+                        descuento: producto.discount,
+                        tamaño: extraerTamaño(producto.name),
+                        color: extraerColor(producto.name),
+                        imagen: producto.images?.[0] || '',
+                        rating: producto.rating || 0,
+                        reviews: producto.reviews || 0,
+                        especificaciones: producto.specifications || {}
+                    });
+                });
+            });
+        }
+        
+        // Funciones auxiliares para extraer información
+        function extraerNombreBase(nombre) {
+            return nombre
+                .replace(/\s*\d+CM\s*$/i, '')
+                .replace(/\s*\d+X\d+CM\s*$/i, '')
+                .replace(/\s*(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO)\s*$/i, '')
+                .replace(/\s*(CLARO|OSCURO)\s*$/i, '')
+                .replace(/\s*(ESTAMPADO.*)\s*$/i, '')
+                .trim();
+        }
+        
+        // Función especial para agrupar cojines por color (maneja todas las líneas de productos)
+        function extraerNombreBaseCojin(nombre) {
+            // Para cojines, mantener el color en el nombre base y remover solo las medidas
+            // Esta función maneja diferentes líneas de productos automáticamente:
+            // - "COJÍN DECORATIVO NUEVO MODELO 45X45CM - AZUL CLARO"
+            // - "(RELLENO) COJÍN DECORATIVO CHENILLA 40*40cm - GRIS CLARO"
+            // - Cualquier otra línea de productos de cojines
+            
+            let nombreBase = nombre;
+            
+            // Remover medidas en diferentes formatos:
+            // - 45X45CM, 40X40CM, etc.
+            // - 45*45cm, 40*40cm, etc. 
+            // - 35x50cm, etc.
+            nombreBase = nombreBase
+                .replace(/\s*\d+[X*x]\d+[Cc][Mm]\s*/g, ' ')
+                .replace(/\s*\d+[Cc][Mm]\s*/g, ' ');
+            
+            // Limpiar espacios múltiples y normalizar guiones
+            nombreBase = nombreBase
+                .replace(/\s*-\s*/g, ' - ')
+                .replace(/\s+/g, ' ')
+                .trim();
+            
+            return nombreBase;
+        }
+        
+        function extraerTamaño(nombre) {
+            // Buscar medidas en diferentes formatos: 45X45CM, 40*40cm, 35x50cm, etc.
+            const matchTamaño = nombre.match(/(\d+[X*x]\d+[Cc][Mm]|\d+[Cc][Mm])/i);
+            return matchTamaño ? matchTamaño[1].toUpperCase() : '';
+        }
+        
+        function extraerColor(nombre) {
+            const matchColor = nombre.match(/(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO|CLARO|OSCURO|ESTAMPADO.*)/i);
+            return matchColor ? matchColor[1] : '';
+        }
+        
+        function crearId(texto) {
+            return texto
+                .toLowerCase()
+                .replace(/[áàâã]/g, 'a')
+                .replace(/[éèê]/g, 'e')
+                .replace(/[íìî]/g, 'i')
+                .replace(/[óòô]/g, 'o')
+                .replace(/[úùû]/g, 'u')
+                .replace(/ñ/g, 'n')
+                .replace(/[^a-z0-9\s]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/-+/g, '-')
+                .replace(/^-+|-+$/g, '');
+        }
+        
+        // Función para obtener producto agrupado por ID
+        function obtenerProductoAgrupado(id) {
+            for (const nombreBase in productosAgrupados) {
+                const producto = productosAgrupados[nombreBase];
+                if (producto.id === id) {
+                    return producto;
+                }
+            }
+            return null;
+        }
+    </script>
+    
+    <script>
+        // Inicializar cuando se carga la página
+        document.addEventListener('DOMContentLoaded', async function() {
+            await inicializarPaginaProducto();
+        });
+
+        async function inicializarPaginaProducto() {
+            console.log('🔍 Iniciando carga de página de producto...');
+            
+            // Obtener ID del producto desde la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+            
+            if (!productId) {
+                mostrarError('No se especificó un producto para mostrar');
+                return;
+            }
+            
+            console.log('🎯 ID del producto:', productId);
+            
+            try {
+                // Cargar y agrupar productos
+                await cargarProductos();
+                
+                // Buscar el producto agrupado
+                const producto = obtenerProductoAgrupado(productId);
+                
+                if (!producto) {
+                    mostrarError('Producto no encontrado');
+                    return;
+                }
+                
+                console.log('✅ Producto encontrado:', producto);
+                
+                productoActual = producto;
+                varianteActual = producto.variantes[0]; // Primera variante por defecto
+                
+                // Mostrar el producto
+                mostrarProducto();
+                
+            } catch (error) {
+                console.error('❌ Error:', error);
+                mostrarError('Error cargando el producto');
+            }
+        }
+
+        function mostrarProducto() {
+            // Actualizar información básica
+            actualizarInfoBasica();
+            
+            // Mostrar selector de variantes si hay más de una
+            if (productoActual.variantes.length > 1) {
+                mostrarSelectorVariantes();
+            }
+            
+            // Actualizar contenido según la variante actual
+            actualizarContenidoVariante();
+            
+            // Configurar pestañas
+            configurarPestanas();
+            
+            // Ocultar loading y mostrar contenido
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('product-content').style.display = 'block';
+        }
+
+        function actualizarInfoBasica() {
+            // Título
+            const titulo = document.getElementById('product-title');
+            if (titulo) titulo.textContent = productoActual.nombreBase;
+            
+            // Breadcrumb
+            const categoryBreadcrumb = document.getElementById('category-breadcrumb');
+            const productBreadcrumb = document.getElementById('product-breadcrumb');
+            
+            if (categoryBreadcrumb) {
+                categoryBreadcrumb.textContent = productoActual.categoria.charAt(0).toUpperCase() + productoActual.categoria.slice(1);
+            }
+            
+            if (productBreadcrumb) {
+                productBreadcrumb.textContent = productoActual.nombreBase;
+            }
+            
+            // Descripción
+            const descripcion = document.getElementById('product-description');
+            if (descripcion) {
+                descripcion.textContent = productoActual.descripcionDetallada || productoActual.descripcion;
+            }
+            
+            // Título de la página
+            document.title = `${productoActual.nombreBase} - Tavolo Casa`;
+        }
+
+        function mostrarSelectorVariantes() {
+            const container = document.querySelector('.variant-selector');
+            if (!container) return;
+            
+            // Determinar qué atributos tienen las variantes (tamaño, color, etc.)
+            const atributos = determinarAtributosVariantes();
+            
+            let html = '<h3>Elige tu opción:</h3>';
+            
+            // Crear selector para cada atributo que tenga múltiples valores
+            Object.keys(atributos).forEach(atributo => {
+                const valores = atributos[atributo];
+                if (valores.length > 1) {
+                    html += `
+                        <div class="variant-group">
+                            <label>${atributo.charAt(0).toUpperCase() + atributo.slice(1)}:</label>
+                            <select class="variant-select" data-atributo="${atributo}">
+                                ${valores.map(valor => `
+                                    <option value="${valor}" ${valor === varianteActual[atributo] ? 'selected' : ''}>
+                                        ${valor}
+                                    </option>
+                                `).join('')}
+                            </select>
+                        </div>
+                    `;
+                }
+            });
+            
+            container.innerHTML = html;
+            
+            // Configurar event listeners
+            container.querySelectorAll('.variant-select').forEach(select => {
+                select.addEventListener('change', cambiarVariante);
+            });
+        }
+
+        function determinarAtributosVariantes() {
+            const atributos = {};
+            
+            productoActual.variantes.forEach(variante => {
+                if (variante.tamaño && variante.tamaño.trim()) {
+                    if (!atributos.tamaño) atributos.tamaño = [];
+                    if (!atributos.tamaño.includes(variante.tamaño)) {
+                        atributos.tamaño.push(variante.tamaño);
+                    }
+                }
+                
+                if (variante.color && variante.color.trim()) {
+                    if (!atributos.color) atributos.color = [];
+                    if (!atributos.color.includes(variante.color)) {
+                        atributos.color.push(variante.color);
+                    }
+                }
+            });
+            
+            return atributos;
+        }
+
+        function cambiarVariante() {
+            const selectors = document.querySelectorAll('.variant-select');
+            const atributosSeleccionados = {};
+            
+            selectors.forEach(select => {
+                const atributo = select.getAttribute('data-atributo');
+                atributosSeleccionados[atributo] = select.value;
+            });
+            
+            // Buscar variante que coincida
+            const varianteEncontrada = productoActual.variantes.find(variante => {
+                return Object.keys(atributosSeleccionados).every(attr => {
+                    return variante[attr] === atributosSeleccionados[attr];
+                });
+            });
+            
+            if (varianteEncontrada) {
+                varianteActual = varianteEncontrada;
+                actualizarContenidoVariante();
+            }
+        }
+
+        function actualizarContenidoVariante() {
+            // Actualizar precio
+            const precio = document.getElementById('current-price');
+            const precioOriginal = document.getElementById('original-price');
+            const descuento = document.getElementById('discount-badge');
+            
+            if (precio) precio.textContent = varianteActual.precio;
+            if (precioOriginal) precioOriginal.textContent = varianteActual.precioOriginal;
+            if (descuento) descuento.textContent = varianteActual.descuento;
+            
+            // Actualizar imagen
+            actualizarImagen();
+            
+            // Actualizar rating si existe
+            const rating = document.getElementById('product-rating');
+            if (rating && varianteActual.rating > 0) {
+                rating.innerHTML = `
+                    <div class="stars">${generarEstrellas(varianteActual.rating)}</div>
+                    <span class="rating-text">${varianteActual.rating}/5 (${varianteActual.reviews} opiniones)</span>
+                `;
+            }
+        }
+
+        function actualizarImagen() {
+            const container = document.getElementById('main-image');
+            if (!container) return;
+            
+            const imagenSrc = varianteActual.imagen;
+            if (imagenSrc) {
+                const img = new Image();
+                img.onload = function() {
+                    container.innerHTML = `<img src="${imagenSrc}.jpg" alt="${varianteActual.nombre}" class="product-main-image">`;
+                };
+                img.onerror = function() {
+                    // Intentar con .jpeg
+                    const imgJpeg = new Image();
+                    imgJpeg.onload = function() {
+                        container.innerHTML = `<img src="${imagenSrc}.jpeg" alt="${varianteActual.nombre}" class="product-main-image">`;
+                    };
+                    imgJpeg.onerror = function() {
+                        container.innerHTML = '<div class="image-placeholder">Imagen no disponible</div>';
+                    };
+                    imgJpeg.src = `${imagenSrc}.jpeg`;
+                };
+                img.src = `${imagenSrc}.jpg`;
+            } else {
+                container.innerHTML = '<div class="image-placeholder">Imagen no disponible</div>';
+            }
+        }
+
+        function generarEstrellas(rating) {
+            const estrellasLlenas = Math.floor(rating);
+            const mediaEstrella = rating % 1 !== 0;
+            const estrellasVacias = 5 - estrellasLlenas - (mediaEstrella ? 1 : 0);
+            
+            let html = '';
+            
+            // Estrellas llenas
+            for (let i = 0; i < estrellasLlenas; i++) {
+                html += '<i class="fas fa-star"></i>';
+            }
+            
+            // Media estrella
+            if (mediaEstrella) {
+                html += '<i class="fas fa-star-half-alt"></i>';
+            }
+            
+            // Estrellas vacías
+            for (let i = 0; i < estrellasVacias; i++) {
+                html += '<i class="far fa-star"></i>';
+            }
+            
+            return html;
+        }
+
+        function configurarPestanas() {
+            // Llenar contenido de pestañas
+            llenarPestana('caracteristicas', productoActual.caracteristicas);
+            llenarPestana('beneficios', productoActual.beneficios);
+            llenarPestana('cuidados', productoActual.cuidados);
+            llenarPestana('especificaciones', Object.entries(varianteActual.especificaciones || {}));
+            
+            // Configurar navegación de pestañas
+            const botonesPestanas = document.querySelectorAll('.tab-button');
+            const contenidoPestanas = document.querySelectorAll('.tab-content');
+            
+            botonesPestanas.forEach(boton => {
+                boton.addEventListener('click', function() {
+                    const pestanaTarget = this.getAttribute('data-tab');
+                    
+                    // Quitar clase activa de todas
+                    botonesPestanas.forEach(b => b.classList.remove('active'));
+                    contenidoPestanas.forEach(c => c.classList.remove('active'));
+                    
+                    // Activar la seleccionada
+                    this.classList.add('active');
+                    document.getElementById(`tab-${pestanaTarget}`).classList.add('active');
+                });
+            });
+        }
+
+        function llenarPestana(pestana, contenido) {
+            const elemento = document.getElementById(`tab-${pestana}`);
+            if (!elemento) return;
+            
+            if (Array.isArray(contenido)) {
+                if (contenido.length > 0) {
+                    elemento.innerHTML = `<ul class="features-list">${contenido.map(item => `<li>${item}</li>`).join('')}</ul>`;
+                } else {
+                    elemento.innerHTML = '<p>Información no disponible</p>';
+                }
+            } else if (pestana === 'especificaciones') {
+                if (contenido.length > 0) {
+                    elemento.innerHTML = `<div class="specifications-grid">${contenido.map(([key, value]) => {
+                        const etiqueta = formatearEtiquetaEspec(key);
+                        return `<div class="spec-item"><div class="spec-label">${etiqueta}</div><div class="spec-value">${value}</div></div>`;
+                    }).join('')}</div>`;
+                } else {
+                    elemento.innerHTML = '<p>Especificaciones no disponibles</p>';
+                }
+            } else {
+                elemento.innerHTML = '<p>Información no disponible</p>';
+            }
+        }
+
+        function formatearEtiquetaEspec(key) {
+            const etiquetas = {
+                'dimensions': 'Dimensiones',
+                'material': 'Material',
+                'weight': 'Peso',
+                'cover': 'Funda',
+                'firmness': 'Firmeza',
+                'warranty': 'Garantía'
+            };
+            return etiquetas[key] || key.charAt(0).toUpperCase() + key.slice(1);
+        }
+
+        function mostrarError(mensaje) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('product-content').innerHTML = `
+                <div style="text-align: center; padding: 50px;">
+                    <h2>⚠️ Error</h2>
+                    <p>${mensaje}</p>
+                    <a href="index.html" class="btn-primary" style="display: inline-block; margin-top: 20px;">Volver al catálogo</a>
+                </div>
+            `;
+            document.getElementById('product-content').style.display = 'block';
+        }
+
+        // Funciones para botones de acción
+        function contactarProducto() {
+            if (!productoActual || !varianteActual) return;
+            
+            const mensaje = `Hola, me interesa el producto: ${varianteActual.nombre} (${varianteActual.precio})`;
+            const whatsappUrl = `https://wa.me/34636215696?text=${encodeURIComponent(mensaje)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        function compartirProducto() {
+            if (navigator.share) {
+                navigator.share({
+                    title: productoActual.nombreBase,
+                    text: `${productoActual.nombreBase} - Tavolo Casa`,
+                    url: window.location.href
+                }).catch(console.error);
+            } else {
+                // Copiar enlace al portapapeles
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('¡Enlace copiado al portapapeles!');
+                }).catch(() => {
+                    prompt('Copia este enlace:', window.location.href);
+                });
+            }
+        }
+    </script>
 </body>
 </html>
