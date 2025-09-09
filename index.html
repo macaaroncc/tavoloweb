@@ -31,9 +31,11 @@
     <meta property="twitter:image" content="https://tavolocasainfo.com/logoTavolo.png">
     
     <!-- Favicon and Icons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
-    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    <meta name="theme-color" content="#ee2433">
     
     <!-- Preconnect for faster loading -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
@@ -73,26 +75,65 @@
             "itemListElement": [
                 {
                     "@type": "Offer",
+                    "availability": "https://schema.org/InStock",
+                    "priceCurrency": "EUR",
+                    "price": "25.00",
+                    "priceValidUntil": "2025-12-31",
                     "itemOffered": {
                         "@type": "Product",
-                        "name": "Almohadas",
-                        "category": "Textil Hogar"
+                        "name": "Almohadas Premium",
+                        "description": "Almohadas de alta calidad con fabricación española, perfectas para un descanso reparador",
+                        "category": "Textil Hogar",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Tavolo Casa"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Tavolo Casa"
+                        }
                     }
                 },
                 {
                     "@type": "Offer",
+                    "availability": "https://schema.org/InStock",
+                    "priceCurrency": "EUR",
+                    "price": "15.00",
+                    "priceValidUntil": "2025-12-31",
                     "itemOffered": {
                         "@type": "Product",
-                        "name": "Cojines",
-                        "category": "Decoración"
+                        "name": "Cojines Decorativos",
+                        "description": "Cojines decorativos para sofá y cama, disponibles en múltiples colores y diseños",
+                        "category": "Decoración",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Tavolo Casa"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Tavolo Casa"
+                        }
                     }
                 },
                 {
                     "@type": "Offer",
+                    "availability": "https://schema.org/InStock",
+                    "priceCurrency": "EUR",
+                    "price": "45.00",
+                    "priceValidUntil": "2025-12-31",
                     "itemOffered": {
                         "@type": "Product",
-                        "name": "Edredones",
-                        "category": "Ropa de Cama"
+                        "name": "Edredones Nórdicos",
+                        "description": "Edredones nórdicos de alta calidad, perfectos para mantener la temperatura ideal durante el descanso",
+                        "category": "Ropa de Cama",
+                        "brand": {
+                            "@type": "Brand",
+                            "name": "Tavolo Casa"
+                        },
+                        "manufacturer": {
+                            "@type": "Organization",
+                            "name": "Tavolo Casa"
+                        }
                     }
                 }
             ]
