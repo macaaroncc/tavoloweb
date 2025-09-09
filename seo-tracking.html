@@ -1,0 +1,176 @@
+<!-- 
+    ARCHIVO DE CONFIGURACIÓN SEO Y TRACKING PARA TAVOLO CASA
+    
+    Este archivo contiene todos los códigos de seguimiento necesarios para SEO.
+    Copia los códigos relevantes en el <head> de tus páginas HTML.
+-->
+
+<!-- GOOGLE ANALYTICS 4 (GA4) -->
+<!-- Reemplaza GA_MEASUREMENT_ID con tu ID real de Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID');
+</script>
+
+<!-- GOOGLE TAG MANAGER -->
+<!-- Reemplaza GTM-XXXXXX con tu ID real de Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXX');</script>
+
+<!-- GOOGLE SEARCH CONSOLE VERIFICATION -->
+<!-- Reemplaza con el código de verificación real de Google Search Console -->
+<meta name="google-site-verification" content="tu_codigo_de_verificacion_aqui" />
+
+<!-- BING WEBMASTER TOOLS VERIFICATION -->
+<!-- Reemplaza con el código de verificación real de Bing -->
+<meta name="msvalidate.01" content="tu_codigo_de_verificacion_bing_aqui" />
+
+<!-- YANDEX WEBMASTER VERIFICATION -->
+<meta name="yandex-verification" content="tu_codigo_yandex_aqui" />
+
+<!-- FACEBOOK PIXEL -->
+<!-- Reemplaza con tu ID real de Facebook Pixel -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'TU_FACEBOOK_PIXEL_ID');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none" 
+src="https://www.facebook.com/tr?id=TU_FACEBOOK_PIXEL_ID&ev=PageView&noscript=1"/>
+</noscript>
+
+<!-- HOTJAR HEATMAPS -->
+<!-- Reemplaza con tu ID real de Hotjar -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:TU_HOTJAR_ID,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- SCHEMA.ORG ADICIONAL PARA PRODUCTOS -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tavolo Casa",
+    "url": "https://tavolocasainfo.com",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://tavolocasainfo.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+<!-- BREADCRUMB SCHEMA -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://tavolocasainfo.com"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Productos",
+            "item": "https://tavolocasainfo.com/#productos"
+        }
+    ]
+}
+</script>
+
+<!-- ORGANIZATION SCHEMA -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tavolo Casa",
+    "url": "https://tavolocasainfo.com",
+    "logo": "https://tavolocasainfo.com/logoTavolo.png",
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+34636215696",
+        "contactType": "customer service",
+        "availableLanguage": "Spanish"
+    },
+    "sameAs": [
+        "https://www.facebook.com/tavolocasa",
+        "https://www.instagram.com/tavolocasa"
+    ]
+}
+</script>
+
+<!-- GTM NOSCRIPT (para colocar después del <body>) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- EVENTOS PERSONALIZADOS PARA TRACKING -->
+<script>
+// Función para trackear clicks en teléfonos
+function trackPhoneClick() {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'phone_click', {
+            'event_category': 'contact',
+            'event_label': 'header_phone'
+        });
+    }
+}
+
+// Función para trackear búsquedas
+function trackSearch(searchTerm) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'search', {
+            'search_term': searchTerm,
+            'event_category': 'engagement'
+        });
+    }
+}
+
+// Función para trackear selección de categorías
+function trackCategorySelection(category) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'category_select', {
+            'event_category': 'navigation',
+            'event_label': category
+        });
+    }
+}
+
+// Función para trackear visualización de productos
+function trackProductView(productName, category) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'view_item', {
+            'item_name': productName,
+            'item_category': category,
+            'event_category': 'ecommerce'
+        });
+    }
+}
+</script>

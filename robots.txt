@@ -1,0 +1,46 @@
+# Robots.txt for Tavolo Casa
+# Sitio web de almohadas, cojines y textil hogar
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tavolocasainfo.com/sitemap.xml
+
+# Disallow staging or development directories (if any)
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /test/
+
+# Allow CSS, JS and image files for better crawling
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Crawl delay (optional - remove if not needed)
+# Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block unwanted bots (uncomment if needed)
+# User-agent: SemrushBot
+# Disallow: /
+# 
+# User-agent: AhrefsBot  
+# Disallow: /
+
+# Contact information for webmasters
+# Host: tavolocasainfo.com

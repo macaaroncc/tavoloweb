@@ -1,0 +1,307 @@
+<!-- 
+    OPTIMIZACIONES DE RENDIMIENTO Y CORE WEB VITALS PARA TAVOLO CASA
+    
+    Este archivo contiene código y técnicas para mejorar la velocidad de carga
+    y los Core Web Vitals (LCP, FID, CLS) de tu sitio web.
+-->
+
+<!-- OPTIMIZACIONES PARA EL <HEAD> -->
+
+<!-- Resource Hints para mejorar velocidad -->
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Preload crítico CSS -->
+<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+<!-- Preload fuentes críticas -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Preload imágenes críticas (hero/logo) -->
+<link rel="preload" href="logoTavolo.png" as="image">
+<link rel="preload" href="imagen1.jpg" as="image">
+
+<!-- SCRIPT PARA LAZY LOADING DE IMÁGENES -->
+<script>
+// Lazy Loading de imágenes para mejorar LCP
+if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove('lazy');
+                observer.unobserve(img);
+            }
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const lazyImages = document.querySelectorAll('img[data-src]');
+        lazyImages.forEach(img => imageObserver.observe(img));
+    });
+}
+
+// Precargar imágenes críticas del carrusel
+const criticalImages = ['imagen1.jpg', 'imagen2.jpg', 'imagen3.jpg'];
+criticalImages.forEach(src => {
+    const img = new Image();
+    img.src = src;
+});
+</script>
+
+<!-- CSS INLINE CRÍTICO (colocar dentro de <style> en el <head>) -->
+<style>
+/* CSS crítico para Above the Fold - inline para evitar FOUC */
+.main-header {
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.fabricacion-banner {
+    background: linear-gradient(135deg, #ee2433 0%, #d01e2a 100%);
+    padding: 8px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/* Lazy loading placeholder */
+.lazy {
+    background: #f0f0f0;
+    min-height: 200px;
+    transition: opacity 0.3s;
+}
+
+.lazy.loaded {
+    opacity: 1;
+}
+</style>
+
+<!-- SCRIPT DE OPTIMIZACIÓN DE RENDIMIENTO -->
+<script>
+// Función para diferir scripts no críticos
+function deferScript(src) {
+    const script = document.createElement('script');
+    script.src = src;
+    script.defer = true;
+    document.head.appendChild(script);
+}
+
+// Diferir Font Awesome hasta después de la carga inicial
+window.addEventListener('load', () => {
+    if (!document.querySelector('link[href*="font-awesome"]')) {
+        const faLink = document.createElement('link');
+        faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css';
+        faLink.rel = 'stylesheet';
+        document.head.appendChild(faLink);
+    }
+});
+
+// Optimización de imágenes - WebP con fallback
+function supportsWebP() {
+    return new Promise(resolve => {
+        const webP = new Image();
+        webP.onload = webP.onerror = () => resolve(webP.height === 2);
+        webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+    });
+}
+
+// Usar WebP si está soportado
+supportsWebP().then(supported => {
+    if (supported) {
+        document.documentElement.classList.add('webp');
+    }
+});
+
+// Optimización de scroll suave
+let ticking = false;
+function updateScrollIndicator() {
+    // Código de scroll optimizado
+    if (!ticking) {
+        requestAnimationFrame(() => {
+            // Tu lógica de scroll aquí
+            ticking = false;
+        });
+        ticking = true;
+    }
+}
+
+// Event listener optimizado para scroll
+let scrollTimeout;
+window.addEventListener('scroll', () => {
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(updateScrollIndicator, 10);
+}, { passive: true });
+
+// Prefetch de páginas importantes al hacer hover
+document.addEventListener('DOMContentLoaded', () => {
+    const importantLinks = document.querySelectorAll('a[href$=".html"]');
+    importantLinks.forEach(link => {
+        link.addEventListener('mouseenter', () => {
+            const prefetchLink = document.createElement('link');
+            prefetchLink.rel = 'prefetch';
+            prefetchLink.href = link.href;
+            document.head.appendChild(prefetchLink);
+        }, { once: true });
+    });
+});
+
+// Service Worker registration para cache
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+            .then(registration => console.log('SW registered'))
+            .catch(error => console.log('SW registration failed'));
+    });
+}
+
+// Métricas de Core Web Vitals
+function measureCoreWebVitals() {
+    // Largest Contentful Paint (LCP)
+    new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        const lastEntry = entries[entries.length - 1];
+        console.log('LCP:', lastEntry.startTime);
+    }).observe({ entryTypes: ['largest-contentful-paint'] });
+
+    // First Input Delay (FID)
+    new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach(entry => {
+            console.log('FID:', entry.processingStart - entry.startTime);
+        });
+    }).observe({ entryTypes: ['first-input'] });
+
+    // Cumulative Layout Shift (CLS)
+    let clsValue = 0;
+    new PerformanceObserver((entryList) => {
+        const entries = entryList.getEntries();
+        entries.forEach(entry => {
+            if (!entry.hadRecentInput) {
+                clsValue += entry.value;
+                console.log('CLS:', clsValue);
+            }
+        });
+    }).observe({ entryTypes: ['layout-shift'] });
+}
+
+// Medir métricas solo en producción
+if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    measureCoreWebVitals();
+}
+
+// Optimización de images con Intersection Observer
+function optimizeImages() {
+    const images = document.querySelectorAll('img:not([loading])');
+    images.forEach(img => {
+        if (img.getBoundingClientRect().top > window.innerHeight) {
+            img.loading = 'lazy';
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', optimizeImages);
+</script>
+
+<!-- CSS para imágenes WebP -->
+<style>
+.webp .carousel-slide[data-bg] {
+    background-image: var(--webp-bg, var(--fallback-bg));
+}
+
+/* Optimizaciones de layout para evitar CLS */
+.product-image {
+    aspect-ratio: 4/3;
+    background: #f0f0f0;
+}
+
+.hero {
+    min-height: 60vh;
+    background: #f0f0f0;
+}
+
+/* Preload spinner para mejor UX */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #ee2433;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+
+<!-- MINIFICACIÓN AUTOMÁTICA (para implementar con build tools) -->
+<!--
+Para implementar en producción:
+
+1. Usar herramientas como:
+   - Gulp/Webpack para minificar CSS/JS
+   - ImageOptim para optimizar imágenes
+   - Gzip/Brotli compression en servidor
+
+2. Implementar Critical CSS:
+   - Extraer CSS above-the-fold inline
+   - Diferir CSS no crítico
+
+3. Optimizar fuentes:
+   - font-display: swap en @font-face
+   - Preload fuentes críticas
+   - Subset de fuentes para reducir peso
+
+4. Configurar Service Worker:
+   - Cache de assets estáticos
+   - Cache-first strategy para imágenes
+   - Network-first para API calls
+
+5. Configurar servidor:
+   - HTTP/2 Push para recursos críticos
+   - CDN para assets estáticos
+   - Configurar headers de cache apropiados
+-->
+
+<!-- HTML STRUCTURE OPTIMIZATION -->
+<!--
+Optimizaciones de estructura HTML:
+
+1. Usar elementos semánticos apropiados
+2. Minimizar DOM depth (máximo 5-7 niveles)
+3. Evitar inline styles cuando sea posible
+4. Usar width/height en imágenes para evitar CLS
+5. Implementar lazy loading nativo: <img loading="lazy">
+6. Usar preconnect para third-party resources
+-->

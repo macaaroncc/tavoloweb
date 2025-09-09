@@ -2620,6 +2620,146 @@ body {
     }
 }
 
+/* Breadcrumb Navigation */
+.breadcrumb-nav {
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: '>';
+    margin-left: 8px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.breadcrumb a {
+    color: #ee2433;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+    color: #d01e2a;
+    text-decoration: underline;
+}
+
+.breadcrumb li[aria-current="page"] {
+    color: #666;
+    font-weight: 600;
+}
+
+/* Values Section */
+.values-section {
+    margin-top: 50px;
+    padding-top: 40px;
+    border-top: 2px solid #ee2433;
+}
+
+.values-section h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.value-item {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.value-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #ee2433 0%, #d01e2a 100%);
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(238, 36, 51, 0.2);
+}
+
+.value-item h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.value-item h4 i {
+    color: #ee2433;
+    font-size: 24px;
+}
+
+.value-item p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive para valores */
+@media (max-width: 768px) {
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .value-item {
+        padding: 20px;
+    }
+    
+    .value-item h4 {
+        font-size: 18px;
+    }
+    
+    .value-item p {
+        font-size: 14px;
+    }
+    
+    .breadcrumb {
+        font-size: 12px;
+    }
+}
+
 /* Estilos adicionales para mejor UX */
 .loading {
     opacity: 0.6;
