@@ -7,7 +7,7 @@
     <!-- Página principal -->
     <url>
         <loc>https://tavolocasainfo.com/</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2025-01-09</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -15,61 +15,9 @@
     <!-- Página sobre nosotros -->
     <url>
         <loc>https://tavolocasainfo.com/sobre-nosotros.html</loc>
-        <lastmod>2024-01-15</lastmod>
+        <lastmod>2025-01-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-    </url>
-
-    <!-- Página de producto individual -->
-    <url>
-        <loc>https://tavolocasainfo.com/producto.html</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- Categorías de productos -->
-    <url>
-        <loc>https://tavolocasainfo.com/#almohadas</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tavolocasainfo.com/#cojines</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tavolocasainfo.com/#edredones</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://tavolocasainfo.com/#mascotas</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://tavolocasainfo.com/#peluches</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Sección de contacto -->
-    <url>
-        <loc>https://tavolocasainfo.com/#contact</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
     </url>
 
 </urlset>
