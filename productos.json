@@ -5041,6 +5041,141 @@
                               "Mantener viveza del color",
                               "Planchar con protección marina"
                           ]
+                      },
+                      {
+                          "id": "cojin-termoformado-bordado-decorativo-45x45cm-surtido",
+                          "name": "COJÍN TERMOFORMADO BORDADO DECORATIVO 45*45cm - SURTIDO",
+                          "category": "cojines",
+                          "price": "5.67€",
+                          "originalPrice": "7.09€",
+                          "discount": "20% OFF",
+                          "description": "Cojín termoformado con bordado decorativo de 45x45cm en colores surtidos. Tecnología térmica con diseño artesanal bordado premium.",
+                          "detailed_description": "Exclusivo cojín termoformado que combina la innovadora tecnología de moldeado térmico con elegantes bordados decorativos artesanales. Disponible en colores surtidos para máxima versatilidad. El proceso de termoformado garantiza durabilidad superior mientras que los bordados aportan sofisticación y distinción única.",
+                          "rating": 4.8,
+                          "reviews": 45,
+                          "images": [
+                              "images/productos/cojines/cojin-termoformado-bordado-decorativo-45x45cm-surtido/principal"
+                          ],
+                          "features": [
+                              "Tecnología termoformada avanzada",
+                              "Bordado decorativo artesanal",
+                              "Colores surtidos disponibles",
+                              "Diseño premium sofisticado",
+                              "Durabilidad térmica superior",
+                              "Distinción artesanal única"
+                          ],
+                          "specifications": {
+                              "dimensions": "45cm x 45cm",
+                              "material": "Fibra termoformada con bordado artesanal",
+                              "weight": "520g",
+                              "color": "Surtido (varios colores)",
+                              "texture": "Bordado decorativo",
+                              "warranty": "2 años"
+                          },
+                          "benefits": [
+                              "Artesanía y tecnología combinadas",
+                              "Versatilidad de colores",
+                              "Durabilidad térmica excepcional",
+                              "Sofisticación decorativa",
+                              "Impacto visual premium"
+                          ],
+                          "care_instructions": [
+                              "Lavar a máquina programa delicado",
+                              "Proteger bordado durante lavado",
+                              "Secar horizontalmente",
+                              "No retorcer para preservar forma",
+                              "Planchar del revés si necesario"
+                          ]
+                      },
+                      {
+                          "id": "cojin-termoformado-bordado-zigzag-45x45cm-surtido",
+                          "name": "COJÍN TERMOFORMADO BORDADO ZIGZAG 45X45CM - SURTIDO",
+                          "category": "cojines",
+                          "price": "4.65€",
+                          "originalPrice": "5.81€",
+                          "discount": "20% OFF",
+                          "description": "Cojín termoformado con bordado zigzag de 45x45cm en colores surtidos. Patrón geométrico moderno con tecnología térmica avanzada.",
+                          "detailed_description": "Innovador cojín termoformado que combina la tecnología de moldeado térmico con un sofisticado patrón de bordado zigzag. Disponible en colores surtidos para adaptarse a cualquier decoración. El diseño geométrico moderno aporta dinamismo visual mientras que el termoformado garantiza forma perfecta duradera.",
+                          "rating": 4.7,
+                          "reviews": 38,
+                          "images": [
+                              "images/productos/cojines/cojin-termoformado-bordado-zigzag-45x45cm-surtido/principal"
+                          ],
+                          "features": [
+                              "Tecnología termoformada premium",
+                              "Bordado zigzag geométrico",
+                              "Colores surtidos modernos",
+                              "Patrón dinámico visual",
+                              "Forma perfecta duradera",
+                              "Diseño contemporáneo"
+                          ],
+                          "specifications": {
+                              "dimensions": "45cm x 45cm",
+                              "material": "Fibra termoformada con bordado zigzag",
+                              "weight": "510g",
+                              "color": "Surtido (varios colores)",
+                              "pattern": "Zigzag geométrico",
+                              "warranty": "2 años"
+                          },
+                          "benefits": [
+                              "Geometría moderna atractiva",
+                              "Versatilidad cromática",
+                              "Tecnología térmica duradera",
+                              "Dinamismo visual único",
+                              "Modernidad accesible"
+                          ],
+                          "care_instructions": [
+                              "Lavar a máquina agua fría",
+                              "Cuidar patrón zigzag durante lavado",
+                              "Secar plano para preservar forma",
+                              "Evitar planchar sobre bordado",
+                              "Mantener patrón geométrico"
+                          ]
+                      },
+                      {
+                          "id": "cojin-termoformado-piel-pelo-largo-45x45cm-surtido",
+                          "name": "COJÍN TERMOFORMADO PIEL PELO LARGO 45*45 - SURTIDO",
+                          "category": "cojines",
+                          "price": "4.65€",
+                          "originalPrice": "5.81€",
+                          "discount": "20% OFF",
+                          "description": "Cojín termoformado con textura de piel y pelo largo de 45x45cm en colores surtidos. Máximo lujo táctil con tecnología térmica.",
+                          "detailed_description": "Lujoso cojín termoformado con textura de piel y acabado de pelo largo ultra suave. La tecnología de termoformado se combina con texturas premium para crear una experiencia táctil excepcional. Disponible en colores surtidos, aporta lujo y sofisticación a cualquier ambiente.",
+                          "rating": 4.9,
+                          "reviews": 52,
+                          "images": [
+                              "images/productos/cojines/cojin-termoformado-piel-pelo-largo-45x45cm-surtido/principal"
+                          ],
+                          "features": [
+                              "Tecnología termoformada de lujo",
+                              "Textura piel premium",
+                              "Pelo largo ultra suave",
+                              "Colores surtidos elegantes",
+                              "Experiencia táctil excepcional",
+                              "Sofisticación máxima"
+                          ],
+                          "specifications": {
+                              "dimensions": "45cm x 45cm",
+                              "material": "Fibra termoformada con textura piel y pelo largo",
+                              "weight": "540g",
+                              "color": "Surtido (varios colores)",
+                              "texture": "Piel con pelo largo",
+                              "warranty": "2 años"
+                          },
+                          "benefits": [
+                              "Lujo táctil supremo",
+                              "Versatilidad de colores premium",
+                              "Tecnología y textura combinadas",
+                              "Sofisticación accesible",
+                              "Impacto sensorial único"
+                          ],
+                          "care_instructions": [
+                              "Lavar a máquina programa muy delicado",
+                              "Usar detergente para texturas especiales",
+                              "Secar horizontalmente sin presión",
+                              "Cepillar suavemente el pelo largo",
+                              "Preservar textura termoformada"
+                          ]
                       }
                 ],
     "edredones":  [
@@ -6894,6 +7029,141 @@
                             "Secar con cuidado especial",
                             "Preservar acabado dorado",
                             "Mantener elegancia original"
+                        ]
+                    },
+                    {
+                        "id": "cojin-decorativo-termoformado-pelo-largo-45x45cm-surtido",
+                        "name": "COJÍN DECORATIVO TERMOFORMADO PELO LARGO 45X45CM - SURTIDO",
+                        "category": "cojines",
+                        "price": "4.65€",
+                        "originalPrice": "6.13€",
+                        "discount": "20% OFF",
+                        "description": "Cojín decorativo termoformado con textura de pelo largo 45x45cm en colores surtidos. Tecnología térmica con acabado textural premium.",
+                        "detailed_description": "Cojín decorativo revolucionario que combina la tecnología de termoformado con una textura de pelo largo ultra suave. Disponible en colores surtidos para máxima versatilidad decorativa. El proceso térmico garantiza durabilidad superior mientras que la textura aporta lujo y confort excepcional.",
+                        "rating": 4.8,
+                        "reviews": 42,
+                        "images": [
+                            "images/productos/cojines/cojin-decorativo-termoformado-pelo-largo-45x45cm-surtido/principal"
+                        ],
+                        "features": [
+                            "Tecnología termoformada avanzada",
+                            "Textura pelo largo premium",
+                            "Colores surtidos disponibles",
+                            "Acabado textural de lujo",
+                            "Ultra suave al tacto",
+                            "Durabilidad térmica superior"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x 45cm",
+                            "material": "Fibra termoformada con pelo largo",
+                            "weight": "520g",
+                            "color": "Surtido (varios colores)",
+                            "texture": "Pelo largo",
+                            "warranty": "2 años"
+                        },
+                        "benefits": [
+                            "Máximo confort táctil",
+                            "Versatilidad de colores",
+                            "Tecnología térmica duradera",
+                            "Lujo accesible",
+                            "Impacto visual y táctil único"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina programa delicado",
+                            "Usar detergente suave",
+                            "Secar horizontalmente",
+                            "Cepillar suavemente el pelo largo",
+                            "Preservar textura termoformada"
+                        ]
+                    },
+                    {
+                        "id": "funda-cojin-terciopelo-relieve-45x45cm-beige",
+                        "name": "FUNDA DE COJÍN TERCIOPELO CON RELIEVE 45X45 - BEIGE",
+                        "category": "cojines",
+                        "price": "2.47€",
+                        "originalPrice": "3.08€",
+                        "discount": "20% OFF",
+                        "description": "Funda de cojín de terciopelo con textura en relieve 45x45cm en color beige elegante. Suavidad premium con diseño sofisticado.",
+                        "detailed_description": "Funda de cojín fabricada en terciopelo premium con textura en relieve que aporta dimensión y elegancia. El color beige neutro y la textura sofisticada la convierten en la opción perfecta para espacios que buscan lujo accesible y versatilidad decorativa.",
+                        "rating": 4.6,
+                        "reviews": 28,
+                        "images": [
+                            "images/productos/cojines/funda-cojin-terciopelo-relieve-45x45cm-beige/principal"
+                        ],
+                        "features": [
+                            "Terciopelo premium",
+                            "Textura en relieve sofisticada",
+                            "Color beige versátil",
+                            "Suavidad excepcional",
+                            "Dimensión visual",
+                            "Elegancia accesible"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x 45cm",
+                            "material": "Terciopelo con relieve",
+                            "weight": "280g",
+                            "color": "Beige",
+                            "texture": "Relieve dimensional",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Lujo táctil superior",
+                            "Versatilidad decorativa",
+                            "Color neutro elegante",
+                            "Textura dimensional única",
+                            "Fácil combinación"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina programa delicado",
+                            "Usar detergente para terciopelo",
+                            "Secar al aire evitando aplastamiento",
+                            "No planchar directamente sobre relieve",
+                            "Mantener textura dimensional"
+                        ]
+                    },
+                    {
+                        "id": "funda-cojin-terciopelo-zigzag-45x45cm-marron-claro",
+                        "name": "FUNDA DE COJÍN TERCIOPELO CON BORDADO ZIGZAG 45X45 - MARRÓN CLARO",
+                        "category": "cojines",
+                        "price": "2.37€",
+                        "originalPrice": "2.96€",
+                        "discount": "20% OFF",
+                        "description": "Funda de cojín de terciopelo con bordado zigzag 45x45cm en marrón claro. Patrón geométrico elegante con acabado premium.",
+                        "detailed_description": "Funda de cojín confeccionada en terciopelo suave con un sofisticado bordado zigzag en relieve. El color marrón claro aporta calidez natural mientras que el patrón geométrico añade modernidad y dinamismo visual, creando una pieza decorativa excepcional.",
+                        "rating": 4.7,
+                        "reviews": 35,
+                        "images": [
+                            "images/productos/cojines/funda-cojin-terciopelo-zigzag-45x45cm-marron-claro/principal"
+                        ],
+                        "features": [
+                            "Terciopelo suave premium",
+                            "Bordado zigzag en relieve",
+                            "Color marrón claro cálido",
+                            "Patrón geométrico moderno",
+                            "Dinamismo visual",
+                            "Acabado artesanal"
+                        ],
+                        "specifications": {
+                            "dimensions": "45cm x 45cm",
+                            "material": "Terciopelo con bordado zigzag",
+                            "weight": "290g",
+                            "color": "Marrón Claro",
+                            "pattern": "Zigzag geométrico",
+                            "warranty": "1 año"
+                        },
+                        "benefits": [
+                            "Patrón geométrico atractivo",
+                            "Color cálido versátil",
+                            "Textura táctil superior",
+                            "Modernidad y elegancia",
+                            "Artesanía de calidad"
+                        ],
+                        "care_instructions": [
+                            "Lavar a máquina agua fría",
+                            "Detergente suave para terciopelo",
+                            "Secar plano para preservar bordado",
+                            "Evitar planchar sobre bordado",
+                            "Mantener relieve zigzag"
                         ]
                     }
                 ]
