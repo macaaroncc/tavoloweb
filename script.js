@@ -43,8 +43,8 @@ function agruparProductosParaListado() {
     
     Object.keys(productosOriginales).forEach(categoria => {
         productosOriginales[categoria].forEach(producto => {
-            // Para cojines, usar agrupación por color; para otros, agrupación estándar
-            const nombreBase = producto.category === 'cojines' 
+            // Para cojines y edredones, usar agrupación que mantiene colores; para otros, agrupación estándar
+            const nombreBase = (producto.category === 'cojines' || producto.category === 'edredones')
                 ? extraerNombreBaseCojin(producto.name)
                 : extraerNombreBaseSimple(producto.name);
             
@@ -74,7 +74,9 @@ function agruparProductosParaListado() {
                 imagen: producto.images?.[0] || '',
                 rating: producto.rating || 0,
                 reviews: producto.reviews || 0,
-                especificaciones: producto.specifications || {}
+                especificaciones: producto.specifications || {},
+                descripcion: producto.description || '',
+                descripcionDetallada: producto.detailed_description || ''
             });
         });
     });
@@ -91,23 +93,34 @@ function extraerNombreBaseSimple(nombre) {
         .trim();
 }
 
-// Función especial para agrupar cojines por color (maneja todas las líneas de productos)
+// Función especial para agrupar cojines y edredones por color (maneja todas las líneas de productos)
 function extraerNombreBaseCojin(nombre) {
-    // Para cojines, mantener el color en el nombre base y remover solo las medidas
+    // Para cojines y edredones, mantener el color en el nombre base y remover solo las medidas
     // Esta función maneja diferentes líneas de productos automáticamente:
     // - "COJÍN DECORATIVO NUEVO MODELO 45X45CM - AZUL CLARO"
     // - "(RELLENO) COJÍN DECORATIVO CHENILLA 40*40cm - GRIS CLARO"
-    // - Cualquier otra línea de productos de cojines
+    // - "EDREDON 150*220CM RELLENO DE 300gr CAMA 90CM - ROSA"
+    // - Cualquier otra línea de productos de cojines y edredones
     
     let nombreBase = nombre;
     
-    // Remover medidas en diferentes formatos:
-    // - 45X45CM, 40X40CM, etc.
-    // - 45*45cm, 40*40cm, etc. 
-    // - 35x50cm, etc.
-    nombreBase = nombreBase
-        .replace(/\s*\d+[X*x]\d+[Cc][Mm]\s*/g, ' ')
-        .replace(/\s*\d+[Cc][Mm]\s*/g, ' ');
+    // Para edredones, remover información específica de medidas pero MANTENER gramaje
+    if (nombreBase.toUpperCase().includes('EDREDON')) {
+        // Remover medidas del edredón (150*220CM, etc.)
+        nombreBase = nombreBase.replace(/\s*\d+[*X]\d+[Cc][Mm]\s*/g, ' ');
+        // NO remover información de relleno - mantener gramaje para separar productos
+        // nombreBase = nombreBase.replace(/\s*RELLENO\s+DE\s+\d+[Gg][Rr]\s*/gi, ' ');
+        // Remover información de cama (CAMA 90CM, etc.)
+        nombreBase = nombreBase.replace(/\s*CAMA\s+\d+[Cc][Mm]\s*/gi, ' ');
+    } else {
+        // Para cojines, remover medidas en diferentes formatos:
+        // - 45X45CM, 40X40CM, etc.
+        // - 45*45cm, 40*40cm, etc. 
+        // - 35x50cm, etc.
+        nombreBase = nombreBase
+            .replace(/\s*\d+[X*x]\d+[Cc][Mm]\s*/g, ' ')
+            .replace(/\s*\d+[Cc][Mm]\s*/g, ' ');
+    }
     
     // Limpiar espacios múltiples y normalizar guiones
     nombreBase = nombreBase
@@ -117,14 +130,24 @@ function extraerNombreBaseCojin(nombre) {
     
     return nombreBase;
 }
-
 function extraerTamañoSimple(nombre) {
-    // Buscar medidas en diferentes formatos: 45X45CM, 40*40cm, 35x50cm, etc.
+    // Para edredones, buscar las medidas del edredón (primera ocurrencia)
+    if (nombre.toUpperCase().includes('EDREDON')) {
+        const match = nombre.match(/(\d+[*X]\d+[Cc][Mm])/i);
+        return match ? match[1].replace(/[*]/g, 'X').toUpperCase() : '';
+    }
+    
+    // Para otros productos, buscar medidas en diferentes formatos: 45X45CM, 40*40cm, 35x50cm, etc.
     const match = nombre.match(/(\d+[X*x]\d+[Cc][Mm]|\d+[Cc][Mm])/i);
     return match ? match[1].toUpperCase() : '';
 }
 
 function extraerColorSimple(nombre) {
+    // Buscar color después de guión (para edredones: "- ROSA", "- AZUL", etc.)
+    const matchGuion = nombre.match(/\s*-\s*(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO|CLARO|OSCURO|ESTAMPADO.*)/i);
+    if (matchGuion) return matchGuion[1];
+    
+    // Buscar color al final (para otros productos)
     const match = nombre.match(/(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO|CLARO|OSCURO|ESTAMPADO.*)/i);
     return match ? match[1] : '';
 }
