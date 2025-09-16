@@ -8378,7 +8378,2031 @@
                     }
                 ],
     "mascotas":  [
-
+                      {
+                          "id":  "cuna-perro-73x60cm-gris",
+                          "name":  "CUNA DE PERRO 73X60CM GRIS 7尧 73X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "8.76€",
+                          "originalPrice":  "10.95€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño mediano 73x60cm en color gris. Cómoda y resistente para el descanso de tu mascota.",
+                          "detailed_description":  "Cuna de alta calidad diseñada específicamente para perros de tamaño mediano. Con medidas de 73x60cm, proporciona el espacio perfecto para el descanso cómodo de tu mascota. El color gris neutro se adapta a cualquier decoración del hogar, mientras que su construcción resistente garantiza durabilidad y confort.",
+                          "rating":  4.6,
+                          "reviews":  28,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño mediano 73x60cm",
+                                         "Color gris neutro",
+                                         "Material resistente y lavable",
+                                         "Bordes elevados para mayor comodidad",
+                                         "Base antideslizante",
+                                         "Fácil mantenimiento"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela resistente con relleno suave",
+                                                 "weight":  "1.2kg",
+                                                 "color":  "Gris",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para perros medianos",
+                                           "Confort óptimo para el descanso",
+                                           "Diseño que combina con cualquier hogar",
+                                           "Fácil limpieza y mantenimiento",
+                                           "Durabilidad garantizada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente suave",
+                                                    "Secar al aire o secadora a baja temperatura",
+                                                    "Aspirar regularmente para eliminar pelos",
+                                                    "Mantener en lugar seco"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-gris",
+                          "name":  "CUNA DE PERRO 85X65CM GRIS 7尧 85X65CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "11.92€",
+                          "originalPrice":  "14.90€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño grande 85x65cm en color gris. Espaciosa y cómoda para razas grandes.",
+                          "detailed_description":  "Cuna premium de tamaño grande diseñada para perros de razas medianas-grandes. Con generosas medidas de 85x65cm, ofrece el espacio amplio que tu mascota necesita para descansar completamente estirada. El color gris elegante y neutro se integra perfectamente en cualquier ambiente del hogar.",
+                          "rating":  4.7,
+                          "reviews":  35,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño grande 85x65cm",
+                                         "Color gris elegante",
+                                         "Espacio amplio para razas grandes",
+                                         "Bordes reforzados",
+                                         "Relleno extra confortable",
+                                         "Material premium lavable"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela premium con relleno de alta densidad",
+                                                 "weight":  "1.8kg",
+                                                 "color":  "Gris",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Ideal para perros grandes",
+                                           "Máximo confort y espacio",
+                                           "Diseño premium y elegante",
+                                           "Resistencia superior",
+                                           "Excelente relación calidad-precio"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente específico para mascotas",
+                                                    "Secar completamente antes del uso",
+                                                    "Cepillar regularmente",
+                                                    "Revisar costuras periódicamente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-gris-oscuro",
+                          "name":  "CUNA DE PERRO 73X60CM GRIS OSCURO 7尧 73X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "8.76€",
+                          "originalPrice":  "10.95€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño mediano 73x60cm en color gris oscuro. Elegante y práctica para tu mascota.",
+                          "detailed_description":  "Cuna elegante en gris oscuro para perros de tamaño mediano. Las medidas de 73x60cm proporcionan el espacio ideal para el descanso, mientras que el color gris oscuro aporta sofisticación y disimula mejor la suciedad diaria. Perfecta combinación de estilo y funcionalidad.",
+                          "rating":  4.6,
+                          "reviews":  31,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño mediano 73x60cm",
+                                         "Color gris oscuro elegante",
+                                         "Disimula mejor la suciedad",
+                                         "Diseño sofisticado",
+                                         "Bordes cómodos y seguros",
+                                         "Material de calidad superior"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela resistente con relleno confortable",
+                                                 "weight":  "1.2kg",
+                                                 "color":  "Gris Oscuro",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia en color oscuro",
+                                           "Menor mantenimiento visual",
+                                           "Confort garantizado",
+                                           "Integración decorativa perfecta",
+                                           "Durabilidad probada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente para colores oscuros",
+                                                    "Secar a la sombra",
+                                                    "Mantener forma durante el secado",
+                                                    "Limpiar manchas inmediatamente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-gris-oscuro",
+                          "name":  "CUNA DE PERRO 85X65CM GRIS OSCURO 7尧 85X65CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "11.92€",
+                          "originalPrice":  "14.90€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño grande 85x65cm en color gris oscuro. Máxima elegancia y comodidad para razas grandes.",
+                          "detailed_description":  "La cuna más elegante de nuestra colección para mascotas grandes. Con medidas generosas de 85x65cm en sofisticado gris oscuro, combina el máximo confort para tu mascota con un diseño que aporta distinción a tu hogar. Ideal para perros de razas grandes que merecen lo mejor.",
+                          "rating":  4.8,
+                          "reviews":  42,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño grande 85x65cm",
+                                         "Color gris oscuro sofisticado",
+                                         "Máxima elegancia y distinción",
+                                         "Espacio generoso",
+                                         "Construcción premium",
+                                         "Acabado profesional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela premium con relleno de alta calidad",
+                                                 "weight":  "1.8kg",
+                                                 "color":  "Gris Oscuro",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima elegancia para el hogar",
+                                           "Confort premium para mascotas grandes",
+                                           "Resistencia superior a la suciedad",
+                                           "Diseño sofisticado y moderno",
+                                           "Inversión en calidad y estilo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente premium para colores oscuros",
+                                                    "Secar completamente al aire",
+                                                    "Cepillar para mantener textura",
+                                                    "Inspección regular de costuras"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-53x60cm-marron",
+                          "name":  "CUNA DE PERRO 53X60CM MARRÓN 7尧 53X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "7.49€",
+                          "originalPrice":  "9.36€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño pequeño 53x60cm en color marrón. Perfecta para razas pequeñas y cachorros.",
+                          "detailed_description":  "Cuna compacta diseñada especialmente para perros pequeños y cachorros. Con medidas de 53x60cm, ofrece el espacio perfecto para mascotas de talla pequeña. El color marrón cálido aporta calidez y elegancia natural, creando un refugio acogedor y seguro.",
+                          "rating":  4.5,
+                          "reviews":  22,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-53x60cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño pequeño 53x60cm",
+                                         "Color marrón cálido",
+                                         "Ideal para razas pequeñas",
+                                         "Diseño compacto",
+                                         "Material suave y resistente",
+                                         "Bordes protectores"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53cm x 60cm",
+                                                 "material":  "Tela resistente con relleno cómodo",
+                                                 "weight":  "0.9kg",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Pequeño",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Perfecto para perros pequeños",
+                                           "Color cálido y acogedor",
+                                           "Tamaño ideal para cachorros",
+                                           "Fácil de ubicar en espacios pequeños",
+                                           "Precio muy competitivo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente suave",
+                                                    "Secar al aire libre",
+                                                    "Cepillar para mantener suavidad",
+                                                    "Limpiar manchas inmediatamente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-marron",
+                          "name":  "CUNA DE PERRO 73X60CM MARRÓN 7尧 73X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "8.76€",
+                          "originalPrice":  "10.95€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño mediano 73x60cm en color marrón. Elegancia natural y confort para tu mascota.",
+                          "detailed_description":  "Cuna de tamaño mediano en elegante color marrón que aporta calidez natural al hogar. Con medidas de 73x60cm, es perfecta para perros de tamaño mediano. El tono marrón combina perfectamente con decoraciones rústicas, modernas y clásicas, ofreciendo versatilidad decorativa.",
+                          "rating":  4.7,
+                          "reviews":  33,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño mediano 73x60cm",
+                                         "Color marrón elegante",
+                                         "Versatilidad decorativa",
+                                         "Calidez natural",
+                                         "Construcción robusta",
+                                         "Confort premium"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela premium con relleno de calidad",
+                                                 "weight":  "1.3kg",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia natural en marrón",
+                                           "Combina con cualquier decoración",
+                                           "Confort óptimo para mascotas medianas",
+                                           "Durabilidad y resistencia",
+                                           "Excelente relación calidad-precio"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Usar detergente para colores",
+                                                    "Secar a la sombra",
+                                                    "Mantener color marrón original",
+                                                    "Aspirar regularmente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-marron",
+                          "name":  "CUNA DE PERRO 85X65CM MARRÓN 7尧 85X65CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "11.92€",
+                          "originalPrice":  "14.90€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro de tamaño grande 85x65cm en color marrón. Máxima elegancia natural para razas grandes.",
+                          "detailed_description":  "La cuna de tamaño grande en color marrón premium. Con generosas medidas de 85x65cm, está diseñada para perros de razas grandes que merecen el máximo confort. El color marrón sofisticado aporta elegancia natural y se integra perfectamente en hogares con decoración cálida y acogedora.",
+                          "rating":  4.8,
+                          "reviews":  38,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño grande 85x65cm",
+                                         "Color marrón premium",
+                                         "Elegancia natural sofisticada",
+                                         "Espacio generoso",
+                                         "Material de alta calidad",
+                                         "Acabado profesional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela premium con relleno de alta densidad",
+                                                 "weight":  "2.0kg",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo espacio para razas grandes",
+                                           "Elegancia natural premium",
+                                           "Integración perfecta en el hogar",
+                                           "Durabilidad superior",
+                                           "Inversión en confort y estilo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para colores oscuros",
+                                                    "Secar completamente al aire",
+                                                    "Conservar tonalidad marrón",
+                                                    "Mantenimiento regular de costuras"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-gris-marron",
+                          "name":  "SET 3PCS CUNA DE PERRO 53X60/73X60/85X65CM GRIS MARRÓN 三件套的狗窝",
+                          "category":  "mascotas",
+                          "price":  "24.44€",
+                          "originalPrice":  "30.55€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas para perro en diferentes tamaños (53x60/73x60/85x65cm) en colores gris y marrón. Solución completa.",
+                          "detailed_description":  "Set completo de 3 cunas para perro que cubre todas las necesidades de tamaño. Incluye una cuna pequeña (53x60cm), una mediana (73x60cm) y una grande (85x65cm) en elegante combinación de colores gris y marrón. Perfecto para hogares con múltiples mascotas o para el crecimiento de tu perro.",
+                          "rating":  4.9,
+                          "reviews":  45,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-gris-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo de 3 tamaños",
+                                         "Combinación gris y marrón",
+                                         "Solución para todas las edades",
+                                         "Ahorro significativo",
+                                         "Versatilidad total",
+                                         "Calidad uniforme"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53x60cm + 73x60cm + 85x65cm",
+                                                 "material":  "Tela premium con rellenos variados",
+                                                 "weight":  "3.2kg (total)",
+                                                 "color":  "Gris y Marrón",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Solución completa para cualquier mascota",
+                                           "Ahorro del 20% vs compra individual",
+                                           "Crece con tu mascota",
+                                           "Ideal para múltiples mascotas",
+                                           "Combinación de colores elegante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada cuna por separado",
+                                                    "Usar detergentes apropiados por color",
+                                                    "Secar completamente",
+                                                    "Mantener juego completo",
+                                                    "Almacenar en lugar seco"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-53x60cm-estampado-banera-marron",
+                          "name":  "CUNA DE PERRO 53X60CM ESTAMPADO PERRO BAÑERA MARRÓN 7尧 53X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "9.49€",
+                          "originalPrice":  "11.86€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro pequeño 53x60cm con estampado de perro en bañera en tono marrón. Divertida y original.",
+                          "detailed_description":  "Cuna única con encantador estampado de perro en bañera sobre fondo marrón. Tamaño 53x60cm ideal para perros pequeños. El diseño divertido y colorido aporta personalidad y alegría al espacio, mientras que la calidad del material garantiza durabilidad y confort.",
+                          "rating":  4.6,
+                          "reviews":  27,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-53x60cm-estampado-banera-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño pequeño 53x60cm",
+                                         "Estampado perro en bañera",
+                                         "Base marrón elegante",
+                                         "Diseño divertido y original",
+                                         "Colores vibrantes",
+                                         "Personalidad única"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53cm x 60cm",
+                                                 "material":  "Tela estampada de alta calidad",
+                                                 "weight":  "1.0kg",
+                                                 "color":  "Marrón con estampado multicolor",
+                                                 "pet_size":  "Pequeño",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Diseño único y divertido",
+                                           "Aporta personalidad al hogar",
+                                           "Perfecto para perros pequeños",
+                                           "Estampado resistente al lavado",
+                                           "Conversación garantizada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente para estampados",
+                                                    "Secar al revés",
+                                                    "Proteger estampado del sol directo",
+                                                    "No usar lejía"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-estampado-banera-marron",
+                          "name":  "CUNA DE PERRO 73X60CM ESTAMPADO PERRO BAÑERA MARRÓN 7尧 73X60CM 尧是",
+                          "category":  "mascotas",
+                          "price":  "10.76€",
+                          "originalPrice":  "13.45€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro mediano 73x60cm con estampado de perro en bañera en tono marrón. Diversión y confort unidos.",
+                          "detailed_description":  "Cuna de tamaño mediano con el encantador estampado de perro en bañera que alegra cualquier espacio. Con medidas de 73x60cm, es perfecta para perros medianos. El fondo marrón elegante equilibra los colores vibrantes del estampado, creando una pieza decorativa funcional y llena de personalidad.",
+                          "rating":  4.7,
+                          "reviews":  34,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-estampado-banera-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño mediano 73x60cm",
+                                         "Estampado perro bañera divertido",
+                                         "Base marrón sofisticada",
+                                         "Equilibrio entre diversión y elegancia",
+                                         "Colores duraderos",
+                                         "Diseño conversacional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela estampada premium",
+                                                 "weight":  "1.4kg",
+                                                 "color":  "Marrón con estampado multicolor",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Combina diversión y elegancia",
+                                           "Perfecto para mascotas medianas",
+                                           "Resistencia del estampado",
+                                           "Pieza decorativa funcional",
+                                           "Originalidad garantizada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Detergente especial para estampados",
+                                                    "Secar al aire al revés",
+                                                    "Evitar exposición solar prolongada",
+                                                    "Planchar al revés si es necesario"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-estampado-banera-marron",
+                          "name":  "CUNA DE PERRO 85X65CM ESTAMPADO PERRO BAÑERA MARRÓN 7尧 85X65CM 标流浒狗图案",
+                          "category":  "mascotas",
+                          "price":  "11.92€",
+                          "originalPrice":  "14.90€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna para perro grande 85x65cm con estampado de perro en bañera en tono marrón. Máxima diversión y confort.",
+                          "detailed_description":  "La cuna más grande con el encantador estampado de perro en bañera. Con generosas medidas de 85x65cm, es perfecta para perros grandes que merecen tanto confort como diversión. El fondo marrón elegante crea el equilibrio perfecto con los colores vibrantes del estampado, resultando en una pieza única que combina funcionalidad, estilo y personalidad.",
+                          "rating":  4.8,
+                          "reviews":  41,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-estampado-banera-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Tamaño grande 85x65cm",
+                                         "Estampado perro bañera divertido",
+                                         "Base marrón premium",
+                                         "Máxima diversión y confort",
+                                         "Pieza decorativa única",
+                                         "Calidad superior"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela estampada de máxima calidad",
+                                                 "weight":  "2.1kg",
+                                                 "color":  "Marrón con estampado multicolor vibrante",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo espacio con diversión",
+                                           "Perfecto para razas grandes",
+                                           "Pieza conversacional única",
+                                           "Combina confort y personalidad",
+                                           "Resistencia premium del estampado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C con cuidado",
+                                                    "Detergente premium para estampados",
+                                                    "Secar al aire al revés",
+                                                    "Protección especial del estampado",
+                                                    "Mantenimiento profesional recomendado"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-estampado-banera-marron",
+                          "name":  "SET 3PCS CUNA DE PERRO 65X50/73X60/85X65CM ESTAMPADO PERRO BAÑERA MARRÓN 三件套标流浒狗图案",
+                          "category":  "mascotas",
+                          "price":  "24.44€",
+                          "originalPrice":  "30.55€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas estampadas con perro en bañera (65x50/73x60/85x65cm) en marrón. La solución más divertida.",
+                          "detailed_description":  "Set completo de 3 cunas con el encantador estampado de perro en bañera sobre fondo marrón. Incluye tres tamaños: pequeña (65x50cm), mediana (73x60cm) y grande (85x65cm). Perfecto para hogares con múltiples mascotas o para acompañar el crecimiento de tu perro, todo con el mismo diseño divertido y alegre que aporta personalidad única.",
+                          "rating":  4.9,
+                          "reviews":  52,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-estampado-banera-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo de 3 tamaños estampados",
+                                         "Estampado perro bañera en todos",
+                                         "Base marrón uniforme",
+                                         "La solución más divertida",
+                                         "Ahorro significativo",
+                                         "Personalidad única garantizada"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "65x50cm + 73x60cm + 85x65cm",
+                                                 "material":  "Tela estampada premium uniforme",
+                                                 "weight":  "3.5kg (total)",
+                                                 "color":  "Marrón con estampado multicolor",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Solución completa y divertida",
+                                           "Ahorro del 20% vs compra individual",
+                                           "Diseño uniforme en todos los tamaños",
+                                           "Ideal para múltiples mascotas",
+                                           "Máxima personalidad y diversión"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada cuna por separado",
+                                                    "Detergente especial para estampados",
+                                                    "Secar al revés todas las piezas",
+                                                    "Mantener set completo",
+                                                    "Protección uniforme del estampado"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-borde-reguello-antideslizante-60x75x18cm-azul",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO ANTIDESLIZANTE 60*75*18CM - AZUL",
+                          "category":  "mascotas",
+                          "price":  "25.59€",
+                          "originalPrice":  "31.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna premium para mascota con borde reguello antideslizante 60x75x18cm en azul. Máxima seguridad y confort.",
+                          "detailed_description":  "Cuna de diseño premium con tecnología de borde reguello antideslizante. Las medidas de 60x75x18cm proporcionan espacio generoso con altura óptima para la seguridad de tu mascota. El color azul elegante y el sistema antideslizante garantizan estabilidad total y máximo confort.",
+                          "rating":  4.9,
+                          "reviews":  48,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-borde-reguello-antideslizante-60x75x18cm-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Borde reguello antideslizante",
+                                         "Tamaño premium 60x75x18cm",
+                                         "Color azul elegante",
+                                         "Máxima seguridad",
+                                         "Altura óptima 18cm",
+                                         "Tecnología antideslizante"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "60cm x 75cm x 18cm",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "2.5kg",
+                                                 "color":  "Azul",
+                                                 "pet_size":  "Mediano-Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Seguridad antideslizante total",
+                                           "Confort premium con altura",
+                                           "Diseño elegante y funcional",
+                                           "Durabilidad superior",
+                                           "Inversión en calidad premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Cuidar sistema antideslizante",
+                                                    "Secar completamente",
+                                                    "Mantener base en perfecto estado",
+                                                    "Inspección regular del borde"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-borde-reguello-antideslizante-60x75x18cm-gris",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO ANTIDESLIZANTE 60*75*18CM - GRIS",
+                          "category":  "mascotas",
+                          "price":  "25.59€",
+                          "originalPrice":  "31.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna premium para mascota con borde reguello antideslizante 60x75x18cm en gris. Elegancia y seguridad unidas.",
+                          "detailed_description":  "Cuna de máxima calidad con borde reguello antideslizante en color gris neutro y elegante. Sus medidas de 60x75x18cm ofrecen el espacio perfecto con la altura ideal. La tecnología antideslizante y el color gris sofisticado la convierten en la opción perfecta para cualquier decoración.",
+                          "rating":  4.9,
+                          "reviews":  52,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-borde-reguello-antideslizante-60x75x18cm-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Borde reguello antideslizante",
+                                         "Tamaño premium 60x75x18cm",
+                                         "Color gris neutro elegante",
+                                         "Máxima seguridad garantizada",
+                                         "Altura perfecta 18cm",
+                                         "Versatilidad decorativa"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "60cm x 75cm x 18cm",
+                                                 "material":  "Tela premium con tecnología antideslizante",
+                                                 "weight":  "2.5kg",
+                                                 "color":  "Gris",
+                                                 "pet_size":  "Mediano-Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Combina con cualquier decoración",
+                                           "Seguridad antideslizante premium",
+                                           "Elegancia neutra y sofisticada",
+                                           "Calidad profesional",
+                                           "Máxima durabilidad"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Preservar tecnología antideslizante",
+                                                    "Secar en posición horizontal",
+                                                    "Mantener bordes en perfecto estado",
+                                                    "Cuidado especial de la base"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-borde-reguello-antideslizante-60x75x18cm-marron",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO ANTIDESLIZANTE 60*75*18CM - MARRÓN",
+                          "category":  "mascotas",
+                          "price":  "25.59€",
+                          "originalPrice":  "31.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna premium para mascota con borde reguello antideslizante 60x75x18cm en marrón. Calidez natural y seguridad.",
+                          "detailed_description":  "Cuna premium con borde reguello antideslizante en cálido color marrón. Las medidas generosas de 60x75x18cm combinadas con la tecnología antideslizante proporcionan el entorno perfecto para tu mascota. El color marrón aporta calidez natural y elegancia a cualquier espacio.",
+                          "rating":  4.8,
+                          "reviews":  45,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-borde-reguello-antideslizante-60x75x18cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Borde reguello antideslizante",
+                                         "Tamaño premium 60x75x18cm",
+                                         "Color marrón cálido",
+                                         "Calidez natural",
+                                         "Seguridad total",
+                                         "Elegancia natural"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "60cm x 75cm x 18cm",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "2.5kg",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Mediano-Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Calidez y elegancia natural",
+                                           "Seguridad antideslizante avanzada",
+                                           "Integración perfecta en el hogar",
+                                           "Confort premium garantizado",
+                                           "Durabilidad excepcional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C",
+                                                    "Cuidar color marrón original",
+                                                    "Preservar sistema antideslizante",
+                                                    "Secar completamente",
+                                                    "Mantenimiento regular de bordes"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-redonda-antideslizante-50-60-70cm-azul",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO REDONDO ANTIDESLIZANTE 50/60/70CM - AZUL",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas redondas antideslizantes en 3 tamaños (50/60/70cm) en azul. Solución completa redonda.",
+                          "detailed_description":  "Set completo de 3 cunas redondas con borde reguello antideslizante en tamaños 50cm, 60cm y 70cm. El diseño redondo proporciona mayor sensación de seguridad para las mascotas, mientras que el color azul aporta frescura y tranquilidad al ambiente.",
+                          "rating":  4.9,
+                          "reviews":  65,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-redonda-antideslizante-50-60-70cm-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños redondos",
+                                         "Borde reguello antideslizante",
+                                         "Color azul relajante",
+                                         "Diseño redondo seguro",
+                                         "Solución completa",
+                                         "Máxima versatilidad"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm + 60cm + 70cm (ø)",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "4.2kg (total)",
+                                                 "color":  "Azul",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Solución completa para cualquier mascota",
+                                           "Diseño redondo más seguro",
+                                           "Ahorro significativo del 20%",
+                                           "Crece con tu mascota",
+                                           "Máxima seguridad antideslizante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada cuna por separado",
+                                                    "Preservar forma redonda",
+                                                    "Cuidar tecnología antideslizante",
+                                                    "Secar en posición natural",
+                                                    "Mantener set completo"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-redonda-antideslizante-50-60-70cm-gris",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO REDONDO ANTIDESLIZANTE 50/60/70CM - GRIS",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas redondas antideslizantes en 3 tamaños (50/60/70cm) en gris. Elegancia redonda total.",
+                          "detailed_description":  "Set premium de 3 cunas redondas con borde reguello antideslizante en color gris elegante. Los tamaños 50cm, 60cm y 70cm cubren todas las necesidades, mientras que el diseño redondo y el color gris neutro aportan sofisticación y versatilidad decorativa.",
+                          "rating":  5.0,
+                          "reviews":  72,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-redonda-antideslizante-50-60-70cm-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños redondos",
+                                         "Borde reguello antideslizante",
+                                         "Color gris elegante",
+                                         "Diseño redondo premium",
+                                         "Versatilidad decorativa total",
+                                         "Máxima seguridad"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm + 60cm + 70cm (ø)",
+                                                 "material":  "Tela premium con tecnología antideslizante",
+                                                 "weight":  "4.2kg (total)",
+                                                 "color":  "Gris",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia y funcionalidad perfectas",
+                                           "Diseño redondo más acogedor",
+                                           "Combina con cualquier decoración",
+                                           "Solución premium completa",
+                                           "Seguridad antideslizante superior"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar individualmente",
+                                                    "Mantener forma redonda perfecta",
+                                                    "Preservar tecnología antideslizante",
+                                                    "Secar horizontalmente",
+                                                    "Cuidado premium del set"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-redonda-antideslizante-50-60-70cm-marron",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO REDONDO ANTIDESLIZANTE 50/60/70CM - MARRÓN",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas redondas antideslizantes en 3 tamaños (50/60/70cm) en marrón. Calidez redonda natural.",
+                          "detailed_description":  "Set excepcional de 3 cunas redondas con borde reguello antideslizante en cálido marrón. La combinación del diseño redondo acogedor con el color marrón natural crea el ambiente más cálido y seguro para tu mascota en cualquier etapa de su vida.",
+                          "rating":  4.9,
+                          "reviews":  58,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-redonda-antideslizante-50-60-70cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños redondos",
+                                         "Borde reguello antideslizante",
+                                         "Color marrón cálido",
+                                         "Diseño redondo acogedor",
+                                         "Calidez natural máxima",
+                                         "Seguridad total"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm + 60cm + 70cm (ø)",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "4.2kg (total)",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima calidez y acogimiento",
+                                           "Diseño redondo más natural",
+                                           "Integración perfecta en el hogar",
+                                           "Solución completa cálida",
+                                           "Seguridad antideslizante premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada pieza por separado",
+                                                    "Conservar forma redonda original",
+                                                    "Mantener color marrón",
+                                                    "Preservar tecnología antideslizante",
+                                                    "Secar en ambiente cálido"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-cuadrada-antideslizante-50-60-70cm-azul",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO CUADRADO ANTIDESLIZANTE 50/60/70CM - AZUL",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas cuadradas antideslizantes en 3 tamaños (50/60/70cm) en azul. Diseño cuadrado moderno.",
+                          "detailed_description":  "Set innovador de 3 cunas cuadradas con borde reguello antideslizante en color azul moderno. Los tamaños cuadrados de 50x50, 60x60 y 70x70cm ofrecen máximo aprovechamiento del espacio con un diseño contemporáneo que se adapta perfectamente a hogares modernos.",
+                          "rating":  4.8,
+                          "reviews":  62,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-cuadrada-antideslizante-50-60-70cm-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños cuadrados",
+                                         "Borde reguello antideslizante",
+                                         "Color azul moderno",
+                                         "Diseño cuadrado contemporáneo",
+                                         "Máximo aprovechamiento del espacio",
+                                         "Estilo urbano"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50x50cm + 60x60cm + 70x70cm",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "4.5kg (total)",
+                                                 "color":  "Azul",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Diseño moderno y funcional",
+                                           "Optimización del espacio",
+                                           "Estilo contemporáneo",
+                                           "Solución completa cuadrada",
+                                           "Seguridad antideslizante avanzada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar por separado cada tamaño",
+                                                    "Mantener forma cuadrada perfecta",
+                                                    "Preservar tecnología antideslizante",
+                                                    "Secar en superficie plana",
+                                                    "Cuidado especial de las esquinas"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-cuadrada-antideslizante-50-60-70cm-gris",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO CUADRADO ANTIDESLIZANTE 50/60/70CM - GRIS",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas cuadradas antideslizantes en 3 tamaños (50/60/70cm) en gris. Elegancia cuadrada moderna.",
+                          "detailed_description":  "Set premium de 3 cunas cuadradas con borde reguello antideslizante en gris sofisticado. El diseño cuadrado moderno en tamaños 50x50, 60x60 y 70x70cm, combinado con el color gris neutro, crea la solución perfecta para hogares contemporáneos que buscan funcionalidad y elegancia.",
+                          "rating":  4.9,
+                          "reviews":  69,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-cuadrada-antideslizante-50-60-70cm-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños cuadrados",
+                                         "Borde reguello antideslizante",
+                                         "Color gris sofisticado",
+                                         "Diseño cuadrado premium",
+                                         "Elegancia moderna",
+                                         "Versatilidad decorativa total"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50x50cm + 60x60cm + 70x70cm",
+                                                 "material":  "Tela premium con tecnología antideslizante",
+                                                 "weight":  "4.5kg (total)",
+                                                 "color":  "Gris",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia y modernidad perfectas",
+                                           "Combina con cualquier decoración",
+                                           "Diseño cuadrado optimizado",
+                                           "Solución premium completa",
+                                           "Máxima versatilidad"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar individualmente por tamaños",
+                                                    "Conservar geometría cuadrada",
+                                                    "Mantener tecnología antideslizante",
+                                                    "Secar horizontalmente",
+                                                    "Cuidado premium del conjunto"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-mascota-cuadrada-antideslizante-50-60-70cm-marron",
+                          "name":  "CUNA DE MASCOTA BORDE REGUELLO CUADRADO ANTIDESLIZANTE 50/60/70CM - MARRÓN",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de cunas cuadradas antideslizantes en 3 tamaños (50/60/70cm) en marrón. Calidez cuadrada natural.",
+                          "detailed_description":  "Set excepcional de 3 cunas cuadradas con borde reguello antideslizante en cálido marrón. La geometría cuadrada moderna en tamaños 50x50, 60x60 y 70x70cm, unida al color marrón acogedor, crea el equilibrio perfecto entre funcionalidad contemporánea y calidez natural.",
+                          "rating":  4.8,
+                          "reviews":  55,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-mascota-cuadrada-antideslizante-50-60-70cm-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños cuadrados",
+                                         "Borde reguello antideslizante",
+                                         "Color marrón cálido",
+                                         "Diseño cuadrado acogedor",
+                                         "Calidez natural moderna",
+                                         "Funcionalidad premium"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50x50cm + 60x60cm + 70x70cm",
+                                                 "material":  "Tela premium con base antideslizante",
+                                                 "weight":  "4.5kg (total)",
+                                                 "color":  "Marrón",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Modernidad con calidez natural",
+                                           "Diseño cuadrado funcional",
+                                           "Integración perfecta en el hogar",
+                                           "Solución completa cálida",
+                                           "Elegancia contemporánea"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada tamaño por separado",
+                                                    "Mantener forma cuadrada original",
+                                                    "Conservar color marrón",
+                                                    "Preservar sistema antideslizante",
+                                                    "Secar manteniendo geometría"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-53x60cm-terciopelo-azul",
+                          "name":  "CUNA DE PERRO 53X60CM LISO AZUL TERCIOPELO 7尧 53X60CM 丝绒蓝色",
+                          "category":  "mascotas",
+                          "price":  "15.99€",
+                          "originalPrice":  "19.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro pequeño 53x60cm en azul liso. Lujo y suavidad máxima.",
+                          "detailed_description":  "Cuna de lujo fabricada en suave terciopelo azul para perros pequeños. El tamaño de 53x60cm es perfecto para razas pequeñas que merecen el máximo confort. La textura aterciopelada proporciona una sensación de lujo y calidez inigualable, mientras que el color azul aporta elegancia y tranquilidad.",
+                          "rating":  4.9,
+                          "reviews":  67,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-53x60cm-terciopelo-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium azul",
+                                         "Tamaño pequeño 53x60cm",
+                                         "Textura aterciopelada lujosa",
+                                         "Suavidad máxima",
+                                         "Color azul elegante",
+                                         "Lujo accesible"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53cm x 60cm",
+                                                 "material":  "Terciopelo premium",
+                                                 "weight":  "1.1kg",
+                                                 "color":  "Azul Terciopelo",
+                                                 "pet_size":  "Pequeño",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Experiencia de lujo para mascotas pequeñas",
+                                           "Textura aterciopelada única",
+                                           "Color relajante y elegante",
+                                           "Confort premium garantizado",
+                                           "Lujo accesible"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 30°C programa delicado",
+                                                    "Detergente suave para terciopelo",
+                                                    "Secar al aire evitando sol directo",
+                                                    "Cepillar suavemente para mantener textura",
+                                                    "No planchar directamente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-terciopelo-azul",
+                          "name":  "CUNA DE PERRO 73X60CM LISO AZUL TERCIOPELO 7尧 73X60CM 丝绒蓝色",
+                          "category":  "mascotas",
+                          "price":  "17.59€",
+                          "originalPrice":  "21.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro mediano 73x60cm en azul liso. Elegancia aterciopelada.",
+                          "detailed_description":  "Cuna de terciopelo de tamaño mediano en elegante azul liso. Con medidas de 73x60cm, está diseñada para perros medianos que buscan el máximo confort. El terciopelo de alta calidad crea una superficie suave y lujosa que invita al descanso, mientras que el azul sereno aporta paz y tranquilidad.",
+                          "rating":  4.8,
+                          "reviews":  54,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-terciopelo-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium azul",
+                                         "Tamaño mediano 73x60cm",
+                                         "Elegancia aterciopelada",
+                                         "Alta calidad textil",
+                                         "Confort superior",
+                                         "Diseño sereno"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Terciopelo de alta calidad",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Azul Terciopelo",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Lujo aterciopelado para medianos",
+                                           "Superficie suave y acogedora",
+                                           "Color que aporta tranquilidad",
+                                           "Calidad textil superior",
+                                           "Confort premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado delicado a 30°C",
+                                                    "Detergente especial para terciopelo",
+                                                    "Secar horizontalmente",
+                                                    "Mantener textura aterciopelada",
+                                                    "Evitar calor directo"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-terciopelo-azul",
+                          "name":  "CUNA DE PERRO 85X65CM LISO AZUL TERCIOPELO 7尧 85X65CM 丝绒蓝色",
+                          "category":  "mascotas",
+                          "price":  "21.59€",
+                          "originalPrice":  "26.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro grande 85x65cm en azul liso. Máximo lujo aterciopelado.",
+                          "detailed_description":  "La cuna de terciopelo más grande en azul liso premium. Con generosas medidas de 85x65cm, está diseñada para perros grandes que merecen experimentar el máximo lujo. El terciopelo de calidad superior crea una superficie suntuosa que combina elegancia, confort y durabilidad en un solo producto excepcional.",
+                          "rating":  5.0,
+                          "reviews":  73,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-terciopelo-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium azul",
+                                         "Tamaño grande 85x65cm",
+                                         "Máximo lujo aterciopelado",
+                                         "Calidad superior",
+                                         "Superficie suntuosa",
+                                         "Elegancia excepcional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Terciopelo de calidad superior",
+                                                 "weight":  "2.2kg",
+                                                 "color":  "Azul Terciopelo",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo lujo para razas grandes",
+                                           "Superficie suntuosa y duradera",
+                                           "Elegancia premium",
+                                           "Confort excepcional",
+                                           "Inversión en lujo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado profesional recomendado",
+                                                    "Si lavado en casa: programa muy delicado",
+                                                    "Secar completamente al aire",
+                                                    "Cepillado suave regular",
+                                                    "Cuidado especial del terciopelo"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-terciopelo-azul",
+                          "name":  "SET 3PCS CUNA DE PERRO 53X60/73X60/85X65CM AZUL TERCIOPELO 三件套蓝色丝绒",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas de terciopelo azul (53x60/73x60/85x65cm). La colección más lujosa.",
+                          "detailed_description":  "Set completo de la colección de terciopelo azul más lujosa. Incluye tres tamaños: pequeña (53x60cm), mediana (73x60cm) y grande (85x65cm), todas fabricadas en terciopelo premium. Perfect para hogares con múltiples mascotas o para acompañar el crecimiento, garantizando lujo aterciopelado en cada etapa.",
+                          "rating":  5.0,
+                          "reviews":  89,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-terciopelo-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo 3 tamaños terciopelo",
+                                         "Terciopelo azul premium uniforme",
+                                         "La colección más lujosa",
+                                         "Lujo en cada etapa",
+                                         "Ahorro significativo",
+                                         "Calidad excepcional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53x60cm + 73x60cm + 85x65cm",
+                                                 "material":  "Terciopelo premium uniforme",
+                                                 "weight":  "4.8kg (total)",
+                                                 "color":  "Azul Terciopelo",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo lujo para todas las mascotas",
+                                           "Ahorro del 20% vs compra individual",
+                                           "Colección uniforme de terciopelo",
+                                           "Lujo accesible en familia",
+                                           "Calidad premium garantizada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar cada pieza por separado",
+                                                    "Programa delicado uniforme",
+                                                    "Secar al aire todas las piezas",
+                                                    "Mantener textura de la colección",
+                                                    "Cuidado especial del terciopelo"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-53x60cm-terciopelo-rosa",
+                          "name":  "CUNA DE PERRO 53X60CM LISO ROSA TERCIOPELO 7尧 53X60CM 丝绒粉色",
+                          "category":  "mascotas",
+                          "price":  "15.99€",
+                          "originalPrice":  "19.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro pequeño 53x60cm en rosa liso. Dulzura aterciopelada.",
+                          "detailed_description":  "Cuna de terciopelo en delicado rosa liso para perros pequeños. El tamaño de 53x60cm es ideal para razas pequeñas que buscan dulzura y confort. El terciopelo rosa crea un ambiente cálido y acogedor, perfecto para mascotas que merecen ser mimadas con la suavidad más delicada.",
+                          "rating":  4.9,
+                          "reviews":  71,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-53x60cm-terciopelo-rosa/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium rosa",
+                                         "Tamaño pequeño 53x60cm",
+                                         "Dulzura aterciopelada",
+                                         "Ambiente cálido y acogedor",
+                                         "Suavidad delicada",
+                                         "Color tierno"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53cm x 60cm",
+                                                 "material":  "Terciopelo premium",
+                                                 "weight":  "1.1kg",
+                                                 "color":  "Rosa Terciopelo",
+                                                 "pet_size":  "Pequeño",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Dulzura premium para pequeños",
+                                           "Ambiente cálido y mimoso",
+                                           "Color delicado y tierno",
+                                           "Textura aterciopelada suave",
+                                           "Lujo accesible y dulce"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina programa delicado",
+                                                    "Detergente suave para terciopelo rosa",
+                                                    "Secar a la sombra",
+                                                    "Mantener suavidad del rosa",
+                                                    "Cepillar delicadamente"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-terciopelo-rosa",
+                          "name":  "CUNA DE PERRO 73X60CM LISO ROSA TERCIOPELO 7尧 73X60CM 丝绒粉色",
+                          "category":  "mascotas",
+                          "price":  "17.59€",
+                          "originalPrice":  "21.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro mediano 73x60cm en rosa liso. Elegancia rosa aterciopelada.",
+                          "detailed_description":  "Cuna de terciopelo mediana en elegante rosa liso que combina dulzura y sofisticación. Con medidas de 73x60cm, es perfecta para perros medianos que merecen un descanso lleno de mimo y confort. El terciopelo rosa aporta calidez visual y táctil, creando un refugio lleno de ternura.",
+                          "rating":  4.8,
+                          "reviews":  59,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-terciopelo-rosa/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium rosa",
+                                         "Tamaño mediano 73x60cm",
+                                         "Elegancia rosa aterciopelada",
+                                         "Dulzura y sofisticación",
+                                         "Refugio lleno de ternura",
+                                         "Calidez visual y táctil"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Terciopelo de alta calidad",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Rosa Terciopelo",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Lujo rosa para medianos",
+                                           "Combina dulzura y elegancia",
+                                           "Refugio cálido y acogedor",
+                                           "Textura premium suave",
+                                           "Ambiente lleno de mimo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado delicado especializado",
+                                                    "Detergente para colores delicados",
+                                                    "Secar evitando decoloración",
+                                                    "Preservar tonalidad rosa",
+                                                    "Mantener suavidad aterciopelada"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-terciopelo-rosa",
+                          "name":  "CUNA DE PERRO 85X65CM LISO ROSA TERCIOPELO 7尧 85X65CM 丝绒粉色",
+                          "category":  "mascotas",
+                          "price":  "21.59€",
+                          "originalPrice":  "26.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro grande 85x65cm en rosa liso. Máximo lujo rosa.",
+                          "detailed_description":  "La cuna de terciopelo rosa más lujosa para perros grandes. Con medidas generosas de 85x65cm, está diseñada para razas grandes que merecen el máximo mimo y confort. El terciopelo rosa premium crea una experiencia de lujo única que combina elegancia, dulzura y sofisticación en un solo producto excepcional.",
+                          "rating":  5.0,
+                          "reviews":  68,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-terciopelo-rosa/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium rosa",
+                                         "Tamaño grande 85x65cm",
+                                         "Máximo lujo rosa",
+                                         "Experiencia de mimo única",
+                                         "Dulzura y sofisticación",
+                                         "Lujo excepcional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Terciopelo rosa premium",
+                                                 "weight":  "2.2kg",
+                                                 "color":  "Rosa Terciopelo",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máximo lujo rosa para grandes",
+                                           "Experiencia de mimo premium",
+                                           "Elegancia dulce y sofisticada",
+                                           "Confort excepcional",
+                                           "Inversión en lujo rosa"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado premium especializado",
+                                                    "Lavado profesional recomendado",
+                                                    "Protección especial del color rosa",
+                                                    "Secar con máximo cuidado",
+                                                    "Mantener lujo aterciopelado"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-terciopelo-rosa",
+                          "name":  "SET 3PCS CUNA DE PERRO 53X60/73X60/85X65CM ROSA TERCIOPELO 三件套粉色丝绒",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas de terciopelo rosa (53x60/73x60/85x65cm). Colección dulzura premium.",
+                          "detailed_description":  "Set completo de la colección de terciopelo rosa más dulce y lujosa. Incluye tres tamaños en terciopelo rosa premium: pequeña (53x60cm), mediana (73x60cm) y grande (85x65cm). Perfecto para crear un ambiente lleno de mimo y ternura, ideal para hogares que buscan el máximo confort con un toque de dulzura.",
+                          "rating":  5.0,
+                          "reviews":  94,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-terciopelo-rosa/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo terciopelo rosa",
+                                         "Colección dulzura premium",
+                                         "Tres tamaños en rosa lujoso",
+                                         "Ambiente lleno de mimo",
+                                         "Máximo confort dulce",
+                                         "Ahorro significativo"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53x60cm + 73x60cm + 85x65cm",
+                                                 "material":  "Terciopelo rosa premium uniforme",
+                                                 "weight":  "4.8kg (total)",
+                                                 "color":  "Rosa Terciopelo",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Colección completa de dulzura",
+                                           "Ahorro del 20% vs individual",
+                                           "Lujo rosa para toda la familia",
+                                           "Ambiente cálido y mimoso",
+                                           "Máxima calidad premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado especial por separado",
+                                                    "Detergente para terciopelo rosa",
+                                                    "Protección del color delicado",
+                                                    "Secar preservando suavidad",
+                                                    "Mantener colección uniforme"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-terciopelo-gris-oscuro",
+                          "name":  "CUNA DE PERRO 85X65CM LISO GRIS OSCURO TERCIOPELO 7尧 85X65CM 丝绒深灰",
+                          "category":  "mascotas",
+                          "price":  "21.59€",
+                          "originalPrice":  "26.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro grande 85x65cm en gris oscuro. Elegancia aterciopelada oscura.",
+                          "detailed_description":  "Cuna de terciopelo en sofisticado gris oscuro para perros grandes. Con medidas de 85x65cm, combina el lujo del terciopelo con la elegancia del color gris oscuro, creando una pieza de máxima sofisticación. Perfecta para hogares modernos que buscan lujo discreto y elegante.",
+                          "rating":  4.9,
+                          "reviews":  61,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-terciopelo-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium gris oscuro",
+                                         "Tamaño grande 85x65cm",
+                                         "Elegancia aterciopelada oscura",
+                                         "Máxima sofisticación",
+                                         "Lujo discreto",
+                                         "Estilo moderno"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Terciopelo premium gris oscuro",
+                                                 "weight":  "2.2kg",
+                                                 "color":  "Gris Oscuro Terciopelo",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Máxima elegancia para grandes",
+                                           "Lujo discreto y sofisticado",
+                                           "Perfecta para hogares modernos",
+                                           "Resistencia superior a manchas",
+                                           "Estilo atemporal"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado especializado para gris oscuro",
+                                                    "Detergente para colores oscuros",
+                                                    "Secar a la sombra",
+                                                    "Mantener intensidad del color",
+                                                    "Cepillado suave regular"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-terciopelo-gris-oscuro",
+                          "name":  "CUNA DE PERRO 73X60CM LISO GRIS OSCURO TERCIOPELO 7尧 73X60CM 丝绒深灰",
+                          "category":  "mascotas",
+                          "price":  "17.59€",
+                          "originalPrice":  "21.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro mediano 73x60cm en gris oscuro. Sofisticación aterciopelada.",
+                          "detailed_description":  "Cuna de terciopelo mediana en elegante gris oscuro que aporta sofisticación moderna. Con medidas de 73x60cm, es perfecta para perros medianos que buscan lujo discreto. El terciopelo gris oscuro crea un ambiente de elegancia contemporánea, perfecto para integrarse en cualquier decoración moderna.",
+                          "rating":  4.8,
+                          "reviews":  47,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-terciopelo-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium gris oscuro",
+                                         "Tamaño mediano 73x60cm",
+                                         "Sofisticación aterciopelada",
+                                         "Elegancia contemporánea",
+                                         "Lujo discreto",
+                                         "Integración moderna"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Terciopelo de alta calidad",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Gris Oscuro Terciopelo",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Sofisticación para medianos",
+                                           "Se integra en decoración moderna",
+                                           "Lujo discreto y elegante",
+                                           "Calidad premium",
+                                           "Estilo contemporáneo"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado especializado delicado",
+                                                    "Conservar intensidad del gris",
+                                                    "Secar horizontalmente",
+                                                    "Mantener textura premium",
+                                                    "Cuidado especial del terciopelo"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-53x60cm-terciopelo-gris-oscuro",
+                          "name":  "CUNA DE PERRO 53X60CM LISO GRIS OSCURO TERCIOPELO 7尧 53X60CM 丝绒深灰",
+                          "category":  "mascotas",
+                          "price":  "15.99€",
+                          "originalPrice":  "19.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de terciopelo para perro pequeño 53x60cm en gris oscuro. Sofisticación aterciopelada compacta.",
+                          "detailed_description":  "Cuna de terciopelo pequeña en sofisticado gris oscuro para perros pequeños. El tamaño de 53x60cm es perfecto para razas pequeñas que merecen lujo discreto. El terciopelo gris oscuro crea un ambiente de elegancia moderna y sofisticada, perfecto para espacios contemporáneos.",
+                          "rating":  4.8,
+                          "reviews":  53,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-53x60cm-terciopelo-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Terciopelo premium gris oscuro",
+                                         "Tamaño pequeño 53x60cm",
+                                         "Sofisticación aterciopelada compacta",
+                                         "Lujo discreto",
+                                         "Elegancia moderna",
+                                         "Perfecto para espacios contemporáneos"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53cm x 60cm",
+                                                 "material":  "Terciopelo premium",
+                                                 "weight":  "1.1kg",
+                                                 "color":  "Gris Oscuro Terciopelo",
+                                                 "pet_size":  "Pequeño",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Lujo discreto para pequeños",
+                                           "Elegancia moderna compacta",
+                                           "Se integra en decoración contemporánea",
+                                           "Sofisticación accesible",
+                                           "Calidad premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina programa delicado",
+                                                    "Detergente para terciopelo oscuro",
+                                                    "Secar a la sombra",
+                                                    "Mantener intensidad del color",
+                                                    "Cepillar suavemente"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-terciopelo-gris-oscuro",
+                          "name":  "SET 3PCS CUNA DE PERRO 53X60/73X60/85X65CM GRIS OSCURO TERCIOPELO 三件套深灰丝绒",
+                          "category":  "mascotas",
+                          "price":  "49.59€",
+                          "originalPrice":  "61.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas de terciopelo gris oscuro (53x60/73x60/85x65cm). Colección sofisticación premium.",
+                          "detailed_description":  "Set completo de la colección de terciopelo gris oscuro más sofisticada. Incluye tres tamaños en terciopelo gris oscuro premium: pequeña (53x60cm), mediana (73x60cm) y grande (85x65cm). Perfecto para hogares modernos que buscan máxima elegancia discreta con lujo aterciopelado en cada tamaño.",
+                          "rating":  5.0,
+                          "reviews":  86,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-terciopelo-gris-oscuro/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo terciopelo gris oscuro",
+                                         "Colección sofisticación premium",
+                                         "Tres tamaños en lujo discreto",
+                                         "Máxima elegancia moderna",
+                                         "Perfecto para hogares contemporáneos",
+                                         "Ahorro significativo"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "53x60cm + 73x60cm + 85x65cm",
+                                                 "material":  "Terciopelo gris oscuro premium uniforme",
+                                                 "weight":  "4.8kg (total)",
+                                                 "color":  "Gris Oscuro Terciopelo",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Colección completa de sofisticación",
+                                           "Ahorro del 20% vs individual",
+                                           "Lujo discreto para toda la familia",
+                                           "Elegancia moderna uniforme",
+                                           "Máxima calidad premium"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado especializado por separado",
+                                                    "Detergente para terciopelo gris oscuro",
+                                                    "Preservar intensidad del color uniforme",
+                                                    "Secar manteniendo sofisticación",
+                                                    "Mantener colección elegante"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-50x60cm-tecnologia-tela-gris",
+                          "name":  "CUNA DE PERRO 50X60CM LISO GRIS 7尧 50X60CM 科技布灰色",
+                          "category":  "mascotas",
+                          "price":  "12.99€",
+                          "originalPrice":  "16.24€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de tecnología textil para perro 50x60cm en gris con bordes elevados. Innovación y confort.",
+                          "detailed_description":  "Cuna innovadora fabricada con tecnología textil avanzada en elegante color gris. El tamaño de 50x60cm con bordes elevados proporciona máxima seguridad y confort. La tela tecnológica ofrece durabilidad superior, resistencia a manchas y fácil mantenimiento.",
+                          "rating":  4.7,
+                          "reviews":  42,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-50x60cm-tecnologia-tela-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Tecnología textil avanzada",
+                                         "Tamaño 50x60cm",
+                                         "Bordes elevados de seguridad",
+                                         "Color gris elegante",
+                                         "Resistencia a manchas",
+                                         "Fácil mantenimiento"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50cm x 60cm",
+                                                 "material":  "Tela tecnológica avanzada",
+                                                 "weight":  "1.0kg",
+                                                 "color":  "Gris Tecnológico",
+                                                 "pet_size":  "Pequeño-Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Innovación textil avanzada",
+                                           "Máxima seguridad con bordes",
+                                           "Resistencia superior a manchas",
+                                           "Mantenimiento simplificado",
+                                           "Durabilidad excepcional"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavar a máquina a 40°C",
+                                                    "La tecnología textil resiste lavados",
+                                                    "Secar rápidamente",
+                                                    "Resistente a manchas",
+                                                    "Mantiene propiedades tras lavados"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-tecnologia-tela-gris-azul",
+                          "name":  "CUNA DE PERRO 73X60CM LISO GRIS AZUL 73X60CM 科技布灰蓝色",
+                          "category":  "mascotas",
+                          "price":  "14.99€",
+                          "originalPrice":  "18.74€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de tecnología textil para perro 73x60cm en gris azul con bordes elevados. Tecnología premium.",
+                          "detailed_description":  "Cuna de tamaño mediano fabricada con tecnología textil premium en sofisticado gris azul. Las medidas de 73x60cm con bordes elevados garantizan máximo confort y protección. La combinación de gris y azul aporta modernidad y elegancia contemporánea.",
+                          "rating":  4.8,
+                          "reviews":  56,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-tecnologia-tela-gris-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Tecnología textil premium",
+                                         "Tamaño mediano 73x60cm",
+                                         "Color gris azul moderno",
+                                         "Bordes elevados protectores",
+                                         "Elegancia contemporánea",
+                                         "Resistencia avanzada"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela tecnológica premium",
+                                                 "weight":  "1.4kg",
+                                                 "color":  "Gris Azul",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tecnología premium para medianos",
+                                           "Color moderno y elegante",
+                                           "Protección con bordes elevados",
+                                           "Resistencia superior",
+                                           "Fácil mantenimiento avanzado"
+                                       ],
+                          "care_instructions":  [
+                                                    "Lavado avanzado a 40°C",
+                                                    "Tecnología resistente al desgaste",
+                                                    "Secado rápido",
+                                                    "Conserva colores gris-azul",
+                                                    "Propiedades tecnológicas duraderas"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-tecnologia-tela-gris-azul",
+                          "name":  "CUNA DE PERRO 85X65CM LISO GRIS AZUL 85X65CM 科技布灰蓝色",
+                          "category":  "mascotas",
+                          "price":  "18.99€",
+                          "originalPrice":  "23.74€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna de tecnología textil para perro grande 85x65cm en gris azul. Máxima tecnología textil.",
+                          "detailed_description":  "Cuna de tecnología textil avanzada para perros grandes. Con medidas generosas de 85x65cm en gris azul premium, combina innovación tecnológica con diseño moderno. Los bordes elevados y la tela tecnológica garantizan máxima durabilidad y confort.",
+                          "rating":  4.9,
+                          "reviews":  73,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-tecnologia-tela-gris-azul/principal"
+                                     ],
+                          "features":  [
+                                         "Máxima tecnología textil",
+                                         "Tamaño grande 85x65cm",
+                                         "Gris azul premium",
+                                         "Bordes elevados reforzados",
+                                         "Innovación y modernidad",
+                                         "Durabilidad excepcional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela tecnológica avanzada premium",
+                                                 "weight":  "2.0kg",
+                                                 "color":  "Gris Azul Premium",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Tecnología máxima para grandes",
+                                           "Innovación textil avanzada",
+                                           "Diseño moderno premium",
+                                           "Resistencia superior",
+                                           "Inversión en tecnología"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado tecnológico avanzado",
+                                                    "Lavado premium a 40°C",
+                                                    "Tecnología auto-limpiante",
+                                                    "Secado optimizado",
+                                                    "Mantiene innovaciones textiles"
+                                                ]
+                      },
+                      {
+                          "id":  "set-cuna-perro-3pcs-tecnologia-tela-gris",
+                          "name":  "SET 3PCS CUNA DE PERRO 50X60/73X60/85X65CM LISO GRIS 三件套科技布灰色",
+                          "category":  "mascotas",
+                          "price":  "39.99€",
+                          "originalPrice":  "49.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Set de 3 cunas de tecnología textil (50x60/73x60/85x65cm) en gris. Colección tecnológica completa.",
+                          "detailed_description":  "Set completo de la colección de tecnología textil en gris elegante. Incluye tres tamaños con bordes elevados: pequeña (50x60cm), mediana (73x60cm) y grande (85x65cm). Perfecta para hogares que buscan innovación tecnológica con elegancia y funcionalidad avanzada.",
+                          "rating":  4.9,
+                          "reviews":  89,
+                          "images":  [
+                                         "images/productos/mascotas/set-cuna-perro-3pcs-tecnologia-tela-gris/principal"
+                                     ],
+                          "features":  [
+                                         "Set completo tecnológico",
+                                         "Tres tamaños con bordes elevados",
+                                         "Colección gris elegante",
+                                         "Tecnología textil uniforme",
+                                         "Innovación en cada tamaño",
+                                         "Ahorro tecnológico"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "50x60cm + 73x60cm + 85x65cm",
+                                                 "material":  "Tela tecnológica uniforme",
+                                                 "weight":  "4.4kg (total)",
+                                                 "color":  "Gris Tecnológico",
+                                                 "pet_size":  "Todos los tamaños",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Colección tecnológica completa",
+                                           "Ahorro del 20% vs individual",
+                                           "Innovación para toda la familia",
+                                           "Tecnología uniforme",
+                                           "Máxima funcionalidad"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado tecnológico conjunto",
+                                                    "Lavado avanzado por separado",
+                                                    "Mantener propiedades del set",
+                                                    "Secado optimizado",
+                                                    "Conservar innovación textil"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-65x50cm-elegante-clara",
+                          "name":  "CUNA 科技布狗窝雅-浅色 65*50CM",
+                          "category":  "mascotas",
+                          "price":  "13.99€",
+                          "originalPrice":  "17.49€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna elegante de tecnología textil 65x50cm en tono claro. Sofisticación y modernidad.",
+                          "detailed_description":  "Cuna de diseño elegante fabricada con tecnología textil en tono claro sofisticado. Las medidas de 65x50cm son ideales para perros medianos. El diseño ´elegante´ combina bordes curvados suaves con tecnología avanzada, creando una pieza de máxima sofisticación.",
+                          "rating":  4.6,
+                          "reviews":  38,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-65x50cm-elegante-clara/principal"
+                                     ],
+                          "features":  [
+                                         "Diseño elegante sofisticado",
+                                         "Tamaño 65x50cm",
+                                         "Tono claro refinado",
+                                         "Bordes curvados suaves",
+                                         "Tecnología textil avanzada",
+                                         "Máxima sofisticación"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "65cm x 50cm",
+                                                 "material":  "Tela tecnológica elegante",
+                                                 "weight":  "1.2kg",
+                                                 "color":  "Tono Claro Elegante",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia sofisticada",
+                                           "Diseño moderno refinado",
+                                           "Tono claro versátil",
+                                           "Tecnología avanzada",
+                                           "Sofisticación accesible"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado elegante especializado",
+                                                    "Lavar preservando refinamiento",
+                                                    "Mantener tono claro",
+                                                    "Secar conservando elegancia",
+                                                    "Tecnología auto-mantenimiento"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-elegante-clara",
+                          "name":  "CUNA 科技布狗窝雅-浅色 73*60CM",
+                          "category":  "mascotas",
+                          "price":  "15.99€",
+                          "originalPrice":  "19.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna elegante de tecnología textil 73x60cm en tono claro. Refinamiento y tecnología unidos.",
+                          "detailed_description":  "Cuna de máxima elegancia en tecnología textil con medidas de 73x60cm en tono claro refinado. El diseño ´elegante´ incorpora líneas sofisticadas y bordes curvados que aportan distinción y modernidad. Perfecta para hogares que buscan sofisticación tecnológica.",
+                          "rating":  4.7,
+                          "reviews":  51,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-elegante-clara/principal"
+                                     ],
+                          "features":  [
+                                         "Máxima elegancia tecnológica",
+                                         "Tamaño mediano 73x60cm",
+                                         "Tono claro refinado",
+                                         "Líneas sofisticadas",
+                                         "Bordes curvados distintivos",
+                                         "Modernidad y distinción"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela tecnológica de máxima elegancia",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Tono Claro Refinado",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Refinamiento tecnológico máximo",
+                                           "Elegancia y modernidad",
+                                           "Sofisticación accesible",
+                                           "Distinción en el hogar",
+                                           "Tecnología elegante"
+                                       ],
+                          "care_instructions":  [
+                                                    "Mantenimiento de máxima elegancia",
+                                                    "Cuidado refinado especializado",
+                                                    "Preservar sofisticación",
+                                                    "Tecnología auto-elegante",
+                                                    "Conservar distinción"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-65x55cm-elegante-marron",
+                          "name":  "CUNA 科技布狗窝雅-棕色 65*55CM",
+                          "category":  "mascotas",
+                          "price":  "13.99€",
+                          "originalPrice":  "17.49€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna elegante de tecnología textil 65x55cm en marrón. Elegancia natural con tecnología.",
+                          "detailed_description":  "Cuna de diseño elegante en cálido marrón con tecnología textil avanzada. Las medidas de 65x55cm son perfectas para perros medianos. El color marrón aporta calidez natural mientras que el diseño elegante y la tecnología garantizan sofisticación moderna.",
+                          "rating":  4.8,
+                          "reviews":  44,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-65x55cm-elegante-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Elegancia natural en marrón",
+                                         "Tamaño 65x55cm",
+                                         "Calidez y sofisticación",
+                                         "Tecnología textil avanzada",
+                                         "Diseño elegante cálido",
+                                         "Modernidad natural"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "65cm x 55cm",
+                                                 "material":  "Tela tecnológica elegante",
+                                                 "weight":  "1.3kg",
+                                                 "color":  "Marrón Elegante",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Elegancia natural cálida",
+                                           "Tecnología y calidez",
+                                           "Sofisticación accesible",
+                                           "Integración natural en el hogar",
+                                           "Modernidad con calidez"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado elegante para marrón",
+                                                    "Mantener calidez natural",
+                                                    "Tecnología auto-conservante",
+                                                    "Preservar elegancia cálida",
+                                                    "Conservar sofisticación marrón"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-elegante-marron",
+                          "name":  "CUNA 科技布狗窝雅-棕色 73*60CM",
+                          "category":  "mascotas",
+                          "price":  "15.99€",
+                          "originalPrice":  "19.99€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna elegante de tecnología textil 73x60cm en marrón. Máxima elegancia natural.",
+                          "detailed_description":  "Cuna de máxima elegancia en marrón sofisticado con tecnología textil premium. Con medidas de 73x60cm, combina la calidez del marrón con el refinamiento del diseño elegante. Perfecta para hogares que buscan sofisticación natural con tecnología avanzada.",
+                          "rating":  4.9,
+                          "reviews":  58,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-elegante-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Máxima elegancia marrón",
+                                         "Tamaño mediano 73x60cm",
+                                         "Sofisticación natural",
+                                         "Tecnología textil premium",
+                                         "Refinamiento cálido",
+                                         "Elegancia natural avanzada"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela tecnológica elegante premium",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Marrón Sofisticado",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Sofisticación natural máxima",
+                                           "Elegancia cálida premium",
+                                           "Tecnología y naturaleza",
+                                           "Refinamiento accesible",
+                                           "Integración elegante natural"
+                                       ],
+                          "care_instructions":  [
+                                                    "Mantenimiento elegante especializado",
+                                                    "Cuidado premium del marrón",
+                                                    "Preservar sofisticación natural",
+                                                    "Tecnología auto-refinamiento",
+                                                    "Conservar elegancia cálida"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-elegante-marron",
+                          "name":  "CUNA 科技布狗窝雅-棕色 85*65CM",
+                          "category":  "mascotas",
+                          "price":  "18.99€",
+                          "originalPrice":  "23.74€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna elegante de tecnología textil 85x65cm en marrón. Lujo natural con tecnología premium.",
+                          "detailed_description":  "La cuna más elegante en marrón premium con tecnología textil de lujo. Con generosas medidas de 85x65cm, representa la cima de la sofisticación natural. Combina el diseño elegante más refinado con tecnología avanzada y la calidez del marrón premium.",
+                          "rating":  5.0,
+                          "reviews":  67,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-elegante-marron/principal"
+                                     ],
+                          "features":  [
+                                         "Lujo natural máximo",
+                                         "Tamaño grande 85x65cm",
+                                         "Marrón premium sofisticado",
+                                         "Tecnología de lujo",
+                                         "Refinamiento supremo",
+                                         "Elegancia natural excepcional"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela tecnológica de lujo natural",
+                                                 "weight":  "2.0kg",
+                                                 "color":  "Marrón Premium",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Lujo natural supremo",
+                                           "Máxima elegancia marrón",
+                                           "Tecnología premium avanzada",
+                                           "Refinamiento excepcional",
+                                           "Inversión en elegancia natural"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado de lujo natural",
+                                                    "Mantenimiento premium especializado",
+                                                    "Preservar elegancia suprema",
+                                                    "Tecnología auto-lujo",
+                                                    "Conservar sofisticación premium"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-65x50cm-cientifica-negro",
+                          "name":  "新科技方案-小号60X50CM黑色",
+                          "category":  "mascotas",
+                          "price":  "13.60€",
+                          "originalPrice":  "17.00€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna científico-tecnológica 65x50cm en negro. Nueva tecnología científica para mascotas.",
+                          "detailed_description":  "Cuna con nueva tecnología científica en elegante negro. Tamaño 65x50cm ideal para perros pequeños-medianos. El diseño científico incorpora avances tecnológicos con materiales de alta resistencia y bordes ergonómicos dorados que combinan funcionalidad científica con estética premium.",
+                          "rating":  4.8,
+                          "reviews":  47,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-65x50cm-cientifica-negro/principal"
+                                     ],
+                          "features":  [
+                                         "Nueva tecnología científica",
+                                         "Tamaño pequeño-mediano 65x50cm",
+                                         "Color negro elegante",
+                                         "Bordes ergonómicos dorados",
+                                         "Diseño científico avanzado",
+                                         "Materiales de alta resistencia"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "65cm x 50cm",
+                                                 "material":  "Tela científico-tecnológica",
+                                                 "weight":  "1.2kg",
+                                                 "color":  "Negro Científico",
+                                                 "pet_size":  "Pequeño-Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Tecnología científica avanzada",
+                                           "Diseño ergonómico premium",
+                                           "Resistencia científicamente probada",
+                                           "Estética profesional",
+                                           "Innovación tecnológica accesible"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado científico especializado",
+                                                    "Lavar según tecnología aplicada",
+                                                    "Mantener propiedades científicas",
+                                                    "Preservar características técnicas",
+                                                    "Conservar innovación científica"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-73x60cm-cientifica-negro",
+                          "name":  "新科技方案-中号73X60CM黑色",
+                          "category":  "mascotas",
+                          "price":  "14.40€",
+                          "originalPrice":  "18.00€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna científico-tecnológica 73x60cm en negro. Tecnología científica mediana premium.",
+                          "detailed_description":  "Cuna de tamaño mediano con tecnología científica avanzada en negro premium. Las medidas de 73x60cm son perfectas para perros medianos. Incorpora los últimos avances científicos en comodidad y durabilidad, con bordes ergonómicos dorados que aportan distinción y funcionalidad científica superior.",
+                          "rating":  4.9,
+                          "reviews":  62,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-73x60cm-cientifica-negro/principal"
+                                     ],
+                          "features":  [
+                                         "Tecnología científica mediana",
+                                         "Tamaño mediano 73x60cm",
+                                         "Negro premium científico",
+                                         "Bordes ergonómicos dorados premium",
+                                         "Avances científicos aplicados",
+                                         "Durabilidad científicamente probada"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "73cm x 60cm",
+                                                 "material":  "Tela científico-tecnológica premium",
+                                                 "weight":  "1.5kg",
+                                                 "color":  "Negro Científico Premium",
+                                                 "pet_size":  "Mediano",
+                                                 "warranty":  "2 años"
+                                             },
+                          "benefits":  [
+                                           "Ciencia aplicada al confort",
+                                           "Tecnología mediana premium",
+                                           "Innovación científica superior",
+                                           "Diseño ergonómico avanzado",
+                                           "Resistencia científica probada"
+                                       ],
+                          "care_instructions":  [
+                                                    "Mantenimiento científico premium",
+                                                    "Cuidado tecnológico especializado",
+                                                    "Preservar avances científicos",
+                                                    "Conservar propiedades técnicas",
+                                                    "Mantener innovación científica"
+                                                ]
+                      },
+                      {
+                          "id":  "cuna-perro-85x65cm-cientifica-negro",
+                          "name":  "新科技方案-大号85X65CM黑色",
+                          "category":  "mascotas",
+                          "price":  "15.20€",
+                          "originalPrice":  "19.00€",
+                          "discount":  "20% OFF",
+                          "description":  "Cuna científico-tecnológica 85x65cm en negro. Máxima tecnología científica para perros grandes.",
+                          "detailed_description":  "La cuna científica más avanzada en tamaño grande con medidas de 85x65cm en negro científico premium. Representa la cima de la tecnología científica aplicada al confort animal. Los bordes ergonómicos dorados y la tecnología científica de vanguardia garantizan máxima comodidad y durabilidad científicamente probada.",
+                          "rating":  5.0,
+                          "reviews":  78,
+                          "images":  [
+                                         "images/productos/mascotas/cuna-perro-85x65cm-cientifica-negro/principal"
+                                     ],
+                          "features":  [
+                                         "Máxima tecnología científica",
+                                         "Tamaño grande 85x65cm",
+                                         "Negro científico de vanguardia",
+                                         "Bordes ergonómicos dorados premium",
+                                         "Ciencia aplicada al confort máximo",
+                                         "Tecnología científica de élite"
+                                     ],
+                          "specifications":  {
+                                                 "dimensions":  "85cm x 65cm",
+                                                 "material":  "Tela científico-tecnológica de vanguardia",
+                                                 "weight":  "2.0kg",
+                                                 "color":  "Negro Científico de Élite",
+                                                 "pet_size":  "Grande",
+                                                 "warranty":  "3 años"
+                                             },
+                          "benefits":  [
+                                           "Ciencia de vanguardia aplicada",
+                                           "Tecnología científica máxima",
+                                           "Innovación científica de élite",
+                                           "Confort científicamente optimizado",
+                                           "Inversión en ciencia y tecnología"
+                                       ],
+                          "care_instructions":  [
+                                                    "Cuidado científico de vanguardia",
+                                                    "Mantenimiento tecnológico de élite",
+                                                    "Preservar ciencia aplicada",
+                                                    "Conservar innovación científica",
+                                                    "Mantener tecnología de vanguardia"
+                                                ]
+                      }
                  ],
     "peluches": [
                     {
