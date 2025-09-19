@@ -12,11 +12,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         /* Estilos específicos para la página de producto */
+        body {
+            margin-top: 0;
+            padding-top: 0;
+        }
+        
         .product-detail-container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 40px 20px;
             background: white;
+            position: relative;
+            z-index: 1;
+            margin-top: 20px; /* Espaciado desde el header */
         }
 
         .product-detail-content {
@@ -783,6 +791,21 @@
     </style>
 </head>
 <body>
+    <!-- Top header con información de contacto -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-content">
+                <div class="contact-info">
+                    <span><i class="fas fa-map-marker-alt"></i> Logistica 9, A-4, KM.65.500, 45300, Ocaña, Toledo</span>
+                </div>
+                <div class="contact-info">
+                    <a href="tel:+34636215696"><i class="fas fa-phone"></i> 636 215 696</a>
+                    <a href="mailto:tavolocasainfo@gmail.com"><i class="fas fa-envelope"></i> tavolocasainfo@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Header principal (mismo que index) -->
     <header class="main-header">
         <div class="container">
