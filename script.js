@@ -10,7 +10,7 @@ let productosData = {
 let productosOriginales = {};
 let productosAgrupados = {};
 
-// Función para cargar productos desde JSON (con agrupación automática)
+// Función para cargar productos desde JSON
 async function loadProductsData() {
     try {
         const response = await fetch('productos.json');
@@ -19,16 +19,16 @@ async function loadProductsData() {
         }
         const data = await response.json();
         
-        // Usar las funciones del sistema de variantes para agrupar
-        productosOriginales = data;
-        agruparProductosParaListado();
+        // Asignar directamente los datos
+        productosData = data;
         
-        // Convertir productos agrupados al formato del listado principal
-        productosData = convertirProductosAgrupados();
+        console.log('✅ Productos cargados correctamente');
+        console.log('Categorías disponibles:', Object.keys(productosData));
         
-        console.log('✅ Productos cargados y agrupados automáticamente');
-        console.log('Productos agrupados:', productosAgrupados);
-        console.log('Productos para listado:', productosData);
+        // Mostrar conteo por categoría
+        Object.keys(productosData).forEach(categoria => {
+            console.log(`- ${categoria}: ${productosData[categoria].length} productos`);
+        });
         
         return productosData;
     } catch (error) {
@@ -37,171 +37,10 @@ async function loadProductsData() {
     }
 }
 
-// Función para agrupar productos (adaptada del script de variantes)
-function agruparProductosParaListado() {
-    productosAgrupados = {};
-    
-    Object.keys(productosOriginales).forEach(categoria => {
-        productosOriginales[categoria].forEach(producto => {
-            // Para cojines y edredones, usar agrupación que mantiene colores; para otros, agrupación estándar
-            const nombreBase = (producto.category === 'cojines' || producto.category === 'edredones')
-                ? extraerNombreBaseCojin(producto.name)
-                : extraerNombreBaseSimple(producto.name);
-            
-            if (!productosAgrupados[nombreBase]) {
-                productosAgrupados[nombreBase] = {
-                    id: crearIdSimple(nombreBase),
-                    nombreBase: nombreBase,
-                    categoria: producto.category,
-                    descripcion: producto.description,
-                    descripcionDetallada: producto.detailed_description,
-                    caracteristicas: producto.features || [],
-                    beneficios: producto.benefits || [],
-                    cuidados: producto.care_instructions || [],
-                    variantes: []
-                };
-            }
-            
-            // Agregar como variante
-            productosAgrupados[nombreBase].variantes.push({
-                id: producto.id,
-                nombre: producto.name,
-                precio: producto.price,
-                precioOriginal: producto.originalPrice,
-                descuento: producto.discount,
-                tamaño: extraerTamañoSimple(producto.name),
-                color: extraerColorSimple(producto.name),
-                imagen: producto.images?.[0] || '',
-                rating: producto.rating || 0,
-                reviews: producto.reviews || 0,
-                especificaciones: producto.specifications || {},
-                descripcion: producto.description || '',
-                descripcionDetallada: producto.detailed_description || ''
-            });
-        });
-    });
-}
+// Las funciones de agrupación han sido simplificadas para carga directa
 
-// Funciones auxiliares simplificadas
-function extraerNombreBaseSimple(nombre) {
-    return nombre
-        .replace(/\s*\d+CM\s*$/i, '')
-        .replace(/\s*\d+X\d+CM\s*$/i, '')
-        .replace(/\s*(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO)\s*$/i, '')
-        .replace(/\s*(CLARO|OSCURO)\s*$/i, '')
-        .replace(/\s*(ESTAMPADO.*)\s*$/i, '')
-        .trim();
-}
+// Funciones auxiliares simplificadas - no necesarias para carga directa
 
-// Función especial para agrupar cojines y edredones por color (maneja todas las líneas de productos)
-function extraerNombreBaseCojin(nombre) {
-    // Para cojines y edredones, mantener el color en el nombre base y remover solo las medidas
-    // Esta función maneja diferentes líneas de productos automáticamente:
-    // - "COJÍN DECORATIVO NUEVO MODELO 45X45CM - AZUL CLARO"
-    // - "(RELLENO) COJÍN DECORATIVO CHENILLA 40*40cm - GRIS CLARO"
-    // - "EDREDON 150*220CM RELLENO DE 300gr CAMA 90CM - ROSA"
-    // - Cualquier otra línea de productos de cojines y edredones
-    
-    let nombreBase = nombre;
-    
-    // Para edredones, remover información específica de medidas pero MANTENER gramaje
-    if (nombreBase.toUpperCase().includes('EDREDON')) {
-        // Remover medidas del edredón (150*220CM, etc.)
-        nombreBase = nombreBase.replace(/\s*\d+[*X]\d+[Cc][Mm]\s*/g, ' ');
-        // NO remover información de relleno - mantener gramaje para separar productos
-        // nombreBase = nombreBase.replace(/\s*RELLENO\s+DE\s+\d+[Gg][Rr]\s*/gi, ' ');
-        // Remover información de cama (CAMA 90CM, etc.)
-        nombreBase = nombreBase.replace(/\s*CAMA\s+\d+[Cc][Mm]\s*/gi, ' ');
-    } else {
-        // Para cojines, remover medidas en diferentes formatos:
-        // - 45X45CM, 40X40CM, etc.
-        // - 45*45cm, 40*40cm, etc. 
-        // - 35x50cm, etc.
-        nombreBase = nombreBase
-            .replace(/\s*\d+[X*x]\d+[Cc][Mm]\s*/g, ' ')
-            .replace(/\s*\d+[Cc][Mm]\s*/g, ' ');
-    }
-    
-    // Limpiar espacios múltiples y normalizar guiones
-    nombreBase = nombreBase
-        .replace(/\s*-\s*/g, ' - ')
-        .replace(/\s+/g, ' ')
-        .trim();
-    
-    return nombreBase;
-}
-function extraerTamañoSimple(nombre) {
-    // Para edredones, buscar las medidas del edredón (primera ocurrencia)
-    if (nombre.toUpperCase().includes('EDREDON')) {
-        const match = nombre.match(/(\d+[*X]\d+[Cc][Mm])/i);
-        return match ? match[1].replace(/[*]/g, 'X').toUpperCase() : '';
-    }
-    
-    // Para otros productos, buscar medidas en diferentes formatos: 45X45CM, 40*40cm, 35x50cm, etc.
-    const match = nombre.match(/(\d+[X*x]\d+[Cc][Mm]|\d+[Cc][Mm])/i);
-    return match ? match[1].toUpperCase() : '';
-}
-
-function extraerColorSimple(nombre) {
-    // Buscar color después de guión (para edredones: "- ROSA", "- AZUL", etc.)
-    const matchGuion = nombre.match(/\s*-\s*(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO|CLARO|OSCURO|ESTAMPADO.*)/i);
-    if (matchGuion) return matchGuion[1];
-    
-    // Buscar color al final (para otros productos)
-    const match = nombre.match(/(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO|CLARO|OSCURO|ESTAMPADO.*)/i);
-    return match ? match[1] : '';
-}
-
-function crearIdSimple(texto) {
-    return texto
-        .toLowerCase()
-        .replace(/[áàâã]/g, 'a')
-        .replace(/[éèê]/g, 'e')
-        .replace(/[íìî]/g, 'i')
-        .replace(/[óòô]/g, 'o')
-        .replace(/[úùû]/g, 'u')
-        .replace(/ñ/g, 'n')
-        .replace(/[^a-z0-9\s]/g, '')
-        .replace(/\s+/g, '-')
-        .replace(/-+/g, '-')
-        .replace(/^-+|-+$/g, '');
-}
-
-// Función para convertir productos agrupados al formato del listado
-function convertirProductosAgrupados() {
-    const resultado = {
-        almohadas: [],
-        cojines: [],
-        edredones: [],
-        mascotas: []
-    };
-    
-    Object.values(productosAgrupados).forEach(producto => {
-        const categoria = producto.categoria;
-        if (resultado[categoria]) {
-            resultado[categoria].push({
-                id: producto.id,
-                name: producto.nombreBase,
-                category: producto.categoria,
-                price: producto.variantes[0]?.precio || '--',
-                originalPrice: producto.variantes[0]?.precioOriginal || '--',
-                discount: producto.variantes[0]?.descuento || '20% OFF',
-                description: producto.descripcion,
-                detailed_description: producto.descripcionDetallada,
-                rating: producto.variantes[0]?.rating || 4.5,
-                reviews: producto.variantes[0]?.reviews || 0,
-                images: [producto.variantes[0]?.imagen || ''],
-                features: producto.caracteristicas,
-                benefits: producto.beneficios,
-                care_instructions: producto.cuidados,
-                variantes: producto.variantes, // Mantener variantes para la página individual
-                numVariantes: producto.variantes.length // Para mostrar en el badge
-            });
-        }
-    });
-    
-    return resultado;
-}
 
 // Función para cargar imagen con detección automática de extensión
 function loadProductImage(imagePath) {
@@ -237,10 +76,9 @@ function getAllProducts() {
     return allProducts;
 }
 
-// Función para crear una tarjeta de producto (con badge de variantes)
+// Función para crear una tarjeta de producto
 function createProductCard(product, index) {
     const imageId = `product-image-${index}`;
-    const hasVariants = product.numVariantes && product.numVariantes > 1;
     
     // Crear la tarjeta inicialmente con placeholder
     const cardHtml = `
@@ -250,7 +88,6 @@ function createProductCard(product, index) {
                     <i class="fas fa-image"></i>
                     <span>Cargando imagen...</span>
                 </div>
-                ${hasVariants ? `<div class="variant-badge">${product.numVariantes} opciones</div>` : ''}
             </div>
             <div class="product-info">
                 <div class="product-name">${product.name}</div>
@@ -272,7 +109,6 @@ function createProductCard(product, index) {
                 if (imagePath) {
                     imageContainer.innerHTML = `
                         <img src="${imagePath}" alt="${product.name}" class="product-main-image">
-                        ${hasVariants ? `<div class="variant-badge">${product.numVariantes} opciones</div>` : ''}
                     `;
                 } else {
                     imageContainer.innerHTML = `
@@ -280,7 +116,6 @@ function createProductCard(product, index) {
                             <i class="fas fa-image"></i>
                             <span>Sin imagen</span>
                         </div>
-                        ${hasVariants ? `<div class="variant-badge">${product.numVariantes} opciones</div>` : ''}
                     `;
                 }
             }
@@ -295,7 +130,6 @@ function createProductCard(product, index) {
                         <i class="fas fa-image"></i>
                         <span>Sin imagen</span>
                     </div>
-                    ${hasVariants ? `<div class="variant-badge">${product.numVariantes} opciones</div>` : ''}
                 `;
             }
         }, 100);
