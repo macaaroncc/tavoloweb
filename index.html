@@ -46,6 +46,47 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
+    <!-- Script de posicionamiento temprano (antes de que se muestre la página) -->
+    <script>
+        // Ejecutar inmediatamente al cargar la página, antes del DOM
+        (function() {
+            // Verificar si hay estado guardado
+            const estadoGuardado = localStorage.getItem('tavolo_estado_catalogo');
+            if (estadoGuardado) {
+                try {
+                    const estado = JSON.parse(estadoGuardado);
+                    
+                    // Verificar que no sea muy antiguo (más de 1 hora)
+                    const unHora = 60 * 60 * 1000;
+                    if (Date.now() - estado.timestamp <= unHora && estado.scrollPosition > 0) {
+                        // Agregar CSS para ocultar el contenido inicial
+                        const style = document.createElement('style');
+                        style.textContent = 'body { visibility: hidden !important; }';
+                        document.head.appendChild(style);
+                        
+                        // Posicionar inmediatamente antes de que se muestre la página
+                        document.documentElement.style.scrollBehavior = 'auto';
+                        window.scrollTo(0, estado.scrollPosition);
+                        console.log('⚡ Posición restaurada tempranamente:', estado.scrollPosition);
+                        
+                        // Marcar como completado
+                        window.tavolo_posicionamiento_temprano = true;
+                        
+                        // Mostrar el body cuando esté listo
+                        document.addEventListener('DOMContentLoaded', function() {
+                            setTimeout(() => {
+                                document.head.removeChild(style);
+                                console.log('🎯 Posicionamiento temprano completado - Contenido visible');
+                            }, 100);
+                        });
+                    }
+                } catch (error) {
+                    console.error('Error en posicionamiento temprano:', error);
+                }
+            }
+        })();
+    </script>
+    
     <!-- Structured Data -->
     <script type="application/ld+json">
     {

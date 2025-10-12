@@ -1196,6 +1196,52 @@
             }
             return null;
         }
+        
+        // Función para buscar producto individual por ID
+        function buscarProductoIndividual(id) {
+            for (const categoria in productosOriginales) {
+                const productos = productosOriginales[categoria];
+                for (const producto of productos) {
+                    if (producto.id === id) {
+                        return producto;
+                    }
+                }
+            }
+            return null;
+        }
+        
+        // Función para crear producto agrupado temporal desde un producto individual
+        function crearProductoAgrupadoTemporal(productoIndividual) {
+            const nombreBase = (productoIndividual.category === 'cojines' || productoIndividual.category === 'edredones')
+                ? extraerNombreBaseCojin(productoIndividual.name)
+                : extraerNombreBase(productoIndividual.name);
+                
+            return {
+                id: crearId(nombreBase),
+                nombreBase: nombreBase,
+                categoria: productoIndividual.category,
+                descripcion: productoIndividual.description,
+                descripcionDetallada: productoIndividual.detailed_description,
+                caracteristicas: productoIndividual.features || [],
+                beneficios: productoIndividual.benefits || [],
+                cuidados: productoIndividual.care_instructions || [],
+                variantes: [{
+                    id: productoIndividual.id,
+                    nombre: productoIndividual.name,
+                    precio: productoIndividual.price,
+                    precioOriginal: productoIndividual.originalPrice,
+                    descuento: productoIndividual.discount,
+                    tamaño: extraerTamaño(productoIndividual.name),
+                    color: extraerColor(productoIndividual.name),
+                    imagen: productoIndividual.images?.[0] || '',
+                    rating: productoIndividual.rating || 0,
+                    reviews: productoIndividual.reviews || 0,
+                    especificaciones: productoIndividual.specifications || {},
+                    descripcion: productoIndividual.description || '',
+                    descripcionDetallada: productoIndividual.detailed_description || ''
+                }]
+            };
+        }
     </script>
     
     <script>
@@ -1222,8 +1268,18 @@
                 // Cargar y agrupar productos
                 await cargarProductos();
                 
-                // Buscar el producto agrupado
-                const producto = obtenerProductoAgrupado(productId);
+                // Buscar el producto agrupado o individual
+                let producto = obtenerProductoAgrupado(productId);
+                
+                // Si no se encuentra como agrupado, intentar buscar por ID individual
+                if (!producto) {
+                    console.log('❌ Producto no encontrado como agrupado, buscando por ID individual:', productId);
+                    const productoIndividual = buscarProductoIndividual(productId);
+                    if (productoIndividual) {
+                        // Crear un producto agrupado temporal con una sola variante
+                        producto = crearProductoAgrupadoTemporal(productoIndividual);
+                    }
+                }
                 
                 if (!producto) {
                     mostrarError('Producto no encontrado');

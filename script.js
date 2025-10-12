@@ -140,11 +140,269 @@ function createProductCard(product, index) {
 
 // Función para navegar a producto con variantes
 function irAProductoConVariantes(productId) {
-    window.location.href = `producto.html?id=${productId}`;
+    // Guardar el estado actual del catálogo antes de navegar
+    guardarEstadoCatalogo();
+    
+    // Buscar el producto en los datos cargados para obtener su información
+    let producto = null;
+    for (const categoria in productosData) {
+        producto = productosData[categoria].find(p => p.id === productId);
+        if (producto) break;
+    }
+    
+    if (!producto) {
+        console.error('Producto no encontrado:', productId);
+        return;
+    }
+    
+    // Generar el ID agrupado usando la misma lógica que en producto.html
+    const nombreBase = (producto.category === 'cojines' || producto.category === 'edredones') 
+        ? extraerNombreBaseCojin(producto.name)
+        : extraerNombreBase(producto.name);
+    const idAgrupado = crearId(nombreBase);
+    
+    window.location.href = `producto.html?id=${idAgrupado}`;
+}
+
+// Funciones auxiliares para generar ID agrupado (copiadas de producto.html)
+function extraerNombreBase(nombre) {
+    return nombre
+        .replace(/\s*\d+CM\s*$/i, '')
+        .replace(/\s*\d+X\d+CM\s*$/i, '')
+        .replace(/\s*(AZUL|GRIS|MARRÓN|ROSA|VERDE|ROJO|NEGRO|BLANCO)\s*$/i, '')
+        .replace(/\s*(CLARO|OSCURO)\s*$/i, '')
+        .replace(/\s*(ESTAMPADO.*)\s*$/i, '')
+        .trim();
+}
+
+function extraerNombreBaseCojin(nombre) {
+    let nombreBase = nombre;
+    
+    // Para edredones, remover información específica de medidas pero MANTENER gramaje
+    if (nombreBase.toUpperCase().includes('EDREDON')) {
+        nombreBase = nombreBase.replace(/\s*\d+[*X]\d+[Cc][Mm]\s*/g, ' ');
+        nombreBase = nombreBase.replace(/\s*CAMA\s+\d+[Cc][Mm]\s*/gi, ' ');
+    } else {
+        // Para cojines, remover medidas en diferentes formatos
+        nombreBase = nombreBase
+            .replace(/\s*\d+[X*x]\d+[Cc][Mm]\s*/g, ' ')
+            .replace(/\s*\d+[Cc][Mm]\s*/g, ' ');
+    }
+    
+    // Limpiar espacios múltiples y normalizar guiones
+    nombreBase = nombreBase
+        .replace(/\s*-\s*/g, ' - ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    
+    return nombreBase;
+}
+
+function crearId(texto) {
+    return texto
+        .toLowerCase()
+        .replace(/[áàâã]/g, 'a')
+        .replace(/[éèê]/g, 'e')
+        .replace(/[íìî]/g, 'i')
+        .replace(/[óòô]/g, 'o')
+        .replace(/[úùû]/g, 'u')
+        .replace(/ñ/g, 'n')
+        .replace(/[^a-z0-9\s]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+// Funciones para manejar el estado del catálogo
+function guardarEstadoCatalogo() {
+    // Guardar la posición de scroll actual
+    const scrollY = window.scrollY || window.pageYOffset;
+    
+    const estadoCatalogo = {
+        categoria: currentCategory,
+        pagina: currentPage,
+        busqueda: document.querySelector('.search-section .search-bar input')?.value || '',
+        scrollPosition: scrollY,
+        timestamp: Date.now()
+    };
+    
+    localStorage.setItem('tavolo_estado_catalogo', JSON.stringify(estadoCatalogo));
+    console.log('✨ Estado del catálogo guardado:', estadoCatalogo);
+}
+
+function restaurarEstadoCatalogo() {
+    try {
+        const estadoGuardado = localStorage.getItem('tavolo_estado_catalogo');
+        if (!estadoGuardado) return false;
+        
+        const estado = JSON.parse(estadoGuardado);
+        
+        // Verificar que el estado no sea muy antiguo (más de 1 hora)
+        const unHora = 60 * 60 * 1000;
+        if (Date.now() - estado.timestamp > unHora) {
+            localStorage.removeItem('tavolo_estado_catalogo');
+            return false;
+        }
+        
+        console.log('🔄 Restaurando estado del catálogo:', estado);
+        
+        // Verificar que productosData esté cargado
+        if (!productosData || Object.keys(productosData).length === 0) {
+            console.log('⚠️ productosData no está cargado, posponiendo restauración...');
+            localStorage.setItem('tavolo_estado_catalogo', JSON.stringify(estado)); // Mantener estado
+            return false;
+        }
+        
+        // Verificar si ya se hizo el posicionamiento temprano
+        const posicionamientoTemprano = window.tavolo_posicionamiento_temprano || 
+                                      (estado.scrollPosition > 0 && Math.abs(window.scrollY - estado.scrollPosition) < 50);
+        
+        if (!posicionamientoTemprano) {
+            // Ocultar temporalmente el contenido solo si no se hizo posicionamiento temprano
+            const mainContent = document.querySelector('.products-section');
+            if (mainContent) {
+                mainContent.style.visibility = 'hidden';
+            }
+        }
+        
+        // Restaurar categoría (siempre restaurar si hay estado guardado)
+        if (estado.categoria) {
+            currentCategory = estado.categoria;
+            
+            // Debug: verificar que productosData esté disponible
+            console.log('🔍 Debug productosData:', Object.keys(productosData), 'categorías disponibles');
+            Object.keys(productosData).forEach(cat => {
+                console.log(`- ${cat}: ${productosData[cat] ? productosData[cat].length : 0} productos`);
+            });
+            
+            // Actualizar la categoría visualmente
+            document.querySelectorAll('.category-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-category') === estado.categoria) {
+                    item.classList.add('active');
+                }
+            });
+            
+            // Cargar productos de la categoría
+            if (estado.categoria === 'todo') {
+                currentProducts = getAllProducts();
+                console.log('📋 Restaurando categoría "todo" con', currentProducts.length, 'productos');
+            } else if (estado.categoria === 'cojines') {
+                currentProducts = [];
+                const searchTerms = ['cojin', 'cojín', 'cojines'];
+                Object.keys(productosData).forEach(cat => {
+                    productosData[cat].forEach(product => {
+                        const productText = (product.name + ' ' + product.description).toLowerCase();
+                        if (searchTerms.some(term => productText.includes(term))) {
+                            currentProducts.push(product);
+                        }
+                    });
+                });
+                console.log('📋 Restaurando categoría "cojines" con', currentProducts.length, 'productos');
+            } else {
+                currentProducts = productosData[estado.categoria] || [];
+                console.log('📋 Restaurando categoría "' + estado.categoria + '" con', currentProducts.length, 'productos');
+            }
+            
+            // Actualizar título y slider
+            updateCategoryTitle(estado.categoria);
+            moveSliderToActive();
+        }
+        
+        // Restaurar búsqueda si existe
+        if (estado.busqueda) {
+            const searchInput = document.querySelector('.search-section .search-bar input');
+            if (searchInput) {
+                searchInput.value = estado.busqueda;
+                // Ejecutar la búsqueda
+                const searchTerm = estado.busqueda.toLowerCase().trim();
+                let allFilteredProducts = [];
+                
+                Object.keys(productosData).forEach(category => {
+                    const categoryProducts = productosData[category].filter(product => 
+                        product.name.toLowerCase().includes(searchTerm) ||
+                        product.description.toLowerCase().includes(searchTerm)
+                    );
+                    allFilteredProducts = allFilteredProducts.concat(categoryProducts);
+                });
+                
+                currentProducts = allFilteredProducts;
+                document.getElementById('category-title').textContent = 
+                    `Resultados de búsqueda: "${estado.busqueda}" (${allFilteredProducts.length} productos)`;
+            }
+        }
+        
+        // Restaurar página
+        const paginaARestaurar = estado.pagina || 1;
+        const totalPages = Math.ceil(currentProducts.length / productsPerPage);
+        
+        if (paginaARestaurar <= totalPages) {
+            currentPage = paginaARestaurar;
+            showPage(currentPage, false); // false para evitar scroll automático
+        } else {
+            showPage(1, false);
+        }
+        
+        // Restaurar posición de scroll después de que se carguen los productos
+        setTimeout(() => {
+            const currentScrollY = window.scrollY;
+            
+            if (estado.scrollPosition !== undefined && estado.scrollPosition > 0) {
+                // Solo reposicionar si no estamos ya cerca de la posición correcta
+                const diferencia = Math.abs(currentScrollY - estado.scrollPosition);
+                if (diferencia > 50) {
+                    // Restaurar la posición exacta donde estaba el usuario (instantáneo)
+                    window.scrollTo({
+                        top: estado.scrollPosition,
+                        behavior: 'instant'
+                    });
+                    console.log('📍 Posición de scroll ajustada:', estado.scrollPosition);
+                } else {
+                    console.log('🎯 Ya estamos en la posición correcta (diferencia: ' + diferencia + 'px)');
+                }
+            } else {
+                // Si no hay posición guardada, ir a la sección de productos (instantáneo)
+                const productsSection = document.querySelector('.products-section');
+                if (productsSection) {
+                    const rect = productsSection.getBoundingClientRect();
+                    const scrollTop = window.pageYOffset + rect.top;
+                    
+                    // Solo ir a productos si estamos en la parte superior
+                    if (currentScrollY < 200) {
+                        window.scrollTo({
+                            top: scrollTop,
+                            behavior: 'instant'
+                        });
+                        console.log('📍 Scroll instantáneo a sección de productos (fallback)');
+                    }
+                }
+            }
+            
+            // Mostrar el contenido nuevamente si estaba oculto
+            const mainContent = document.querySelector('.products-section');
+            if (mainContent && mainContent.style.visibility === 'hidden') {
+                mainContent.style.visibility = 'visible';
+            }
+        }, posicionamientoTemprano ? 100 : 400); // Tiempo reducido si ya se posicionó tempranamente
+        
+        // Limpiar el estado guardado después de restaurar
+        localStorage.removeItem('tavolo_estado_catalogo');
+        
+        return true;
+        
+    } catch (error) {
+        console.error('❌ Error restaurando estado del catálogo:', error);
+        localStorage.removeItem('tavolo_estado_catalogo');
+        return false;
+    }
+}
+
+function limpiarEstadoCatalogo() {
+    localStorage.removeItem('tavolo_estado_catalogo');
 }
 
 // Función para mostrar productos de una página específica
-function showPage(page) {
+function showPage(page, doScroll = true) {
     currentPage = page;
     const startIndex = (page - 1) * productsPerPage;
     const endIndex = startIndex + productsPerPage;
@@ -157,6 +415,17 @@ function showPage(page) {
     
     // Actualizar botones de paginación
     updatePaginationButtons(page);
+    
+    // Scroll suave hacia la sección de productos solo si se solicita
+    if (doScroll) {
+        const productsSection = document.querySelector('.products-section');
+        if (productsSection) {
+            productsSection.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
     
     // Aplicar efectos de scroll
     setTimeout(handleScrollEffects, 100);
@@ -290,6 +559,9 @@ function selectCategory(category, element) {
     // Prevenir comportamiento por defecto del enlace
     event.preventDefault();
     
+    // Limpiar estado guardado (navegación manual)
+    limpiarEstadoCatalogo();
+    
     // Actualizar categoría actual
     currentCategory = category;
     
@@ -335,6 +607,15 @@ function selectCategory(category, element) {
     const paginationContainer = document.querySelector('.pagination');
     if (paginationContainer) {
         paginationContainer.innerHTML = '';
+    }
+    
+    // Scroll suave hacia la sección de productos
+    const productsSection = document.querySelector('.products-section');
+    if (productsSection) {
+        productsSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+        });
     }
     
     // Mostrar productos de la nueva categoría
@@ -411,6 +692,9 @@ function handleSearch() {
     function performSearch() {
         const searchTerm = searchInput.value.toLowerCase().trim();
         if (searchTerm) {
+            // Limpiar estado guardado (búsqueda manual)
+            limpiarEstadoCatalogo();
+            
             // Buscar en todos los productos de todas las categorías
             let allFilteredProducts = [];
             
@@ -421,6 +705,15 @@ function handleSearch() {
                 );
                 allFilteredProducts = allFilteredProducts.concat(categoryProducts);
             });
+            
+            // Scroll suave hacia la sección de productos
+            const productsSection = document.querySelector('.products-section');
+            if (productsSection) {
+                productsSection.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
             
             if (allFilteredProducts.length > 0) {
                 const productsGrid = document.getElementById('products-grid');
@@ -601,18 +894,53 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Cargar productos desde JSON
     await loadProductsData();
     
-    // Inicializar con todos los productos
-    currentProducts = getAllProducts();
-    currentCategory = 'todo';
+    // Intentar restaurar el estado del catálogo
+    let estadoRestaurado = restaurarEstadoCatalogo();
     
-    // Actualizar título inicial
-    updateCategoryTitle('todo');
+    // Si falló la restauración, intentar de nuevo después de un breve delay
+    if (!estadoRestaurado && localStorage.getItem('tavolo_estado_catalogo')) {
+        console.log('🔄 Reintentando restauración del estado...');
+        setTimeout(() => {
+            estadoRestaurado = restaurarEstadoCatalogo();
+            if (!estadoRestaurado) {
+                console.log('⚠️ No se pudo restaurar el estado, iniciando normalmente');
+            }
+        }, 200);
+    }
     
-    // Inicializar el slider del menú de categorías
-    setTimeout(moveSliderToActive, 100);
-    
-    // Mostrar primera página de productos
-    showPage(1);
+    if (!estadoRestaurado) {
+        // Si no hay estado guardado o no se pudo restaurar, inicializar normalmente
+        currentProducts = getAllProducts();
+        currentCategory = 'todo';
+        
+        // Actualizar título inicial
+        updateCategoryTitle('todo');
+        
+        
+        // Inicializar el slider del menú de categorías
+        setTimeout(moveSliderToActive, 100);
+        
+        // Mostrar primera página de productos
+        showPage(1);
+        
+        // En primera visita, hacer scroll automático a la sección de productos después de cargar
+        setTimeout(() => {
+            const productsSection = document.querySelector('.products-section');
+            if (productsSection) {
+                const rect = productsSection.getBoundingClientRect();
+                const scrollTop = window.pageYOffset + rect.top;
+                window.scrollTo({
+                    top: scrollTop,
+                    behavior: 'instant'
+                });
+                console.log('📍 Scroll instantáneo a productos (primera visita)');
+            }
+        }, 800); // Reducido el tiempo para posicionamiento más rápido
+    } else {
+        // El estado fue restaurado, solo asegurar que el slider esté en la posición correcta
+        setTimeout(moveSliderToActive, 100);
+        console.log('✨ Estado del catálogo restaurado exitosamente');
+    }
     
     // Configurar formulario de contacto
     handleContactForm();
