@@ -1,0 +1,12 @@
+# Ignorar maquetación y diseño en las estadísticas
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+
+# Forzar la detección de Lógica y Datos
+*.js linguist-detectable=true
+*.json linguist-detectable=true
+
+# Omitir archivos de backup del recuento
+*_backup.json linguist-detectable=false
+*_fixed.json linguist-detectable=false
+*_clean.json linguist-detectable=false
