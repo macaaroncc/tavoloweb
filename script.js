@@ -92,10 +92,6 @@ function createProductCard(product, index) {
             <div class="product-info">
                 <div class="product-name">${product.name}</div>
                 <div class="product-description">${product.description}</div>
-                <div class="product-price-section">
-                    <div class="product-price">${product.price}</div>
-                    <div class="product-discount">${product.discount}</div>
-                </div>
             </div>
         </div>
     `;
@@ -227,11 +223,22 @@ function guardarEstadoCatalogo() {
     };
     
     localStorage.setItem('tavolo_estado_catalogo', JSON.stringify(estadoCatalogo));
+    
+    // Marcar que el usuario ya navegó en esta sesión (para restaurar posición al volver)
+    sessionStorage.setItem('tavolo_ya_navego', 'true');
+    
     console.log('✨ Estado del catálogo guardado:', estadoCatalogo);
 }
 
 function restaurarEstadoCatalogo() {
     try {
+        // Verificar si es la primera visita de la sesión
+        const yaNavego = sessionStorage.getItem('tavolo_ya_navego');
+        if (!yaNavego) {
+            console.log('🏠 Primera visita de la sesión - no restaurar estado');
+            return false;
+        }
+        
         const estadoGuardado = localStorage.getItem('tavolo_estado_catalogo');
         if (!estadoGuardado) return false;
         
@@ -922,21 +929,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Mostrar primera página de productos
         showPage(1);
-        
-        // En primera visita, hacer scroll automático a la sección de productos después de cargar
-        setTimeout(() => {
-            const productsSection = document.querySelector('.products-section');
-            if (productsSection) {
-                const rect = productsSection.getBoundingClientRect();
-                const scrollTop = window.pageYOffset + rect.top;
-                window.scrollTo({
-                    top: scrollTop,
-                    behavior: 'instant'
-                });
-                console.log('📍 Scroll instantáneo a productos (primera visita)');
-            }
-        }, 800); // Reducido el tiempo para posicionamiento más rápido
-    } else {
+    }
         // El estado fue restaurado, solo asegurar que el slider esté en la posición correcta
         setTimeout(moveSliderToActive, 100);
         console.log('✨ Estado del catálogo restaurado exitosamente');

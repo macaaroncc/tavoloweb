@@ -50,6 +50,16 @@
     <script>
         // Ejecutar inmediatamente al cargar la página, antes del DOM
         (function() {
+            // Verificar si es la primera visita de esta sesión
+            const yaNavego = sessionStorage.getItem('tavolo_ya_navego');
+            
+            // Solo restaurar posición si el usuario ya navegó en esta sesión
+            if (!yaNavego) {
+                // Primera visita de la sesión: mostrar desde arriba
+                console.log('🏠 Primera visita de la sesión - mostrando desde el inicio');
+                return;
+            }
+            
             // Verificar si hay estado guardado
             const estadoGuardado = localStorage.getItem('tavolo_estado_catalogo');
             if (estadoGuardado) {
