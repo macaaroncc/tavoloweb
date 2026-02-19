@@ -929,7 +929,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Mostrar primera página de productos
         showPage(1);
-    }
+    } else {
         // El estado fue restaurado, solo asegurar que el slider esté en la posición correcta
         setTimeout(moveSliderToActive, 100);
         console.log('✨ Estado del catálogo restaurado exitosamente');
